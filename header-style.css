@@ -1,0 +1,53 @@
+
+.container{
+  margin:0px auto;
+  width: 100%;
+}
+
+.sidebar{
+  margin: auto;
+  height: 190px;
+  width: 1600px;
+}
+.sidebar img{
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin-left: -25px;
+  position:relative;
+  top: -45px;
+
+}
+.p1{
+  color: #D52529;
+  font-family: K2D;
+  font-size: 21px;
+  position:relative;
+  top:70px;
+  left: -40px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+.p2{
+  color: #FFA800;
+  font-family: K2D;
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  position:relative;
+  top:9px;
+
+}
+.p3{
+  font-family: K2D;
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  position:relative;
+  top:48px;
+  left: -30px;
+  line-height: 10px;
+}
