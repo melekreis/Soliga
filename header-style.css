@@ -157,3 +157,28 @@ svg {
     max-width: 100%; /* SVG'nin maksimum genişliği belirli bir değeri geçmeyecek */
     max-height: 100%; /* SVG'nin maksimum yüksekliği belirli bir değeri geçmeyecek */
 }
+.P-baslık{
+  color: #000;
+  font-family: K2D;
+  font-size: 82px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 130.076%; 
+  position: absolute;
+  left: 120px;
+  top: 230px;
+}
+.p-slogan{
+  color: #656060;
+font-family: Jost;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 813px;
+height: 200px;
+position: absolute;
+left: 120px;
+top: 400px;
+
+}
