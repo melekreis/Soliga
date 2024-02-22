@@ -1,13 +1,17 @@
 body{
-    margin: 0px;
-    }
-    .container{
-      margin:0px auto ;
+  margin: 0px;
+  }
+  .container{
+    margin:0px auto ;
+    width: 100%;
+  }
+  .header{
+      height:380px;
       width: 100%;
-    }
-    .header{
-        margin: 0px auto;
-        height: 190px;
-        width: 100%;
-        border-bottom: 1px solid black ;
-    }
+      border-bottom: 1px solid black ;
+  }
+  .logo{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+  }
