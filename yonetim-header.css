@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    }
+    .container{
+      margin:0px auto ;
+      width: 100%;
+    }
+    .header{
+        margin: 0px auto;
+        height: 190px;
+        width: 100%;
+        border-bottom: 1px solid black ;
+    }
