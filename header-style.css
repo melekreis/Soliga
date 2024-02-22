@@ -120,6 +120,10 @@ ul li a:hover{
 ul#main li:hover ul{
   display: block;
 }
+ul#main li:hover a{
+  background-color: rgb(219, 214, 214);
+}
+
 .menu-ımlec{
   margin-top:-38px;
   margin-left: 150px;
