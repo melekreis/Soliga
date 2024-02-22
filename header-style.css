@@ -72,11 +72,13 @@ margin: 0px;
 .navbar{
   height: 70px;
   width: 100%;
-  background-color: bisque;
   border-bottom: 1px solid black;
 }
 ul{
-  padding:5px; margin: 0px;
+  padding:0px;
+  float: left;
+  margin-left: -150px;
+  margin-top: 5px;
   list-style: none;
   font-family: Jost;
   font-size: 18px;
@@ -85,7 +87,7 @@ ul{
   letter-spacing: 1px;
 }
 ul#main li{
-  margin-left: 30px;
+  margin-left: 20px;
   float: left;
   position: relative;
   width: 200px;
@@ -95,7 +97,7 @@ ul#main li ul{
   padding: 0px; margin: 0px;
   display: none;
   position: absolute;
-  left: -30px;
+  left: -20px;
   top:60px;
 }
 ul li a{
@@ -109,10 +111,11 @@ ul li a{
   text-decoration: none;
 }
 ul li a:hover{
-  background-color: rgb(243, 241, 241);
+  background-color: rgb(219, 214, 214);
 }
 ul#main li:hover ul{
   display: block;
 }
+
 
 
