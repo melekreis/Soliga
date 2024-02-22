@@ -70,39 +70,49 @@ margin: 0px;
   margin-right: 200px;
 }
 .navbar{
-  background-color: bisque;
-  height: 100px;
+  height: 70px;
   width: 100%;
+  background-color: bisque;
+  border-bottom: 1px solid black;
 }
 ul{
-  padding: 25; margin: 0;
+  padding:5px; margin: 0px;
   list-style: none;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 ul#main li{
+  margin-left: 30px;
   float: left;
   position: relative;
-  width: 150px;
+  width: 200px;
 
 }
 ul#main li ul{
+  padding: 0px; margin: 0px;
   display: none;
   position: absolute;
-  left: 0px;
-  top:50px;
+  left: -30px;
+  top:60px;
 }
 ul li a{
   display: block;
-  width: 150px;
-  height: 50px;
-  line-height: 50px;
-  background-color: plum;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  background-color: white;
   text-align: center;
-  color:white;
+  color:black;
   text-decoration: none;
 }
 ul li a:hover{
-  background-color: purple;
+  background-color: rgb(243, 241, 241);
 }
 ul#main li:hover ul{
   display: block;
 }
+
+
