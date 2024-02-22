@@ -75,7 +75,7 @@ body{
     border-bottom: 1px solid black;
   }
   .menu{
-    width: 100%;
+    width: 1200px;
     height: 70px;
   }
   ul{
@@ -127,4 +127,19 @@ body{
   .menu-ımlec2{
     margin-top:-38px;
     margin-left: 170px;
+  }
+  .search-box{
+    border-radius: 8px;
+    border:1px solid rgb(0, 0, 0);
+    width: 210px;
+    height: 40px;
+    float: right;
+    margin-top:-55px;
+    margin-right: 250px;
+
+  }
+  .search{
+    float: right;
+    margin-top:-52px;
+    margin-right: 200px;
   }
