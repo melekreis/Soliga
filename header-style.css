@@ -2,12 +2,14 @@
 .container{
   margin:0px auto;
   width: 100%;
+  background-color: red;
 }
 
 .sidebar{
   margin: auto;
   height: 190px;
-  width: 1600px;
+  width: 100%;
+  border-bottom: 1px solid black ;
 }
 .sidebar img{
   float: left;
@@ -29,17 +31,6 @@
   font-weight: 700;
   line-height: normal;
 }
-.p2{
-  color: #FFA800;
-  font-family: K2D;
-  font-size: 21px;
-  font-style: italic;
-  font-weight: 700;
-  line-height: normal;
-  position:relative;
-  top:9px;
-
-}
 .p3{
   font-family: K2D;
   font-size: 21px;
@@ -47,7 +38,31 @@
   font-weight: 700;
   line-height: normal;
   position:relative;
-  top:48px;
+  top:50px;
   left: -30px;
   line-height: 10px;
+}
+.p2{
+  color: #FFA800;
+  position:relative;
+  top:24.5px;
+  left: 0px;
+  line-height: 0px;
+  line-height: 0px;
+}
+.sidebar-btn{
+  border:0px;
+  width: 165px;
+  height: 50px;
+  border-radius: 10px;
+  background-color:#D52529 ;
+  color: #FFF;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  text-transform: capitalize;
+
 }
