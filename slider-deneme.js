@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
             currentIndex++;
             slider.style.transform = `translateX(${-currentIndex * boxWidth}px)`; // Slider'ı kaydır
 
-            if (currentIndex === boxes.length) { // Son div ekrana girer girmez
+            if (currentIndex === boxes.length -3) { // Son div ekrana girer girmez
                 currentIndex = 0; // İlk div'e dön
                 slider.style.transition = 'none'; // Geçiş efektini kapat
                 slider.style.transform = `translateX(0)`; // Slider'ı başa döndür
