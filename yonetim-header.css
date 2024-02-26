@@ -36,17 +36,16 @@ body{
 }
 .home{
   width: 50px;
-  height: 45px;
-  margin-top:-10px ;
-  margin-left: 80px;
+  height: 55px;
+  margin-top:-20px ;
+  margin-left: -130px;
 
 }
 .user{
   width: 50px;
-  height: 45px;
-  margin-left: 150px;
-  margin-top: -70px;
-
+  margin-left: 190px;
+  margin-top: -20px;
+    height: 55px;
 }
   
   
