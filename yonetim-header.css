@@ -6,12 +6,34 @@ body{
     width: 100%;
   }
   .header{
-      height:380px;
+      height:350px;
       width: 100%;
       border-bottom: 1px solid black ;
   }
   .logo{
-    height: 400px;
-    width: 400px;
+    height: 540px;
+    width: 540px;
     margin: auto;
+    margin-top: -65px;
   }
+  .yazilar{
+  width:300px;
+  height: 220px;
+  float: right;    
+  margin-right: 150px;
+  margin-top: -395px;
+  font-family: Jost;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 40px; /* 125% */
+  letter-spacing: 7.6px;
+  span.ilkharf{color:#D52529;}
+  span.kelime{margin-left: 70px;}
+  span.ilkharf2{color:#FE9015;}
+  span.ilkharf2{margin-left: 31px;}
+  span.kelime2{color:#9EA2AA;}
+  span.kelime2{margin-left: 58px;}
+}
+  
+  

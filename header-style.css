@@ -1,3 +1,4 @@
+
 body{
   margin: 0px;
   }
@@ -57,7 +58,6 @@ body{
     height: 50px;
     border-radius: 10px;
     background-color:#D52529 ;
-    color: #FFF;
     font-family: Jost;
     font-size: 18px;
     font-style: normal;
@@ -68,6 +68,10 @@ body{
     float: right;
     margin-top: -33px;
     margin-right: 200px;
+  }
+  .sidebar-btn a{
+    text-decoration: none;
+    color: #FFF;
   }
   .navbar{
     height: 70px;
@@ -136,7 +140,6 @@ body{
     float: right;
     margin-top:-55px;
     margin-right: 250px;
-
   }
   .search{
     float: right;
@@ -149,7 +152,8 @@ body{
     align-items: center; 
 }
 svg {
-  margin-top: -38.5px;
+  
+  margin-top: -38px;
     max-width: 100%; /* SVG'nin maksimum genişliği belirli bir değeri geçmeyecek */
     max-height: 100%; /* SVG'nin maksimum yüksekliği belirli bir değeri geçmeyecek */
 }
@@ -173,7 +177,7 @@ font-weight: 500;
 line-height: normal;
 width: 813px;
 height: 200px;
-position: absolute;
+position:absolute;
 left: 135px;
 top: 400px;
 }
@@ -186,6 +190,7 @@ top: 400px;
 
       /*SLİDER  CSS */
       .slider-container {
+        position: relative;
         width: 100%;
         overflow: hidden;
       } 
@@ -194,6 +199,15 @@ top: 400px;
         display:inline-flex;
         transition: transform 0.5s ease;
       }
+
+   
+    #next-button {
+      position: absolute;
+      top: 340px;
+      right: 10px;
+      transform: translateY(-50%);
+      z-index: 1; /* Divlerin üzerinde olmasını sağlar */
+  }    
             /*SLİDER  CSS */
 
   .slider-box1{
@@ -243,7 +257,7 @@ top: 400px;
   margin-top: 12px;
   }
   .slider-box1 p{
-    color: rgba(13, 31, 58, 0.65);
+  color: rgba(13, 31, 58, 0.65);
   font-family: Jost;
   font-size: 28px;
   font-style: normal;
@@ -256,10 +270,10 @@ top: 400px;
   margin-top: -15px;
   }
   .slider-box1 hr{
-    width: 180px;  
-    margin-top: -15px;
+  width: 180px;  
+  margin-top: -15px;
     }
-.box-p{
+ .box-p{
   color: rgba(101, 96, 96, 0.75);
   font-family: Jost;
   font-size: 20px;
@@ -271,16 +285,14 @@ top: 400px;
 
 button#next-button{
   border: 0px;
-  background-color:black;
+  background-color:#FFA800;
   opacity:1;
-  margin-left: 200px;
-  margin-top: 150px;
-  width: 5px;
-  height: 10px;
+  margin-left: 1780px;
+  margin-top: -150px;
+  border-radius: 60px;
+  padding:0px;
 }
-.next-button-img{
-}
-  
+
 
 
 

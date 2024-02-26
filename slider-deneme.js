@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
             currentIndex++;
             slider.style.transform = `translateX(${-currentIndex * boxWidth}px)`; // Slider'ı kaydır
 
-            if (currentIndex === boxes.length -3) { // Son div ekrana girer girmez
+            if (currentIndex === boxes.length - 3) { // Son div ekrana girer girmez
                 currentIndex = 0; // İlk div'e dön
                 slider.style.transition = 'none'; // Geçiş efektini kapat
                 slider.style.transform = `translateX(0)`; // Slider'ı başa döndür
@@ -28,17 +28,10 @@ document.addEventListener("DOMContentLoaded", function() {
             currentIndex = 0;
         }
         slider.style.transform = `translateX(${-currentIndex * boxWidth}px)`;
+        startAutoSlide(); // Kaydırma işlemini devam ettir
     }
 
     startAutoSlide(); // Otomatik kaydırma işlemini başlat
-
-    slider.addEventListener('mouseenter', () => {
-        clearInterval(intervalId); // Fare slider üzerine geldiğinde otomatik kaydırma işlemini durdur
-    });
-
-    slider.addEventListener('mouseleave', () => {
-        startAutoSlide(); // Fare slider üzerinden ayrıldığında otomatik kaydırma işlemini tekrar başlat
-    });
 
     // İleri butonuna tıklama olayını dinle
     document.getElementById('next-button').addEventListener('click', function() {
