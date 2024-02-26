@@ -1,0 +1,15 @@
+.preface{
+    height: 657px;
+    width: 100%;
+    background-color: antiquewhite  ;
+}
+.preface p{
+    padding: 0px;
+    margin: 0px;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
