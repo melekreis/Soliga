@@ -1,15 +1,69 @@
 .preface{
+    margin: 0px;
+    padding: 0px;
     height: 657px;
     width: 100%;
-    background-color: antiquewhite  ;
+    margin-bottom: 40px;
 }
-.preface p{
+.preface img{
+    height: 657px;
+    width: 100%;
+    opacity: 0.5;
+    margin-top:-38px ;
+}
+.preface-text{
+    position: absolute;
     padding: 0px;
     margin: 0px;
-    color: #FFF;
+    color: black; /*YAZI BEYAZ OLACAK*/
     font-family: Jost;
     font-size: 50px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-align: center;
+    margin-top: -470px;
+    margin-left: 800px;
 }
+.content{
+    display: flex;
+    margin: 0px auto;
+    padding: 0;
+    height: 900px;
+    width: 100%;
+    background: linear-gradient(129deg, rgba(152, 167, 153, 0.87) 1.01%, rgba(47, 46, 65, 0.87) 112.29%);
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+}
+.box-left{
+    width: 270px;
+    height: 340px;
+    border-radius: 0px 0px 15px 15px;
+    background: #FFF;
+    margin-top: 50px;
+    float: left;
+}
+.box-left2{
+    width: 270px;
+    height: 340px;
+    border-radius: 0px 0px 15px 15px;
+    background: #FFF;
+    margin-top: 50px;
+    float: left;
+}
+.box-img{
+    width: 221px;
+    height: 217px;
+    margin: 20px 24px 20px 24px;
+}
+.content p{
+    color: rgba(51, 80, 125, 0.65);
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.585%; 
+    text-align: center;
+    margin-top: 8px;
+}
+
