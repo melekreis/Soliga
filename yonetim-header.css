@@ -49,5 +49,9 @@ body{
     height: 50px;
     margin-bottom: 1px;
 }
-  
+.sidebar{
+    height: 800px;
+    width: 400px;
+    float: left;
+}
   
