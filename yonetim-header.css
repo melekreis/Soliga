@@ -6,22 +6,21 @@ body{
     width: 100%;
   }
   .header{
-      height:350px;
+      height:300px;
       width: 100%;
       border-bottom: 1px solid black ;
   }
   .logo{
-    height: 540px;
-    width: 540px;
-    margin: auto;
-    margin-top: -65px;
+    height: 240px;
+    width: 320px;
+    margin: auto; 
   }
   .yazilar{
   width:300px;
   height: 220px;
   float: right;    
   margin-right: 150px;
-  margin-top: -395px;
+  margin-top: -150px;
   font-family: Jost;
   font-size: 30px;
   font-style: italic;
@@ -34,6 +33,20 @@ body{
   span.ilkharf2{margin-left: 31px;}
   span.kelime2{color:#9EA2AA;}
   span.kelime2{margin-left: 58px;}
+}
+.home{
+  width: 50px;
+  height: 45px;
+  margin-top:-10px ;
+  margin-left: 80px;
+
+}
+.user{
+  width: 50px;
+  height: 45px;
+  margin-left: 150px;
+  margin-top: -70px;
+
 }
   
   
