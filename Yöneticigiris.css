@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    margin:0px auto;
+    width: 100%;
+    height: 100%;
+}
+
+.leftSide {
+    float: left;
+    height: 1000px;
+    width: 50%;
+    background-color: #f0f0f0; /* Etkileşimi görmek için arka plan rengi eklendi */
+}
+
+.leftSideInner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.leftSide img{
+    max-width: 100%;
+    height: auto;
+}
+
+.rightSide {
+    float: right;
+    height:1000px;
+    width: 50%;
+    fill: #1A1A1A;
+    filter: blur(6.050000190734863px);
+    background-color: #1A1A1A;
+}
+.box{
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: linear-gradient(224deg, rgba(213, 37, 41, 0.57) -47.31%, #3F3D56 111.79%);
+}
+.yazı{
+    margin: auto;       
+}
