@@ -18,7 +18,7 @@ body{
     margin-left:70px;
     position:relative;
     top: -45px;
-  
+
   }
   .p1{
     color: #D52529;
@@ -93,11 +93,10 @@ body{
     letter-spacing: 1px;
   }
   ul#main li{
-    margin-left: 20px;
+    margin-left: 15px;
     float: left;
     position: relative;
     width: 200px;
-  
   }
   ul#main li ul{
     padding: 0px; margin: 0px;
@@ -112,8 +111,8 @@ body{
     height: 60px;
     line-height: 60px;
     background-color: white;
-    text-align: center;
     color:black;
+    text-align: center;
     text-decoration: none;
   }
   ul li a:hover{
@@ -144,12 +143,3 @@ body{
     margin-top:-52px;
     margin-right: 200px;
   }
-
- 
-
-
-
-
-
-
-
