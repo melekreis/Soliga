@@ -1,0 +1,12 @@
+// custom.scss dosyası
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+/* Diğer Sass kodlarınız */
+
+.custom-element {
+    -webkit-appearance: none; /* Önekli */
+    -moz-appearance: none; /* Önekli */
+    appearance: none; /* Standart */
+}

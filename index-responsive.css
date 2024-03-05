@@ -1,0 +1,40 @@
+@media only screen and (max-width: 770px) {
+    body {
+      background-color: antiquewhite;
+    }
+    .container{
+        margin:0px auto ;
+        width: 100%; 
+      }
+    .sidebar{
+        height: 140px;
+        width: 100%;
+        border-bottom: 1px solid black ;
+        background-color: red;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .slider-box1,
+    .slider-box2 {
+      width: 100%;
+      margin-right: 0;
+      width: 200px;
+      height: 310px;
+    }
+    
+    .slider-box2:last-child {
+      margin-bottom: 20px; /* İsteğe Bağlı: Son karttan alt boşluk bırakmak için */
+    }
+  
+  }
