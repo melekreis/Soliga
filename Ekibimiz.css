@@ -1,0 +1,48 @@
+form{
+    width: 300px;
+    margin-left: 50px;
+    font-family: Jost;
+    font-weight: 500;
+}
+.form-items {
+    margin: 30px 0;
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .form-title {
+      margin-bottom: 12px;
+    }
+    .form-item {
+      padding: 2px 0;
+      color: #353333;
+      input[type="checkbox"] {
+        display: none;
+        &+label {
+          position: relative;
+          padding: 7px 10px;
+          border: 1px solid #e4e4e4;
+          border-radius: 4px;
+          height: 40px;
+          box-sizing: border-box;
+          display: flex;
+          align-items: center;
+          background-color: rgba(228, 228, 228, 0.1);
+          background-size: 16px;
+          background-repeat: no-repeat;
+          background-position: center left 10px;
+          transition: .1s;
+        }
+        &:checked {
+          &+label {
+            padding-left: 36px;
+            border-color: rgba(183, 24, 34, 0.695);
+            background-color: rgba(183, 24, 34, 0.693);
+            background-image: url("https://image.flaticon.com/icons/svg/1632/1632596.svg");
+          }
+        }
+      }
+    }
+  }
