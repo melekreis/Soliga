@@ -1,0 +1,83 @@
+
+/* Genel stil ayarları */
+@media only screen and (max-width: 768px) {
+  body{
+    margin: 0px;
+    }
+    .container{
+      margin:0px auto ;
+      width: 100%; 
+    }
+    .sidebar{
+      margin: 0px auto;
+      height: 110px;
+      width: 100%;
+      border-bottom: 1px solid black ;
+    }
+    .sidebar img{
+      float: left;
+      height: 200px;
+      width: 200px;
+      margin-left:30px;
+      position:relative;
+      top: -37px;
+    }
+    .p1{
+      color: #D52529;
+      font-family: K2D;
+      font-size: 17px;
+      position:relative;
+      top:35px;
+      left: -20px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .p3{
+      font-family: K2D;
+      font-size: 17px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: normal;
+      position:relative;
+      top:20px;
+      left: -5px;
+      line-height: 10px;
+    }
+    .p2{
+      color: #FFA800;
+      position:relative;
+      top:-1px;
+      left: 15px;
+      line-height: 0px;
+    }
+    .sidebar-btn{
+      border:0px;
+      width: 165px;
+      height: 50px;
+      border-radius: 10px;
+      background-color:#D52529 ;
+      font-family: Jost;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.18px;
+      text-transform: capitalize;
+      float: right;
+      margin-top: -33px;
+      margin-right: 200px;
+    }
+    .sidebar-btn a{
+      text-decoration: none;
+      color: #FFF;
+    }
+
+
+
+
+
+
+
+
+  }

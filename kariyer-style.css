@@ -1,0 +1,130 @@
+h1{
+margin: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+color: #000;
+font-family: Jost;
+font-size: 35px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+width: 271px;
+height: 61px;
+}
+.content{
+position:absolute;
+margin-left: 7.5%;
+width: 85%;
+height: 1619px;
+border-radius: 15px;
+background: linear-gradient(271deg, rgba(213, 37, 41, 0.74) -21.92%, #2F2E41 157.63%);
+}
+h2{
+color: #FFF;
+font-family: Jost;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 60px;
+margin-left: 100px;
+}
+.kariyer-p{
+color: #FFF;
+font-family: Jost;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+margin-top: -15px;
+margin-left: 100px;
+}
+.personality{
+    position: absolute;
+background-color: gray;
+height: 300px;
+width: 100%;   
+}
+.personality p{
+color: #FFF;
+font-family: Jost;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 230px;
+margin-top: 20px;
+}
+
+
+
+
+
+.iletisim-txt{
+    color: #C0B4B4;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 10px;
+    margin-left: 420px;
+    border-radius: 10px;
+    border: 1px solid #FFB800;
+    background: #FFF;
+    display: flex;
+    width: 230px;
+    height: 40px;
+    padding: 5px;
+    align-items: center;
+  }
+  .iletisim-txt2{
+    color: #C0B4B4;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 1px solid #FFB800;
+    background: #FFF;
+    display: flex;
+    width: 230px;
+    height: 40px;
+    padding: 5px;
+    align-items: center;
+  }
+  .iletisim-btn{
+    display: flex;
+    width: 131px;
+    height: 36px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFCB2D;
+    border: 1px #FFCB2D ;
+    color: #000;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 15px;
+    margin-left: 100px;
+  }
+  .iletisim-date{
+    color: #C0B4B4;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 1px solid #FFB800;
+    background: #FFF;
+    display: flex;
+    width: 230px;
+    height: 40px;
+    padding: 5px;
+    align-items: center;
+  }
