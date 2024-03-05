@@ -10,7 +10,7 @@ body {
 
 .leftSide {
     float: left;
-    height: 1000px;
+    height: 910px;
     width: 50%;
     background-color: #f0f0f0; /* Etkileşimi görmek için arka plan rengi eklendi */
 }
@@ -24,20 +24,26 @@ body {
 .leftSide img{
     max-width: 100%;
     height: auto;
+    margin: auto;
 }
 
 .rightSide {
     float: right;
-    height:1000px;
+    height: 911px;
     width: 50%;
     fill: #1A1A1A;
     filter: blur(6.050000190734863px);
     background-color: #1A1A1A;
+    align-items: center;
 }
 .box{
     border-radius: 15px;
-    border: 1px solid #000;
-    background: linear-gradient(224deg, rgba(213, 37, 41, 0.57) -47.31%, #3F3D56 111.79%);
+border: 1px solid #000;
+background: linear-gradient(224deg, rgba(213, 37, 41, 0.76) 0%, #3F3D56 133.44%);
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    margin-top: 300px;
 }
 .yazı{
     margin: auto;       
