@@ -1,6 +1,9 @@
-@media (min-width: 769px) {
+/* Büyük ekranlar için genel stil */
+@media only screen and (min-width: 1200px) {
+  /* Burada büyük ekranlar için stil tanımlamaları yapılır */
 
- .svg-container {
+  
+.svg-container {
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -135,7 +138,6 @@ top: 400px;
   text-align: center;
   margin-top: 4px;
     }
-
 button#next-button{
   border: 0px;
   background-color:#FFA800;

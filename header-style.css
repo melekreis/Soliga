@@ -1,63 +1,66 @@
 /* Büyük ekranlar için genel stil */
-@media (min-width: 769px) {
+@media only screen and (min-width: 1200px) {
+  /* Burada büyük ekranlar için stil tanımlamaları yapılır */
 
-body{
-  margin: 0px;
+
+  body {
+    margin: 0px;
+    display: block;
   }
-  .container{
-    margin:0px auto ;
-    width: 100%; 
+  .container {
+    margin: 0px auto;
+    width: 100%;
   }
-  .sidebar{
+  .sidebar {
     margin: 0px auto;
     height: 190px;
     width: 100%;
-    border-bottom: 1px solid black ;
+    border-bottom: 1px solid black;
   }
-  .sidebar img{
+  .sidebar img {
     float: left;
     height: 300px;
     width: 300px;
-    margin-left:70px;
-    position:relative;
+    margin-left: 70px;
+    position: relative;
     top: -45px;
   }
-  .p1{
-    color: #D52529;
+  .p1 {
+    color: #d52529;
     font-family: K2D;
     font-size: 21px;
-    position:relative;
-    top:60px;
+    position: relative;
+    top: 60px;
     left: -40px;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
   }
-  .p3{
+  .p3 {
     font-family: K2D;
     font-size: 21px;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
-    position:relative;
-    top:47px;
+    position: relative;
+    top: 47px;
     left: -30px;
     line-height: 10px;
   }
-  .p2{
-    color: #FFA800;
-    position:relative;
-    top:21.5px;
+  .p2 {
+    color: #ffa800;
+    position: relative;
+    top: 21.5px;
     left: 0px;
     line-height: 0px;
     line-height: 0px;
   }
-  .sidebar-btn{
-    border:0px;
+  .sidebar-btn {
+    border: 0px;
     width: 165px;
     height: 50px;
     border-radius: 10px;
-    background-color:#D52529 ;
+    background-color: #d52529;
     font-family: Jost;
     font-size: 18px;
     font-style: normal;
@@ -69,23 +72,24 @@ body{
     margin-top: -33px;
     margin-right: 200px;
   }
-  .sidebar-btn a{
+  .sidebar-btn a {
     text-decoration: none;
-    color: #FFF;
+    color: #fff;
   }
-  .navbar{
+  .navbar {
     height: 70px;
     width: 100%;
     border-bottom: 1px solid black;
   }
-  .menu{
+  .menu {
     width: 1200px;
     height: 70px;
+    position: absolute;
   }
-  ul{
-    padding:0px;
+  ul {
+    padding: 0px;
     float: left;
-    margin-left: -150px;
+    margin-left: 150px;
     margin-top: 5px;
     list-style: none;
     font-family: Jost;
@@ -94,55 +98,53 @@ body{
     font-weight: 500;
     letter-spacing: 1px;
   }
-  ul#main li{
+  ul#main li {
     margin-left: 15px;
     float: left;
     position: relative;
     width: 200px;
   }
-  ul#main li ul{
-    padding: 0px; margin: 0px;
+  ul#main li ul {
+    padding: 0px;
+    margin: 0px;
     display: none;
     position: absolute;
     left: -20px;
-    top:60px;
+    top: 60px;
   }
-  ul li a{
+  ul li a {
+   
     display: block;
     width: 200px;
     height: 60px;
     line-height: 60px;
     background-color: white;
-    color:black;
+    color: black;
     text-align: center;
     text-decoration: none;
   }
-  ul li a:hover{
+  ul li a:hover {
     background-color: rgb(219, 214, 214);
   }
-  ul#main li:hover ul{
+  ul#main li:hover ul {
     display: block;
   }
-  .menu-ımlec{
-    margin-top:-38px;
+  .menu-ımlec {
+    margin-top: -38px;
     margin-left: 150px;
   }
-  .menu-ımlec2{
-    margin-top:-38px;
-    margin-left: 170px;
-  }
-  .search-box{
+  .search-box {
+    position: absolute;
     border-radius: 8px;
-    border:1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     width: 220px;
     height: 40px;
-    float: right;
-    margin-top:-55px;
-    margin-right: 250px;
+    margin-top:15px;
+    margin-left: 1000px;
   }
-  .search{
-    float: right;
-    margin-top:-52px;
-    margin-right: 200px;
+  .search {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 1610px;
   }
 }
