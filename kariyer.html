@@ -17,7 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
 
 
         <div class="fixed-header">
@@ -54,7 +54,7 @@
     <div class="content">
         <h2>Kariyer Fırsatları</h2>
         <p class="kariyer-p">Sizinle birlikte güçlü bir ekibin parçası olmayı bekliyoruz. Başvuru formunu doldurarak,<br>iş dünyasında bir fark yaratma şansını kaçırmayın.</p>
-
+        <img src="kari">
 
         <div class="personality">
         <p>Kişisel Bilgileriniz</p>
@@ -72,6 +72,11 @@
                 <td>
                     <input type="tel" id="phone" value="Telefon" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" class="iletisim-txt2">
                 </td>
+                <td rowspan="2">
+                    <textarea id="txt-area" name="txt-area" rows="10" cols="100" class="iletisim-txt-area">
+                        Size nasıl yardımcı olabiliriz?
+                    </textarea>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -79,7 +84,7 @@
                 </td>
 
                 <td>
-                    <input type="email" value="Email" class="iletisim-txt">
+                    <input type="email" value="Email" class="iletisim-txt2">
                 </td>
 
                 <td>
@@ -87,11 +92,61 @@
                 </td>
             </tr>
         </table>
-
-
-
+     
         </div>
        
+
+        <div class="education">
+            <p>Eğitim Bilgileri ve Yetenekleriniz</p>
+
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" value="Okul adı" class="iletisim-txt">
+
+                    </td>
+                    <td>
+                        <input type="text" value="Bölüm" class="iletisim-txt2">
+                    </td>
+                    <td>
+                        <input type="text" value="Eğitim Bilgilerinizi detaylı bir şekilde yazınız." class="education-area">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">
+                        <input type="text" value="Yetenek ve Becerileriniz." class="education-area2">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="experience">
+            <p>İş Tecrübeniz</p>
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" value="Daha önceki iş deneyimlerinizi , Şirket adı, pozisyon, başlangıç ve bitiş tarihleri, sorumluluklar ve başarılar gibi detaylar.." class="experience-area">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="message">
+            <p>İletiniz</p>
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" value="Daha önceki iş deneyimlerinizi , Şirket adı, pozisyon, başlangıç ve bitiş tarihleri, sorumluluklar ve başarılar gibi detaylar.." class="message-area">
+
+                    </td>
+                    <td>
+                        <button class="message-btn">Gönder</button>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
 
 
     </div>

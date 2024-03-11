@@ -41,10 +41,9 @@ margin-top: -15px;
 margin-left: 100px;
 }
 .personality{
-    position: absolute;
-background-color: gray;
-height: 300px;
-width: 100%;   
+position: absolute;
+height: 250px;
+width: 100%;
 }
 .personality p{
 color: #FFF;
@@ -53,21 +52,16 @@ font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-margin-left: 230px;
+margin-left: 260px;
 margin-top: 20px;
 }
-
-
-
-
-
 .iletisim-txt{
     color: #C0B4B4;
     font-family: Jost;
     font-size: 16px;
     font-style: normal;
-    margin-bottom: 10px;
-    margin-left: 420px;
+    margin-bottom: 30px;
+    margin-left: 260px;
     border-radius: 10px;
     border: 1px solid #FFB800;
     background: #FFF;
@@ -82,8 +76,8 @@ margin-top: 20px;
     font-family: Jost;
     font-size: 16px;
     font-style: normal;
-    margin-bottom: 10px;
-    margin-left: 5px;
+    margin-bottom: 30px;
+    margin-left: 30px;
     border-radius: 10px;
     border: 1px solid #FFB800;
     background: #FFF;
@@ -93,32 +87,30 @@ margin-top: 20px;
     padding: 5px;
     align-items: center;
   }
-  .iletisim-btn{
-    display: flex;
-    width: 131px;
-    height: 36px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background: #FFCB2D;
-    border: 1px #FFCB2D ;
-    color: #000;
+  .iletisim-txt-area{
+    color: #C0B4B4;
     font-family: Jost;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-top: 15px;
-    margin-left: 100px;
+    margin-top: -30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 1px solid #FFB800;
+    background: #FFF;
+    display: flex;
+    width: 230px;
+    height: 120px;
+    padding: 5px;
+    align-items: center; 
+    text-align: left ;
   }
   .iletisim-date{
     color: #C0B4B4;
     font-family: Jost;
     font-size: 16px;
     font-style: normal;
-    margin-bottom: 10px;
-    margin-left: 5px;
+    margin-bottom: 30px;
+    margin-left: 260px;
     border-radius: 10px;
     border: 1px solid #FFB800;
     background: #FFF;
@@ -128,3 +120,134 @@ margin-top: 20px;
     padding: 5px;
     align-items: center;
   }
+  .education{
+    position: absolute;  
+    height: 300px;
+    width: 100%;   
+    margin-top: 250px;
+  }
+  .education p{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 260px;
+    margin-top: 20px;
+    }
+    .education-area{
+      color: #C0B4B4;
+      font-family: Jost;
+      font-size: 16px;
+      font-style: normal;
+      margin-top: 0px;
+      margin-left: 30px;
+      border-radius: 10px;
+      border: 1px solid #FFB800;
+      background: #FFF;
+      display: flex;
+      width: 475px;
+      height: 80px;
+      padding: 5px;
+      align-items: center; 
+      text-align: left ;
+    }
+    .education-area2{
+      color: #C0B4B4;
+      font-family: Jost;
+      font-size: 16px;
+      font-style: normal;
+      margin-top: 0px;
+      margin-left: 260px;
+      border-radius: 10px;
+      border: 1px solid #FFB800;
+      background: #FFF;
+      display: flex;
+      width: 500px;
+      height: 100px;
+      padding: 5px;
+      align-items: center; 
+      text-align: left ;
+    }
+    .experience{
+      position: absolute;
+      height: 250px;
+      width: 100%;
+      margin-top: 550px;
+    }
+    .experience p{
+      color: #FFF;
+      font-family: Jost;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-left: 260px;
+      margin-top: 20px;
+      }
+      .experience-area{
+        color: #C0B4B4;
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        margin-left: 260px;
+        border-radius: 10px;
+        border: 1px solid #FFB800;
+        background: #FFF;
+        display: flex;
+        width: 1010px;
+        height: 150px;
+        padding: 5px;
+        vertical-align:top;
+      }
+      .message{
+        position: absolute;
+        height: 250px;
+        width: 100%;
+        margin-top: 800px;
+      }
+      .message p{
+        color: #FFF;
+        font-family: Jost;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-left: 260px;
+        margin-top: 20px;
+        }
+      .message-area{
+        color: #C0B4B4;
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        margin-left: 260px;
+        border-radius: 10px;
+        border: 1px solid #FFB800;
+        background: #FFF;
+        display: flex;
+        width: 700px;
+        height: 120px;
+        padding: 5px;
+        vertical-align:top;
+      }
+      .message-btn{
+        display: flex;
+        width: 160px;
+        height: 50px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background: #FFCB2D;
+        border: 1px #FFCB2D ;
+        color: #FFF;
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 15px;
+        margin-left: 100px;
+      }
