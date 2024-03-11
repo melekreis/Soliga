@@ -1,253 +1,317 @@
-h1{
-margin: auto;
-margin-top: 30px;
-margin-bottom: 30px;
+h1 {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #000;
+  font-family: Jost;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 271px;
+  height: 61px;
+}
+.content {
+  position: absolute;
+  margin-left: 7.5%;
+  width: 85%;
+  height: 1300px;
+  border-radius: 15px;
+  background: linear-gradient(
+    271deg,
+    rgba(213, 37, 41, 0.74) -21.92%,
+    #2f2e41 157.63%
+  );
+}
+h2 {
+  color: #fff;
+  font-family: Jost;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 60px;
+  margin-left: 130px;
+}
+.kariyer-p {
+  color: #fff;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  margin-top: -15px;
+  margin-left: 130px;
+}
+.kariyer-img {
+  float: right;
+  margin-right: 410px;
+  margin-top: -110px;
+}
+.personality {
+  position: absolute;
+  margin-top: 10px;
+  height: 250px;
+  width: 100%;
+}
+.personality p {
+  color: #fff;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+.iletisim-txt {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 30px;
+  margin-left: 260px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 230px;
+  height: 40px;
+  padding: 5px;
+  align-items: center;
+}
+.iletisim-txt2 {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 230px;
+  height: 40px;
+  padding: 5px;
+  align-items: center;
+}
+.iletisim-txt-area {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: -30px;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 230px;
+  height: 120px;
+  padding: 5px;
+  align-items: center;
+  text-align: left;
+}
+.iletisim-date {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 30px;
+  margin-left: 260px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 230px;
+  height: 40px;
+  padding: 5px;
+  align-items: center;
+}
+.education {
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  margin-top: 250px;
+}
+.education p {
+  color: #fff;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+.education-area {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0px;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 475px;
+  height: 80px;
+  padding: 5px;
+  align-items: center;
+  text-align: left;
+}
+.education-area2 {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0px;
+  margin-left: 260px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 500px;
+  height: 100px;
+  padding: 5px;
+  align-items: center;
+  text-align: left;
+}
+.experience {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  margin-top: 550px;
+}
+.experience p {
+  color: #fff;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+.experience-area {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-left: 260px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 1010px;
+  height: 150px;
+  padding: 5px;
+  vertical-align: top;
+}
+.message {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  margin-top: 800px;
+}
+.message p {
+  color: #fff;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+.message-area {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-left: 260px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 700px;
+  height: 120px;
+  padding: 5px;
+  vertical-align: top;
+}
+.message-btn {
+  display: flex;
+  width: 160px;
+  height: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #ffcb2d;
+  border: 1px #ffcb2d;
+  color: #fff;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+.content-h1 {
+  margin-top: 1400px;
+}
+.txt1{
 color: #000;
 font-family: Jost;
-font-size: 35px;
+font-size: 22px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
-width: 271px;
-height: 61px;
-}
-.content{
-position:absolute;
-margin-left: 7.5%;
-width: 85%;
-height: 1619px;
-border-radius: 15px;
-background: linear-gradient(271deg, rgba(213, 37, 41, 0.74) -21.92%, #2F2E41 157.63%);
-}
-h2{
-color: #FFF;
-font-family: Jost;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-top: 60px;
-margin-left: 100px;
-}
-.kariyer-p{
-color: #FFF;
-font-family: Jost;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
 text-align: left;
-margin-top: -15px;
-margin-left: 100px;
+width: 789px;
+height: 100px;
+margin: auto 0px 0px 650px;
+margin-top: -240px;
 }
-.personality{
-position: absolute;
-height: 250px;
-width: 100%;
-}
-.personality p{
-color: #FFF;
-font-family: Jost;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-left: 260px;
-margin-top: 20px;
-}
-.iletisim-txt{
-    color: #C0B4B4;
-    font-family: Jost;
-    font-size: 16px;
-    font-style: normal;
-    margin-bottom: 30px;
-    margin-left: 260px;
-    border-radius: 10px;
-    border: 1px solid #FFB800;
-    background: #FFF;
-    display: flex;
-    width: 230px;
-    height: 40px;
-    padding: 5px;
-    align-items: center;
+.txt2{
+  color: #000;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: left;
+  width: 789px;
+  height: 100px;
+  margin: auto 0px 0px 650px; 
+  margin-top: 10px;
   }
-  .iletisim-txt2{
-    color: #C0B4B4;
-    font-family: Jost;
-    font-size: 16px;
-    font-style: normal;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    border-radius: 10px;
-    border: 1px solid #FFB800;
-    background: #FFF;
-    display: flex;
-    width: 230px;
-    height: 40px;
-    padding: 5px;
-    align-items: center;
+  .nedenbiz-img{
+    margin-left: 145px;
+    margin-bottom: -45;  
   }
-  .iletisim-txt-area{
-    color: #C0B4B4;
-    font-family: Jost;
-    font-size: 16px;
-    font-style: normal;
-    margin-top: -30px;
-    margin-left: 30px;
-    border-radius: 10px;
-    border: 1px solid #FFB800;
-    background: #FFF;
-    display: flex;
-    width: 230px;
-    height: 120px;
-    padding: 5px;
-    align-items: center; 
-    text-align: left ;
+  .footer{
+    margin-top: 70px;
+    width: 100%;
+    height: 250px;
+    background-color: #1A1A1A;
   }
-  .iletisim-date{
-    color: #C0B4B4;
-    font-family: Jost;
-    font-size: 16px;
-    font-style: normal;
-    margin-bottom: 30px;
-    margin-left: 260px;
-    border-radius: 10px;
-    border: 1px solid #FFB800;
-    background: #FFF;
-    display: flex;
-    width: 230px;
-    height: 40px;
-    padding: 5px;
-    align-items: center;
+  .footer img{
+    height: 200px;
+    width: 290px;
+    margin-left: 42%;
   }
-  .education{
-    position: absolute;  
-    height: 300px;
-    width: 100%;   
-    margin-top: 250px;
-  }
-  .education p{
+  .footer p{
+    text-align: center;
     color: #FFF;
-    font-family: Jost;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 260px;
-    margin-top: 20px;
-    }
-    .education-area{
-      color: #C0B4B4;
-      font-family: Jost;
-      font-size: 16px;
-      font-style: normal;
-      margin-top: 0px;
-      margin-left: 30px;
-      border-radius: 10px;
-      border: 1px solid #FFB800;
-      background: #FFF;
-      display: flex;
-      width: 475px;
-      height: 80px;
-      padding: 5px;
-      align-items: center; 
-      text-align: left ;
-    }
-    .education-area2{
-      color: #C0B4B4;
-      font-family: Jost;
-      font-size: 16px;
-      font-style: normal;
-      margin-top: 0px;
-      margin-left: 260px;
-      border-radius: 10px;
-      border: 1px solid #FFB800;
-      background: #FFF;
-      display: flex;
-      width: 500px;
-      height: 100px;
-      padding: 5px;
-      align-items: center; 
-      text-align: left ;
-    }
-    .experience{
-      position: absolute;
-      height: 250px;
-      width: 100%;
-      margin-top: 550px;
-    }
-    .experience p{
-      color: #FFF;
-      font-family: Jost;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      margin-left: 260px;
-      margin-top: 20px;
-      }
-      .experience-area{
-        color: #C0B4B4;
-        font-family: Jost;
-        font-size: 16px;
-        font-style: normal;
-        margin-left: 260px;
-        border-radius: 10px;
-        border: 1px solid #FFB800;
-        background: #FFF;
-        display: flex;
-        width: 1010px;
-        height: 150px;
-        padding: 5px;
-        vertical-align:top;
-      }
-      .message{
-        position: absolute;
-        height: 250px;
-        width: 100%;
-        margin-top: 800px;
-      }
-      .message p{
-        color: #FFF;
-        font-family: Jost;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin-left: 260px;
-        margin-top: 20px;
-        }
-      .message-area{
-        color: #C0B4B4;
-        font-family: Jost;
-        font-size: 16px;
-        font-style: normal;
-        margin-left: 260px;
-        border-radius: 10px;
-        border: 1px solid #FFB800;
-        background: #FFF;
-        display: flex;
-        width: 700px;
-        height: 120px;
-        padding: 5px;
-        vertical-align:top;
-      }
-      .message-btn{
-        display: flex;
-        width: 160px;
-        height: 50px;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px;
-        background: #FFCB2D;
-        border: 1px #FFCB2D ;
-        color: #FFF;
-        font-family: Jost;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin-top: 15px;
-        margin-left: 100px;
-      }
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;   
+    flex-shrink: 0;
+  }
