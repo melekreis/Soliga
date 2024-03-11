@@ -6,282 +6,39 @@ body{
     width: 100%;
   }
   .header{
-      height:290px;
+      height:390px;
       width: 100%;
       border-bottom: 1px solid black ;
+      justify-content: space-evenly;
   }
   .logo{
     height: 240px;
     width: 320px;
-    margin: auto; 
+    margin: auto;
+    float: left;
+    position: fixed;
   }
-  .yazilar{
-  width:300px;
-  height: 220px;
-  float: right;    
-  margin-right: 150px;
-  margin-top: -150px;
-  font-family: Jost;
-  font-size: 30px;
-  font-style: italic;
-  font-weight: 500;
-  line-height: 40px; /* 125% */
-  letter-spacing: 7.6px;
-  span.ilkharf{color:#D52529;}
-  span.kelime{margin-left: 70px;}
-  span.ilkharf2{color:#FE9015;}
-  span.ilkharf2{margin-left: 31px;}
-  span.kelime2{color:#9EA2AA;}
-  span.kelime2{margin-left: 58px;}
-}
-.home{
-  width: 52px;
-  height: 52px;
-  margin-top:-30px ;
-  margin-left: -150px;
-  margin-bottom: 3px;
-}
-.user{
-  width: 49px;
-  height: 49px;
-  margin-left: 220px;
-  margin-top: -30px;
-  margin-bottom: 3.5px;
-}
-.home-text{
-color: #000;
-font-family: K2D;
-font-size: 15px;
-font-style: italic;
-font-weight: 600;
-line-height: 130.076%; 
-margin-top: -35px;
-margin-left: 117px;
-}
-.user-text{
-color: #000;
-font-family: K2D;
-font-size: 15px;
-font-style: italic;
-font-weight: 600;
-line-height: 130.076%; 
-margin-top: -8px;
-margin-left: 217px;
-}
-.sidebar-left{
-  height: 628px;
-  width: 400px;
-  float: left;
-}
-.sidebar-btn1{
-  background-color: #D52529;
-  border: #fff9f9;
-  color: #FFF;
-  -webkit-text-stroke-width: 1;
-  -webkit-text-stroke-color: rgba(0, 0, 0, 0.10);
-  font-family: Jost;
-  font-size:22px;
-  font-style: normal;
-  font-weight: 550;
-  line-height: 50px; 
-  letter-spacing: 1.44px;
-  cursor: pointer;
-  height: 157px;
-  width: 390px;
-  text-align: left;
-  margin-left: 10px;
-}
-.sidebar-btn2{
-  background-color: #3F3A3A;
-  border: #fff9f9;
-  color: #FFF;
-  -webkit-text-stroke-width: 1;
-  -webkit-text-stroke-color: rgba(0, 0, 0, 0.10);
-  font-family: Jost;
-  font-size:22px;
-  font-style: normal;
-  font-weight: 550;
-  line-height: 50px; 
-  letter-spacing: 1.44px;
-  cursor: pointer;
-  height: 157px;
-  width: 390px;
-  text-align: left;
-  margin-left: 10px;
-}
-.sidebar-btn3{
-  background-color: #FFCB2D;
-  border: #fff9f9;
-  color: #FFF;
-  -webkit-text-stroke-width: 1;
-  -webkit-text-stroke-color: rgba(0, 0, 0, 0.10);
-  font-family: Jost;
-  font-size:22px;
-  font-style: normal;
-  font-weight: 550;
-  line-height: 50px; 
-  letter-spacing: 1.44px;
-  cursor: pointer;
-  height: 157px;
-  width: 390px;
-  text-align: left;
-  margin-left: 10px;
-}
-.sidebar-btn4{
-  background-color: #3F3A3A;
-  border: #fff9f9;
-  color: #FFF;
-  -webkit-text-stroke-width: 1;
-  -webkit-text-stroke-color: rgba(0, 0, 0, 0.10);
-  font-family: Jost;
-  font-size:22px;
-  font-style: normal;
-  font-weight: 550;
-  line-height: 50px; 
-  letter-spacing: 1.44px;
-  cursor: pointer;
-  height: 157px;
-  width: 390px;
-  text-align: left;
-  margin-left: 10px;
-}
-.Gelen{
-    background: #D52529;
-    border: none;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    height: 157px;
-    width: 400px;
+  .yazilar {
+    position: fixed;
+    top: 15%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-size: 18pt;
+    color: #575656;
   }
-.İş{
-    background: #3F3A3A;
-    border: none;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    height: 157px;
-    width: 400px;
-}
-.Personel{
-    background: #FFCB2D;
-    border: none;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    height: 157px;
-    width: 400px;
-}
-.Bildirim{
-    background: #3F3A3A;
-    border: none;
-    color: white;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    height: 157px;
-    width: 400px;
-}
-.filter{
-  border-radius: 10px;
-  border: 1px solid #000;
-  background: #FFF;
-  width: 1200px;
-  height: 70px;
-  margin-left:545px;
-  margin-top: 80px;
-}
-.category-label{
-  color: #000;
-  font-family: Jost;
-  font-size: 27px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 1.28px;
-  margin-left: 30px;
-  margin-top: 11px;
-}
-.select-box{
-  width: 210px;
-  height: 30px;
-  background: #FFF;
-  appearance: none;
-  padding: 0 20px;
-  background-color: #e7e6e6;
-  margin-top: -32px;
-  margin-left: 175px;
-}
-.select2{
-  border: 1px solid #555;
-  width: 251px;
-  height: 30px;
-  appearance: none;
-  padding: 0 20px;
-  background: #FFF;
-  position: relative;
-  margin-top: 0px;
-  margin-left: -21px;
-}
-.date-box{
-  width: 210px;
-  height: 30px;
-  padding: 0 20px;
-  background-color: #e7e6e6;
-  margin-top: -37px;
-  margin-left:550px;
-}
-.date2{
-  width: 210px;
-  height: 30px;
-  border: 1px solid #555;
-  background: #FFF;
-  padding: 0 20px;
-  background: #FFF;
-  position: relative;
-  margin-top:0px;
-  margin-left:-20px;
-}
-.date-label{
-  color: #000;
-  font-family: Jost;
-  font-size: 27px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 1.28px;
-  margin-left: 460px;
-  margin-top: -35px;
-}
-.text-box{
-  width: 150px;
-  height: 30px;
-  border-color: #3F3A3A;
-  float: right;
-  position: relative;
-  margin-right: 220px;
-  margin-top: -29px;
-}
-.text2{
-  width: 150px;
-  height: 29px;
-  border: 1px solid #555;
-  background: #FFF;
-  float: right;
-  position: relative;
-  margin-right: -10px;
-  margin-top: -1px;
-}
-.search{
-  border: none;
-  background-color: #FFCB2DCC;
-  float: right;
-  margin-right: -260px;
-  height: 40px;
-  width: 43px;
-  margin-top: -33px;
-  cursor: pointer;
-}
-.search img{
-  width: 25px;
-  height: 25px;
-}
-
+  
+  .user, .home {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .user {
+    left: 49%;
+    top: 335px;
+  }
+  
+  .home {
+    right: 43%;
+    top: 335px;
+  }

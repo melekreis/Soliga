@@ -17,7 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
       
         <div class="header">
                 <div class="logo">
@@ -25,9 +25,7 @@
                 </div>
                 
                 <div class="yazilar">
-                    <span class="ilkharf">Y</span>ÖNETİM<br>
-                    <span class="kelime">VE</span><br>
-                    <span class="ilkharf2">İ</span>LETİŞİM<br>
+                    <span class="ilkharf">Y</span>ÖNETİCİ
                     <span class="kelime2">SAYFASI</span>
                 </div>
 
@@ -39,52 +37,26 @@
                       <p class="home-text">Anasayfa</p>
               </div>
                 
-
         </div>
-        <div class="sidebar-left">
-            <div class="Gelen">
-              <button type="button" class="sidebar-btn1">Gelen Mailler</button>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Gelen Mailler</a>
+                <a class="nav-link" href="#">Personel Kayıt</a>
+                <a class="nav-link" href="#">İş başvuruları</a>  
+                <a class="nav-link" href="#">Geri bildirim</a>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                
+             </div>
             </div>
-            <div class="İş">
-              <button type="button"class="sidebar-btn2">İş Başvuruları</button>
-            </div>
-            <div class="Personel">
-              <button type="button"class="sidebar-btn3">Personel Kayıt</button>
-            </div>
-            <div class="Bildirim" >
-              <button type="button"class="sidebar-btn4">Gelen Mailler</button>
-            </div>
-        </div>
-
-        <div class="content">
-            <div class="filter">
-              <div class="category-label"><label for="category">Kategori :</label> </div>
-              <div  class="select-box">
-              <select name="category" id="category" class="select2">
-              <option value="kategori"></option>
-              <option value="tekstil">tekstil</option>
-              <option value="yazilim">yazılım</option>
-              </select>
-            </div> 
-
-              <div class="date">
-              <div  class="date-label"> <label for="date">Tarih :</label> </div> 
-              <div class="date-box"><input type="date" id="date" name="date" class="date2" > </div>  
-              </div>
-
-              <div class="text-box">
-                <input type="text" id="fname" name="fname" class="text2">
-              </div>
-              <button class="search">
-                <img src="yönetim-search2.svg"> 
-              </button>
-
-            </div>
-
-          
-
-
-
+          </div>
+        </nav>
         </div>
 
         <div class="footer">
