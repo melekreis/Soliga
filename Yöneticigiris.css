@@ -46,18 +46,19 @@ body {
 }
 
 .box {
-    margin: auto;
-    height: 400px;
-    width: 700px;
+    margin-top: 250px; 
+    height: 450px;
+    width: 500px;
     border: 4px;
-    box-sizing: border-box;
     border-radius: 50px;
     text-align: center;
-    filter: blur(0px);
-}
+    position: fixed;
+    margin-left: 250px;
+
+    }
 
 .yazı {
-    margin-top: 200px;
+    margin-top: 120px;
     margin-left: 280px;
     height: 100px;
     width: 500px;
@@ -65,25 +66,41 @@ body {
     font-size: 48px;
     line-height: 100%;
     font-weight: bold;
+    position: fixed;
 
 }
 
-.textbox {
+#floatingInput {
     display: flex;
-    width: 100px;
-    height: 170px;
-    padding: 10px;
-    align-items: center;
-
-    margin-left: 240px;
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 18px;
+    padding: 20px; 
+    width: 150px;
+    height: 5px; 
+    position: relative; 
 }
 
-.textbox2 {
-    margin-top: 10px;
-    margin-left: 240px;
+#floatingPassword {
     display: flex;
-    width: 214px;
-    height: 36px;
+    margin-left: 150px;
+    margin-top: 12px;
+    border-radius: 18px;
+    padding: 20px; 
+    width: 150px;
+    height: 5px; 
+    position: absolute;
+}
+.btn{
+    margin: auto;
+    height: 45px;
+    width: 154px;
     padding: 10px;
-    align-items: center;
+    border-radius: 15px;
+    border: 1px solid white;
+    background: #2C2C2C;
+    color: #f0f0f0;
+    margin-top: 90px;
+    position: fixed;   
+    margin-left: -80px;
 }
