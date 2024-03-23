@@ -1,13 +1,5 @@
-/* Büyük ekranlar için genel stil */
-@media only screen and (min-width: 1200px) {
-  /* Burada büyük ekranlar için stil tanımlamaları yapılır */
 
-  
-.svg-container {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
+
 svg {
   margin-top: -38px;
     max-width: 100%; /* SVG'nin maksimum genişliği belirli bir değeri geçmeyecek */
@@ -40,13 +32,13 @@ top: 400px;
 .preface-slider{
   width: 100%;
   height: 390px;
-  position: relative;
+  position: absolute;
   margin-top: -550;
   }
 
       /*SLİDER  CSS */
       .slider-container {
-        position: relative;
+        position: absolute;
         width: 100%;
         overflow: hidden;
       } 
@@ -147,5 +139,4 @@ button#next-button{
   margin-top: -150px;
   border-radius: 60px;
   padding:0px;
-}
 }

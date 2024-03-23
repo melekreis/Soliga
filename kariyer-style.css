@@ -315,3 +315,23 @@ margin-top: -240px;
     line-height: normal;   
     flex-shrink: 0;
   }
+  input[type="text"] {
+    color: black; /* İçeriğin siyah olması */
+    /* Diğer stillendirme özellikleri */
+}
+input[type="tel"] {
+  color: black; /* İçeriğin siyah olması */
+  /* Diğer stillendirme özellikleri */
+}
+input[type="email"] {
+  color: black; /* İçeriğin siyah olması */
+  /* Diğer stillendirme özellikleri */
+}
+textarea {
+  color: black; /* İçeriğin siyah olması */
+  /* Diğer stillendirme özellikleri */
+}
+input[type="date"] {
+  color: black; /* İçeriğin siyah olması */
+  /* Diğer stillendirme özellikleri */
+}

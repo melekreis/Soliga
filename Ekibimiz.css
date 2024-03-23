@@ -3,20 +3,11 @@ form{
     margin-left: 50px;
     font-family: Jost;
     font-weight: 500;
+    margin-top: 60px;
+    margin-left: 100px;
 }
-.form-items {
-    margin: 30px 0;
-    &:first-child {
-      margin-top: 0;
-    }
-    &:last-child {
-      margin-bottom: 0;
-    }
-    .form-title {
-      margin-bottom: 12px;
-    }
     .form-item {
-      padding: 2px 0;
+      padding: 5px 0;
       color: #353333;
       input[type="checkbox"] {
         display: none;
@@ -38,11 +29,109 @@ form{
         &:checked {
           &+label {
             padding-left: 36px;
-            border-color: rgba(183, 24, 34, 0.695);
-            background-color: rgba(183, 24, 34, 0.693);
+            border-color: rgba(177, 45, 54, 0.695);
+            background-color: rgba(177, 45, 54, 0.695);
             background-image: url("https://image.flaticon.com/icons/svg/1632/1632596.svg");
           }
         }
       }
-    }
   }
+  .checkbox-label::before {
+    content: '';
+    display: inline-block;
+    width: 20px; /* Ayarlamak istediğiniz boşluk miktarı */
+  }
+  .checkbox-label {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  input[type="checkbox"]:checked + .checkbox-label {   
+    color: #fff;
+  }
+  input[type="checkbox"]:checked + .checkbox-label::before {
+    content: '\2713';
+  }
+  .checkbox-label:hover {
+    background-color: #f0f0f0;
+  }
+  #ekibimiz{
+    color: #000;
+font-family: Jost;
+font-size: 36px;
+font-style: normal;
+font-weight: 300;
+line-height: 144.585%; /* 52.051px */
+text-align: center;
+margin-top: 50px !important;
+  }
+  .ekibimiz-img{
+    width: 260px;
+height: 175px;
+flex-shrink: 0;
+float: right;
+margin-top: -60px;
+margin-right: 240px;
+  }
+  .card-container{
+   
+    margin: auto;
+    margin-top: -400px;
+    width: 50%;
+    height: 700px;
+    border-color: bisque;
+
+  }
+  .card-img-top{
+  border-radius: var(--h, 131px);
+background: url(<path-to-image>) lightgray 50% / cover no-repeat, #D9D9D9;
+width: 131px;
+height: 129px;
+flex-shrink: 0;
+margin-top: 15px;
+  }
+  .card{
+text-align: center;
+border-radius: 8px;
+background: rgba(14, 13, 13, 0.84);
+width: 200px !important;
+height: 270px !important;
+flex-shrink: 0;
+margin-left: 22px;
+margin-bottom: 22px;
+display: inline-block;
+transition: transform 0.3s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+  .card-2{
+    border-radius: 8px;
+    background: rgba(14, 13, 13, 0.84);
+width: 200px !important;
+height: 270px !important;
+flex-shrink: 0;
+margin-left: 20px;
+  }
+  .card-title{
+color: #F8EEEE;
+font-family: Jost;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 10%; /* 23.134px */
+  }
+.card-text{
+color: #F90;
+text-align: center;
+font-family: Jost;
+font-size: 19px;
+font-style: normal;
+font-weight: 300;
+line-height: 144.585%; /* 21.688px */
+}
+a{
+  text-decoration:none;
+}
