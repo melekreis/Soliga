@@ -1,8 +1,26 @@
+.ekibimiz-baslik{
+  position: absolute;
+  left: 45%;
+  top: 50%;
+}
+.ekibimiz-baslik p{
+  font-size: 30px;
+  font-family: Jost;
+}
+.baslik-img{
+  position: absolute;
+  top: 45%;
+  right: 300px;
+}
+
+/* */
 form{
     width: 300px;
     margin-left: 50px;
     font-family: Jost;
     font-weight: 500;
+    margin-top: 400px;
+    position: absolute;
 }
 .form-items {
     margin: 30px 0;
@@ -46,3 +64,34 @@ form{
       }
     }
   }
+/**/
+
+.ekip{
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 600px;
+  width: 1000px;
+  height: 600px;
+  background-color: #f1a1a1;
+}
+.ekip div{
+  float:left;
+  margin:25px;
+  background-color: #3c3838;
+  width: 200px;
+  height: 275px;
+  border-radius: 20px;
+}
+.ekip figure div img{
+
+}
+.isim{
+  text-align: center;
+  font-family: Jost;
+  color: #F8EEEE;
+}
+.unvan{
+  text-align: center;
+  font-family: Jost;
+  color: #FF9900;
+}
