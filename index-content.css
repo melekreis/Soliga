@@ -145,7 +145,7 @@
         margin: auto;
         margin-top: 15px;
         margin-bottom: 80px;
-        width: 1400px;
+        width: 80%;
         overflow: hidden;
         height: 550px;
       }
@@ -162,21 +162,53 @@
         width: 1400px;
       }
       .preview{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: left; /* Metni sola yasla */
+        max-width: 90%; /* Varsayılan genişlik */
+        margin: 0 auto; /* Yatay ortala */
+        text-align: left;
+        margin-top: 350px;
+        margin-bottom: -200px;
+        
+      
+      }
+
+      @media screen and (max-width: 1300px) {
+        .div-ortala {
+            width: 90%; /* Ekran 600px veya daha küçük olduğunda div genişliği %100 olsun */
+            padding: 10px; /* İstediğiniz padding değeri */
+        }
+        .preview img{
+        display: none;
+        }
+      }
+      .preview p{
+        justify-content: center;
+        max-width: 100%;
+        box-sizing: border-box;
         color: #534D4D;
         font-family: Jost;
         font-size: 24px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
-        width: 829px;
-        height: 428px;
-        margin-left: 301px;
-        margin-top: 200px;
+        height: 500px;
+        width: 826px;
+        margin-left: 100px;
+        padding-top: 120px !important;
+        max-width: 90%;
       }
       .preview img{
-        position: absolute;
-        margin-left: 980px;
-        margin-top: -340px;
+        overflow: clip;
+        max-width: 90%; 
+        width: 300px;
+        height: auto; /* Orantılı yükseklik */
+        box-sizing: border-box;
+        margin-right: 200px;
+        margin-left: 1200px;
+        margin-top: -500px;
         }
       .footer{
         width: 100%;
