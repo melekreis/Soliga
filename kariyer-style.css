@@ -12,6 +12,7 @@ h1 {
   height: 61px;
 }
 .content {
+  display: block;
   position: absolute;
   margin-left: 7.5%;
   width: 85%;
@@ -23,6 +24,7 @@ h1 {
     #2f2e41 157.63%
   );
 }
+
 h2 {
   color: #fff;
   font-family: Jost;
@@ -42,17 +44,17 @@ h2 {
   line-height: normal;
   text-align: left;
   margin-top: -15px;
-  margin-left: 130px;
+  margin-left: 50px;
 }
 .kariyer-img {
   float: right;
-  margin-right: 410px;
+  margin-right: 10%;
   margin-top: -110px;
 }
 .personality {
   position: absolute;
   margin-top: 10px;
-  height: 250px;
+  height: 17%;
   width: 100%;
 }
 .personality p {

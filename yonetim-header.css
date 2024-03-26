@@ -1,44 +1,36 @@
-body{
-  margin: 0px;
-  }
-  .container{
-    margin:0px auto ;
-    width: 100%;
-  }
-  .header{
-      height:390px;
+.header{
+  margin: 0 auto;
+      height:350px;
       width: 100%;
       border-bottom: 1px solid black ;
       justify-content: space-evenly;
   }
   .logo{
-    height: 240px;
-    width: 320px;
-    margin: auto;
-    float: left;
-    position: fixed;
+   margin-top: -2%;
+    margin-left: 10%;
+    position: absolute;
   }
+
   .yazilar {
-    position: fixed;
-    top: 15%;
-    left: 53%;
-    transform: translate(-50%, -50%);
     font-size: 18pt;
-    color: #575656;
+    font-family: Jost;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5.4px;
+    text-transform: capitalize;
+    padding-top: 3%;
   }
-  
-  .user, .home {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
+  .yazilar-2{
+    color: #3F3D58;
+font-family: Jost;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 3.6px;
+text-transform: capitalize;
+
   }
-  
-  .user {
-    left: 49%;
-    top: 335px;
-  }
-  
-  .home {
-    right: 43%;
-    top: 335px;
+  .home{
+    
   }
