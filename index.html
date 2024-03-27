@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index-responsive-ALLAHIMNOLUR.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 <link rel="stylesheet" type="text/css" href="header-style.css">
 <link rel="stylesheet" type="text/css" href="index-content.css">
@@ -22,42 +23,37 @@
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-xs">
 
 
-        <div class="fixed-header">
+    
         <div class="sidebar">
-          <a href="index.html"><img src="Vector.png"></a> 
-            <p class="p1">mühendislik<br> </p> <p class="p3">ve</p> <p class="p3 p2">danışmanlık </p>
             <button class="sidebar-btn"> <a href="#iletisim">Biz Size Ulaşalım</a> </button> 
+            <div class="left-center">
+                <img src="transparan logo.svg" height="380px"  class="rounded" alt="Soliga" id="rotatingImage">
+              </div>
+    
+            <p class="p1">mühendislik<br> </p> <p class="p3">ve</p> <p class=" p2">danışmanlık </p>
+            
+           
         </div>
-
-        <div class="navbar">
+        <div class="navbar-arka">
             <div class="menu"> 
-            <ul id="main">
-                <li id="li-anasayfa"><a href="index.html">Anasayfa </a></li>
-                <li><a href="ekibimiz.html">Kurumsal-Ekibimiz</a></li>
-                <li><a href="hizmetlerimiz.html">Hizmetlerimiz</a>
-            </li>
-                <li><a href="kariyer.html">Kariyer-işe alım</a></li>
-            </ul>
-        </div>
-        <input type="text" id="name" name="name" placeholder="search..." class="search-box animatedInput">
-            <div class="search"> 
-                 <img src="icons8-search-50.png" height="35px" width="35px">
-             </div>
-
-       
-
-        </div>
-
-
-    </div>
+              <ul id="main">
+                <nav>
+                  <ul>
+                    <a href="index.html" class="flex">  <li >Anasayfa</li></a>
+                   <a href="ekibimiz.html" class="flex"><li>Kurumsal-Ekibimiz</li> </a>
+                   <a href="hizmetlerimiz.html" class="flex"> <li>Hizmetlerimiz</li></a>
+                  <a href="kariyer.html" class="flex"> <li>Kariyer-İşe alım</li></a> 
+                    </li>
+                  </ul>
+                </nav>
+            </div>        
+          </div>
 
 
 
-        <p class="P-baslık">soliga</p>
-        <p class="p-slogan">Fikirlerinizle Geleceği İnşa Ediyoruz, Danışmanlık Hizmetlerimizle Yol Arkadaşınızız!</p> 
       <!-- SVG Kodları -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 797" fill="none">
         <path d="M1359.6 -100H1600V700H800H0L0 290H453.2H633.375H830.427L1359.6 -100Z" 
@@ -71,7 +67,8 @@
         </defs>
     </svg>
 
-
+        <p class="text-start p-baslık">Soliga</p>
+        <p class="p-slogan text-start">Fikirlerinizle Geleceği İnşa Ediyoruz, Danışmanlık Hizmetlerimizle Yol Arkadaşınızız!</p> 
 
       
 
@@ -110,47 +107,52 @@
           <div> <button id="next-button"> <img src="button-slider.png"> </button>  </div>
         </div>
 
+
+
         <a name="iletisim"> 
         <div class="content">
            
             <p class="content-baslik">Bize Ulaşın</p>
             <p class="cizgilibaslik content-baslik2">iletişime geç</p> 
+            <form action="veritabani_ekle.cfm" method="post"> 
             <div class="iletisim-table"> 
             <table>
                 <tr>
                     <td>
-                        <input type="text" placeholder="isim"  class="iletisim-txt">
+                        <input type="text" placeholder="isim" id="isim" name="isim" class="iletisim-txt">
                     </td>
                     <td>
-                        <input type="text" placeholder="Soyisim" class="iletisim-txt2">
+                        <input type="text" placeholder="Soyisim" id="soyisim" name="soyisim" class="iletisim-txt2">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="email" placeholder="Email" class="iletisim-txt">
+                        <input type="email" placeholder="Email" id="email" name="email" class="iletisim-txt">
                     </td>
                     <td>
-                        <input type="tel" id="phone" placeholder="Telefon" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" class="iletisim-txt2">
+                        <input type="tel" id="telefon" placeholder="Telefon" name="telefon" pattern="[0-9]{4}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required title="Lütfen telefon numaranızı 1234-567-89-10 formatında girin" class="iletisim-txt2">
                     </td>
                 </tr>
                 <tr> 
                 <td>
-                    <select name="cars" id="cars" class="iletisim-txt">
-                        <option value="Kategori">yazılım</option>
-                        <option value="saab">maden</option>
-                        <option value="mercedes">inşaat</option>
-                        <option value="audi">tekstil</option>
+                    <select name="kategori" id="kategori" class="iletisim-txt">
+                        <option value="Kategori">Kategori</option>
+                        <option value="maden">maden</option>
+                        <option value="inşaat">inşaat</option>
+                        <option value="tekstil">tekstil</option>
                       </select>
                 </td>
             </tr> 
             
             </table>
         </div>
-            <textarea id="w3review" name="w3review" rows="4" cols="50" class="iletisim-text">
+            <textarea id="yardım" name="yardım" rows="4" cols="50" class="iletisim-text">
                 Size nasıl yardımcı olabiliriz?
             </textarea>
             <img src="iletisim-görsel.png" id="animated-image" class="image">
-            <button class="iletisim-btn animatedButton">Gönder</button>
+            <button class="iletisim-btn animatedButton" type="submit">Gönder</button>
+
+        </form>
             <hr>
         </div>
     </a>
@@ -170,7 +172,7 @@
             <img src="preview-img.svg">
         </div>
 
-        <div class="footer">
+        <div class="footer text-center">
             <img src="Vector4.png">
             <p>Telif Hakkı © 2018 Soliga Endüstriyel Boya - Tüm Hakları Saklıdır.</p>
         </div>
@@ -181,6 +183,8 @@
   <script src="preface-slider.js"></script>
   <script src="content-slider.js"></script>
   <script src="content-img.js"></script>
+  <script src="logo_script.js"></script>
+
 
 </body>
 

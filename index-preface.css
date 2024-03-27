@@ -1,7 +1,7 @@
 
 
 svg {
-  margin-top: -38px;
+  margin-top: 0px;
     max-width: 100%; /* SVG'nin maksimum genişliği belirli bir değeri geçmeyecek */
     max-height: 100%; /* SVG'nin maksimum yüksekliği belirli bir değeri geçmeyecek */
 }
@@ -12,11 +12,16 @@ svg {
   font-style: italic;
   font-weight: 600;
   line-height: 130.076%; 
+  margin-left: 135px;
   position: absolute;
-  left: 135px;
-  top: 230px;
+  top:285px;
+  width: 240px;
+  height: 100px;
+  box-sizing: border-box;
 }
 .p-slogan{
+  box-sizing: border-box;
+
   color: #656060;
 font-family: Jost;
 font-size: 28px;
@@ -24,8 +29,8 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 width: 813px;
-height: 200px;
-position:absolute;
+height: 110px;
+position: absolute;
 left: 135px;
 top: 400px;
 }
