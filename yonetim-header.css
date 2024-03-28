@@ -1,36 +1,48 @@
-.header{
+.header {
   margin: 0 auto;
-      height:350px;
-      width: 100%;
-      border-bottom: 1px solid black ;
-      justify-content: space-evenly;
-  }
-  .logo{
-   margin-top: -2%;
-    margin-left: 10%;
-    position: absolute;
-  }
+  height: 350px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  justify-content: space-evenly;
+}
 
-  .yazilar {
-    font-size: 18pt;
-    font-family: Jost;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 5.4px;
-    text-transform: capitalize;
-    padding-top: 3%;
-  }
-  .yazilar-2{
-    color: #3F3D58;
-font-family: Jost;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 3.6px;
-text-transform: capitalize;
+.logo {
+  margin-top: -2%;
+  margin-left: 10%;
+  position: absolute;
+}
 
-  }
-  .home{
-    
-  }
+.yazilar {
+  font-size: 18pt;
+  font-family: Jost;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5.4px;
+  text-transform: capitalize;
+  padding-top: 3%;
+}
+
+.yazilar-2 {
+  color: #3F3D58;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3.6px;
+  text-transform: capitalize;
+
+}
+
+.home, .person{
+  margin-left: 46%;
+  margin-top: 6%;
+  display: inline-block;
+  position: relative;
+}
+.person {
+  margin: auto;
+  margin-left: 1%;
+  margin-bottom: -6.1%;
+  position: relative;
+}
