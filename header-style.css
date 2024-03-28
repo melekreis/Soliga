@@ -1,55 +1,139 @@
-
   body {
-    margin: 0px;
-    display: block;
+    margin: 0px auto;
   }
+  .sidebar {
+    margin: 0px auto;
+    height: 210px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    }
+    a{
+      text-decoration: none;
+    }
+  .navbar-arka{
+    border: 1px;
+    height: 71px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    }
+  .menu {
+    width: 100%;
+    height: 80px;
+    position: absolute;	
+  }
+  ul{
+    padding: 0px !important;
+  }
+  
+  [class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  nav {
+    margin: auto;
+    width: 90%;
+    min-width: 600px;
+    overflow: hidden;
+    border-radius: 12px;
+  }   
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .flex {
+    flex: 1;
+    background: #fff;
+    padding: 1em;
+    text-align: center;
+    transition: all .2s;
+    font-weight: 500px;
+    font-size: 20px;
+    color:#000;
+    font-family: Jost;
+    letter-spacing: normal !important;
+  } 
+    .flex:hover {
+      background: #1f1f11;
+      cursor: pointer;
+      color:white;
+    }   
+  .fixed {
+    display: inline-flex;
+    background: #1E6B47;
+    transition: all .3s;
+  }
+  .fixed:hover { 
+    width: 30%;
+  }
+
+
+
+
+
+
   .container {
     margin: 0px auto;
     width: 100%;
   }
-  .sidebar {
-    margin: 0px auto;
-    height: 190px;
-    width: 100%;
-    border-bottom: 1px solid black;
+  .sidebar img{
+    margin-top: -70px !important;
+    margin-left: 150px;
+    animation: rotate 1s linear 2 alternate; /* 2 kez çalışacak şekilde ayarlandı */
+    transform-style: preserve-3d; /* 3D dönme efekti için gereklidir */
+    perspective: 1000px; /* 3D dönme efekti için perspektif ekliyoruz */
   }
-  .sidebar img {
-    float: left;
-    height: 300px;
-    width: 300px;
-    margin-left: 70px;
-    position: relative;
-    top: -45px;
+  
+@keyframes rotate {
+  from {
+    transform: rotateY(0deg);
   }
+  to {
+    transform: rotateY(180deg); /* İlk adımda resmi 180 derece döndürüyoruz */
+  }
+}
+
+
+
+
   .p1 {
     color: #d52529;
     font-family: K2D;
-    font-size: 21px;
-    position: relative;
-    top: 60px;
-    left: -40px;
+    font-size: 23px;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 500px;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
   }
   .p3 {
     font-family: K2D;
-    font-size: 21px;
+    font-size: 23px;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
-    position: relative;
-    top: 47px;
-    left: -30px;
     line-height: 10px;
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 520px;
   }
   .p2 {
-    color: #ffa800;
-    position: relative;
-    top: 21.5px;
-    left: 0px;
-    line-height: 0px;
-    line-height: 0px;
+    font-family: K2D;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    line-height: 10px;
+    position: absolute;
+    margin-top: -209.4px;
+    margin-left: 555px;
+    color: #ffa800;        
   }
   .sidebar-btn {
     border: 0px;
@@ -65,65 +149,12 @@
     letter-spacing: 0.18px;
     text-transform: capitalize;
     float: right;
-    margin-top: -33px;
+    margin-top: 80px;
     margin-right: 200px;
   }
   .sidebar-btn a {
     text-decoration: none;
     color: #fff;
-  }
-  .navbar {
-    height: 70px;
-    width: 100%;
-    border-bottom: 1px solid black;
-  }
-  .menu {
-    width: 1200px;
-    height: 70px;
-    position: absolute;
-  }
-  ul {
-    padding: 0px;
-    float: left;
-    margin-left: 150px;
-    margin-top: 5px;
-    list-style: none;
-    font-family: Jost;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: 1px;
-  }
-  ul#main li {
-    margin-left: 15px;
-    float: left;
-    position: relative;
-    width: 200px;
-  }
-  ul#main li ul {
-    padding: 0px;
-    margin: 0px;
-    display: none;
-    position: absolute;
-    left: -20px;
-    top: 60px;
-  }
-  ul li a {
-   
-    display: block;
-    width: 200px;
-    height: 60px;
-    line-height: 60px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-  }
-  ul li a:hover {
-    background-color: rgb(219, 214, 214);
-  }
-  ul#main li:hover ul {
-    display: block;
   }
   .menu-ımlec {
     margin-top: -38px;
@@ -154,8 +185,6 @@
     border-color: #000000;
     box-shadow: #000000;
   }
-  
   .middle-slider{
     display: none;
   }
-
