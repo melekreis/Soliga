@@ -1,6 +1,7 @@
-h1 {
-  margin: auto;
-  margin-top: 30px;
+
+.h1-class {
+  margin: auto ;
+  margin-top: 30px ;
   margin-bottom: 30px;
   color: #000;
   font-family: Jost;
@@ -25,7 +26,7 @@ h1 {
   );
 }
 
-h2 {
+.h2-class {
   color: #fff;
   font-family: Jost;
   font-size: 32px;
@@ -33,7 +34,7 @@ h2 {
   font-weight: 700;
   line-height: normal;
   margin-top: 60px;
-  margin-left: 130px;
+  margin-left: 50px;
 }
 .kariyer-p {
   color: #fff;
@@ -43,13 +44,13 @@ h2 {
   font-weight: 700;
   line-height: normal;
   text-align: left;
-  margin-top: -15px;
+  margin-top: 0px;
   margin-left: 50px;
 }
 .kariyer-img {
   float: right;
-  margin-right: 10%;
-  margin-top: -110px;
+  margin-right: 5.5%;
+  margin-top: -60px;
 }
 .personality {
   position: absolute;
@@ -264,7 +265,18 @@ h2 {
   margin-left: 100px;
 }
 .content-h1 {
-  margin-top: 1400px;
+  margin-top: 1400px !important;
+  margin: auto ;
+  margin-top: 30px ;
+  margin-bottom: 30px;
+  color: #000;
+  font-family: Jost;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 271px;
+  height: 61px;
 }
 .txt1{
 color: #000;
