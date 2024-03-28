@@ -11,6 +11,7 @@
   margin-left: 10%;
   position: absolute;
 }
+
 .yazilar {
   font-size: 18pt;
   font-family: Jost;
@@ -33,12 +34,14 @@
 
 }
 
-.home, .person{
+.home,
+.person {
   margin-left: 46%;
   margin-top: 6%;
   display: inline-block;
   position: relative;
 }
+
 .person {
   margin: auto;
   margin-left: 1%;
