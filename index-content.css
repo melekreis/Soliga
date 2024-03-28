@@ -1,245 +1,242 @@
-
-.content{
-    width: 100%;
-    height: 580px;
-    margin: 0px auto;
-    margin-top: 44px;
-
+.content {
+  width: 100%;
+  height: 580px;
+  margin: 0px auto;
+  margin-top: 44px;
 }
-.content-baslik{
+.content-baslik {
   margin-top: -120px;
-    padding-top:50px;
-    text-align: center;
-    color: #000;
-    font-family: Jost;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  padding-top: 50px;
+  text-align: center;
+  color: #000;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
-.content-baslik2{
-    margin-top: -40px;
-    padding: 0px;
-    text-align: center;
-    color: #FFA800;
-    font-family: Jost;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    position: flex;
+.content-baslik2 {
+  margin-top: -40px;
+  padding: 0px;
+  text-align: center;
+  color: #ffa800;
+  font-family: Jost;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: flex;
 }
 
 .cizgilibaslik {
-    display: flex;
-    flex-direction: row;
-    }
-    .cizgilibaslik:before, .cizgilibaslik:after{
-    content: "";
-    flex: 0.1 0.1;
-    border-bottom: 2px solid #000;
-    margin: auto;
-    }
-    .cizgilibaslik:before {
-    margin-right: 10px;    
-    }
-    .cizgilibaslik:after {
-    margin-left: 10px;
-    }
-    .iletisim-txt{
-        color: #C0B4B4;
-        font-family: Jost;
-        font-size: 16px;
-        font-style: normal;
-        margin-bottom: 10px;
-        margin-left: 420px;
-        border-radius: 10px;
-        border: 1px solid #FFB800;
-        background: #FFF;
-        display: flex;
-        width: 230px;
-        height: 40px;
-        padding: 5px;
-        align-items: center;
-      }
-      .iletisim-txt2{
-        color: #C0B4B4;
-        font-family: Jost;
-        font-size: 16px;
-        font-style: normal;
-        margin-bottom: 10px;
-        margin-left: 20px;
-        border-radius: 10px;
-        border: 1px solid #FFB800;
-        background: #FFF;
-        display: flex;
-        width: 230px;
-        height: 40px;
-        padding: 5px;
-        align-items: center;
-      }
-      .iletisim-text{
-        color: #C0B4B4;
-        font-family: Jost;
-        font-size: 16px;
-        font-style: normal;
-        margin-bottom: 10px;
-        margin-left: 423px;
-        border-radius: 10px;
-        border: 1px solid #FFB800;
-        background: #FFF;
-        display: flex;
-        width: 460px;
-        height: 110px;
-        padding: 5px;
-        align-items: center;
-      }
-      .iletisim-btn{
-        display: flex;
-        width: 145px;
-        height: 40px;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px;
-        background: #FFCB2D;
-        border: 1px #FFCB2D ;
-        color: #000;
-        font-family: Jost;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin-top: 15px;
-        margin-left: 580px;
-      }
-      .animatedButton {
-        cursor: pointer;
-        transition: all 0.3s ease;
-      }
-      .animatedButton:hover {
-        background-color: #c59812;
-      }
-      
-      .image{
-        width: 396px;
-        height: 293px;
-        margin-top: 740px;
-        float: right;
-        margin-right: 330px;
-      }
-      #animated-image {
-        position: absolute;
-        top: 100%; /* İlk olarak sayfanın dışında olsun */
-        right: 0;
-        transition: top 1s ease;
-      }
-      .content hr{
-        margin-top: 70px;
-        width: 90%;
-        height: 0.5px;
-        background-color: #000;
-      }
-        /*SLİDER 2 */
-      .slider-container2 {
-        margin: auto;
-        margin-top: 15px;
-        margin-bottom: 80px;
-        width: 80%;
-        overflow: hidden;
-        height: 550px;
-      }
-      .slider2 {
-        display: flex;
-        transition: transform 0.5s ease;
-      }
-      .slide {
-        min-width: 1400px;
-        flex: 1;
-      }
-      .slide img {
-        height: 550px;
-        width: 1400px;
-      }
-      .preview{
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        text-align: left; /* Metni sola yasla */
-        max-width: 90%; /* Varsayılan genişlik */
-        margin: 0 auto; /* Yatay ortala */
-        text-align: left;
-        margin-top: 350px;
-        margin-bottom: -200px;
-        
-      
-      }
+  display: flex;
+  flex-direction: row;
+}
+.cizgilibaslik:before,
+.cizgilibaslik:after {
+  content: "";
+  flex: 0.1 0.1;
+  border-bottom: 2px solid #000;
+  margin: auto;
+}
+.cizgilibaslik:before {
+  margin-right: 10px;
+}
+.cizgilibaslik:after {
+  margin-left: 10px;
+}
+.iletisim-txt {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 10px;
+  margin-left: 420px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 230px;
+  height: 40px;
+  padding: 5px;
+  align-items: center;
+}
+.iletisim-txt2 {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 230px;
+  height: 40px;
+  padding: 5px;
+  align-items: center;
+}
+.iletisim-text {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 10px;
+  margin-left: 423px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 460px;
+  height: 110px;
+  padding: 5px;
+  align-items: center;
+}
+.iletisim-btn {
+  display: flex;
+  width: 145px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #ffcb2d;
+  border: 1px #ffcb2d;
+  color: #000;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 15px;
+  margin-left: 580px;
+}
+.animatedButton {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.animatedButton:hover {
+  background-color: #c59812;
+}
 
-      @media screen and (max-width: 1300px) {
-        .div-ortala {
-            width: 90%; /* Ekran 600px veya daha küçük olduğunda div genişliği %100 olsun */
-            padding: 10px; /* İstediğiniz padding değeri */
-        }
-        .preview img{
-        display: none;
-        }
-      }
-      .preview p{
-        justify-content: center;
-        max-width: 100%;
-        box-sizing: border-box;
-        color: #534D4D;
-        font-family: Jost;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        height: 500px;
-        width: 826px;
-        margin-left: 100px;
-        padding-top: 120px !important;
-        max-width: 90%;
-      }
-      .preview img{
-        overflow: clip;
-        max-width: 90%; 
-        width: 300px;
-        height: auto; /* Orantılı yükseklik */
-        box-sizing: border-box;
-        margin-right: 200px;
-        margin-left: 1200px;
-        margin-top: -500px;
-        }
-        .footer{
-          width: 100%;
-          height: 250px;
-          background-color: #1A1A1A;
-          }
-          .footer img{
-          height: 200px;
-          width: 290px;
-          }
-          .footer p{
-          text-align: center;
-          color: #FFF;
-          font-family: Inter;
-          font-size: 16px;
-          font-style: italic;
-          font-weight: 600;
-          line-height: normal;   
-          flex-shrink: 0;
-          margin: auto;
-        }
+.image {
+  width: 396px;
+  height: 293px;
+  margin-top: 740px;
+  float: right;
+  margin-right: 330px;
+}
+#animated-image {
+  position: absolute;
+  top: 100%; /* İlk olarak sayfanın dışında olsun */
+  right: 0;
+  transition: top 1s ease;
+}
+.content hr {
+  margin-top: 70px;
+  width: 90%;
+  height: 0.5px;
+  background-color: #000;
+}
+/*SLİDER 2 */
+.slider-container2 {
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 80px;
+  width: 80%;
+  overflow: hidden;
+  height: 550px;
+}
+.slider2 {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.slide {
+  min-width: 1400px;
+  flex: 1;
+}
+.slide img {
+  height: 550px;
+  width: 1400px;
+}
+.preview {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left; /* Metni sola yasla */
+  max-width: 90%; /* Varsayılan genişlik */
+  margin: 0 auto; /* Yatay ortala */
+  text-align: left;
+  margin-top: 350px;
+  margin-bottom: -200px;
+}
 
-    input[type="text"]:focus {
-      outline: none;
-      border-color: #000000;
-      box-shadow: 0 0 5px #000000;
+@media screen and (max-width: 1300px) {
+  .div-ortala {
+    width: 90%; /* Ekran 600px veya daha küçük olduğunda div genişliği %100 olsun */
+    padding: 10px; /* İstediğiniz padding değeri */
   }
-  input[type="email"]:focus {
-    outline: none;
-    border-color: #000000;
-    box-shadow: 0 0 5px #000000;
+  .preview img {
+    display: none;
+  }
+}
+.preview p {
+  justify-content: center;
+  max-width: 100%;
+  box-sizing: border-box;
+  color: #534d4d;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  height: 500px;
+  width: 826px;
+  margin-left: 100px;
+  padding-top: 120px !important;
+  max-width: 90%;
+}
+.preview img {
+  overflow: clip;
+  max-width: 90%;
+  width: 300px;
+  height: auto; /* Orantılı yükseklik */
+  box-sizing: border-box;
+  margin-right: 200px;
+  margin-left: 1200px;
+  margin-top: -500px;
+}
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: #1a1a1a;
+}
+.footer img {
+  height: 200px;
+  width: 290px;
+}
+.footer p {
+  text-align: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 5px #000000;
+}
+input[type="email"]:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 5px #000000;
 }
 input[type="tel"]:focus {
   outline: none;
@@ -262,23 +259,23 @@ textarea:focus {
   box-shadow: 0 0 5px #000000;
 }
 ::placeholder {
-  color: #C0B4B4;
+  color: #c0b4b4;
   font-family: Jost;
 }
 input[type="text"] {
   color: black; /* İçeriğin siyah olması */
 }
 input[type="tel"] {
-  color: black; 
+  color: black;
 }
 input[type="email"] {
-  color: black; 
+  color: black;
 }
 input[type="select"] {
-  color: black; 
+  color: black;
 }
-textarea{
-  color: black; 
+textarea {
+  color: black;
 }
 input[type="text"] {
   color: black; /* İçeriğin siyah olması */
@@ -290,9 +287,9 @@ input[type="tel"] {
 }
 input[type="email"] {
   color: black; /* İçeriğin siyah olması */
-  transition: transform 0.s ease; /* Büyüme animasyonu için geçiş efekti */
+  transition: transform 0s ease; /* Büyüme animasyonu için geçiş efekti */
 }
-select{
+select {
   color: black; /* İçeriğin siyah olması */
   transition: transform 0.1s ease; /* Büyüme animasyonu için geçiş efekti */
 }
@@ -312,10 +309,6 @@ input[type="email"]:focus {
 select:focus {
   transform: scale(1.1); /* Büyüme animasyonu */
 }
-textarea:focus{
+textarea:focus {
   transform: scale(1.1); /* Büyüme animasyonu */
 }
-
-
-
-

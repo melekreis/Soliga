@@ -9,7 +9,7 @@
     box-sizing: border-box;
     }
     a{
-      text-decoration: none;
+      text-decoration: none !important;
     }
   .navbar-arka{
     border: 1px;
@@ -80,6 +80,7 @@
   .container {
     margin: 0px auto;
     width: 100%;
+    align-items: center;
   }
   .sidebar img{
     margin-top: -70px !important;
