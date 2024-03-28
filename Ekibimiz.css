@@ -1,152 +1,152 @@
-form{
-    width: 300px;
-    margin-left: 50px;
-    font-family: Jost;
-    font-weight: 500;
-    margin-top: 60px;
-    margin-left: 100px;
+form {
+  width: 300px;
+  margin-left: 50px;
+  font-family: Jost;
+  font-weight: 500;
+  margin-top: 60px;
+  margin-left: 100px;
 }
-    .form-item {
-      padding: 5px 0;
-      color: #353333;
-      input[type="checkbox"] {
-        display: none;
-        &+label {
-          position: relative;
-          padding: 7px 10px;
-          border: 1px solid #e4e4e4;
-          border-radius: 4px;
-          height: 40px;
-          box-sizing: border-box;
-          display: flex;
-          align-items: center;
-          background-color: rgba(228, 228, 228, 0.1);
-          background-size: 16px;
-          background-repeat: no-repeat;
-          background-position: center left 10px;
-          transition: .1s;
-        }
-        &:checked {
-          &+label {
-            padding-left: 36px;
-            border-color: rgba(213, 37, 41, 0.74);
-            background-color: rgba(213, 37, 41, 0.74);
-            background-image: url("https://image.flaticon.com/icons/svg/1632/1632596.svg");
-          }
-        }
+.form-item {
+  padding: 5px 0;
+  color: #353333;
+  input[type="checkbox"] {
+    display: none;
+    & + label {
+      position: relative;
+      padding: 7px 10px;
+      border: 1px solid #e4e4e4;
+      border-radius: 4px;
+      height: 40px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      background-color: rgba(228, 228, 228, 0.1);
+      background-size: 16px;
+      background-repeat: no-repeat;
+      background-position: center left 10px;
+      transition: 0.1s;
+    }
+    &:checked {
+      & + label {
+        padding-left: 36px;
+        border-color: rgba(255, 153, 0, 0.74);
+        background-color: rgba(255, 153, 0, 0.74);
+        background-image: url("https://image.flaticon.com/icons/svg/1632/1632596.svg");
       }
+    }
   }
-
-  .checkbox-label {
-    display: inline-block;
-    padding: 8px 12px;
-    border: 1px solid #ccc;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  input[type="checkbox"]:checked + .checkbox-label {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  input[type="checkbox"]:checked + .checkbox-label::before {
-    content: '\2713';
-  }
-  
-  .checkbox-label:hover {
-    background-color: #f0f0f0;
-  }
-  #ekibimiz{
-    color: #000;
-font-family: Jost;
-font-size: 36px;
-font-style: normal;
-font-weight: 300;
-line-height: 144.585%; /* 52.051px */
-text-align: center;
-margin-top: 50px !important;
-  }
-  .ekibimiz-img{
-    width: 260px;
-height: 175px;
-flex-shrink: 0;
-float: right;
-margin-top: -60px;
-margin-right: 240px;
-  }
-  .card-container{
-    margin: auto;
-    margin-top: -400px;
-    width: 50%;
-    height: 700px;
-    border-color: bisque;
-
-  }
-  .card-img-top{
-  border-radius: var(--h, 131px);
-background: url(<path-to-image>) lightgray 50% / cover no-repeat, #D9D9D9;
-width: 131px;
-height: 129px;
-flex-shrink: 0;
-margin-top: 15px;
-  }
-  .card{
-text-align: center;
-border-radius: 8px;
-background: rgba(14, 13, 13, 0.84);
-width: 200px !important;
-height: 270px !important;
-flex-shrink: 0;
-margin-left: 22px;
-margin-bottom: 22px;
-display: inline-block;
-transition: transform 0.3s ease-in-out;
-  }
-  .card:hover {
-    transform: scale(1.1);
-  }
-  .card-2{
-    border-radius: 8px;
-    background: rgba(14, 13, 13, 0.84);
-width: 200px !important;
-height: 270px !important;
-flex-shrink: 0;
-margin-left: 20px;
-  }
-  .card-title{
-color: #F8EEEE;
-font-family: Jost;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 10%; /* 23.134px */
-  }
-.card-text{
-color: #F90;
-text-align: center;
-font-family: Jost;
-font-size: 19px;
-font-style: normal;
-font-weight: 300;
-line-height: 144.585%;
 }
-a{
+
+.checkbox-label {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="checkbox"]:checked + .checkbox-label {
+  background-color: #007bff;
+  color: #fff;
+}
+
+input[type="checkbox"]:checked + .checkbox-label::before {
+  content: "\2713";
+}
+
+.checkbox-label:hover {
+  background-color: #f0f0f0;
+}
+#ekibimiz {
+  color: #000;
+  font-family: Jost;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 144.585%; /* 52.051px */
+  text-align: center;
+  margin-top: 50px !important;
+}
+.ekibimiz-img {
+  width: 260px;
+  height: 175px;
+  flex-shrink: 0;
+  float: right;
+  margin-top: -60px;
+  margin-right: 240px;
+}
+.card-container {
+  margin: 0px auto;
+  margin-left: 25%;
+  margin-top: -25%;
+  width: 70%;
+  height: 700px;
+  border-color: bisque;
+
+}
+.card-img-top {
+  border-radius: var(--h, 131px);
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat, #d9d9d9;
+  width: 131px;
+  height: 129px;
+  flex-shrink: 0;
+  margin-top: 15px;
+}
+.card {
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(14, 13, 13, 0.84);
+  width: 200px !important;
+  height: 270px !important;
+  flex-shrink: 0;
+  margin-left: 22px;
+  margin-bottom: 22px;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card-2 {
+  border-radius: 8px;
+  background: rgba(14, 13, 13, 0.84);
+  width: 200px !important;
+  height: 270px !important;
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+.card-title {
+  color: #f8eeee;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10%; /* 23.134px */
+}
+.card-text {
+  color: #f90;
+  text-align: center;
+  font-family: Jost;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 144.585%;
+}
+a {
   text-decoration: none;
 }
-.content{ 
-  position:absolute;
+.content {
+  position: absolute;
   margin-left: 25%;
   height: 500px;
   width: 60%;
-  border-left:1px solid gray;
-  border-right:1px solid gray;
-  
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
 }
-.previous-button{
-  border: none ;
+.previous-button {
+  border: none;
   border-radius: 15px;
-  background-color: #F90;
+  background-color: #f90;
   width: 130px;
   height: 40px;
   color: white;
@@ -160,11 +160,12 @@ a{
   text-decoration: none;
   display: inline-block;
   margin-top: 26px;
+  border:1px solid gray;
 }
-.previous-button-2{
+.previous-button-2 {
   width: 130px;
   height: 40px;
-  margin-left: 120px;
+  margin-left: 160px;
 }
 .previous-button:hover {
   background-color: rgb(243, 166, 51); /* Koyu Yeşil */
@@ -173,97 +174,93 @@ a{
 .previous-button:active {
   background-color: rgb(243, 166, 51); /* Daha koyu yeşil */
 }
-h2{
+h2 {
   margin-left: 10px;
   font-family: Jost;
-  color:rgba(213, 37, 41, 0.74);
+  color: rgba(255, 153, 0, 0.74) !important;
   display: inline-block;
-
 }
-.title{
-  color:#292727;
+.title {
+  color: #292727;
   font-family: Jost;
-  font-weight:700;
+  font-weight: 700;
   display: inline-block;
   letter-spacing: 0;
-margin-left: 27px;
-font-size: 20px;
-
+  margin-left: 27px;
+  font-size: 20px;
 }
-.cv-img{
+.cv-img {
   width: 35%;
   height: 45%;
   margin-left: 1%;
   float: left;
   margin-right: 20px;
 }
-.cv-img-2{
+.cv-img-2 {
   width: 100%;
   height: 100%;
 }
-.satirbasi{
+.satirbasi {
   font-size: 18px;
   font-family: Jost;
-  color:black;
+  color: black;
 }
-.txt{
+.txt {
   font-size: 18px;
-  color:#8d8585;
+  color: #8d8585;
   margin-top: -17px;
 }
-.title-2{
-  color:#292727;
+.title-2 {
+  color: #292727;
   font-family: Jost;
-  font-weight:700;
+  font-weight: 700;
   display: inline-block;
   letter-spacing: 0;
-margin-left: 0px;
-margin-top:0px ;
-font-size: 20px;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-size: 20px;
 }
-.title-3{
-  color:#292727;
+.title-3 {
+  color: #292727;
   font-family: Jost;
-  font-weight:700;
+  font-weight: 700;
   display: inline-block;
   letter-spacing: 0;
-margin-left: 37.5%;
-margin-top:-5px ;
-font-size: 20px;
+  margin-left: 37.5%;
+  margin-top: -5px;
+  font-size: 20px;
 }
-.ul{
+.ul {
   margin-left: 37.5%;
   margin-top: -10px;
 }
-.txt-2{
+.txt-2 {
   margin-left: 39%;
   font-size: 18px;
-  color:#8d8585;
+  color: #8d8585;
   margin-top: -17px;
 }
-.content-hr{
+.content-hr {
   width: 90%;
 }
-.footer{
+.footer {
   margin-top: 150px;
   width: 100%;
   height: 250px;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
 }
-.footer img{
+.footer img {
   height: 200px;
   width: 290px;
   margin-left: 42%;
 }
-.footer p{
+.footer p {
   text-align: center;
-  color: #FFF;
+  color: #fff;
   font-family: Inter;
   font-size: 16px;
   font-style: italic;
   font-weight: 600;
-  line-height: normal;   
+  line-height: normal;
   flex-shrink: 0;
-
 }
-

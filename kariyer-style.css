@@ -1,4 +1,3 @@
-
 .h1-class {
   margin: auto ;
   margin-top: 30px ;
@@ -13,6 +12,8 @@
   height: 61px;
 }
 .content {
+  overflow-x: auto;
+  white-space: nowrap;
   display: block;
   position: absolute;
   margin-left: 7.5%;
@@ -278,6 +279,13 @@
   width: 271px;
   height: 61px;
 }
+.txt-box{
+justify-content: start;
+  width: 40%;
+  box-sizing: border-box;
+margin-left:650px;
+
+}
 .txt1{
 color: #000;
 font-family: Jost;
@@ -286,9 +294,6 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 text-align: left;
-width: 789px;
-height: 100px;
-margin: auto 0px 0px 650px;
 margin-top: -240px;
 }
 .txt2{
@@ -299,9 +304,6 @@ margin-top: -240px;
   font-weight: 300;
   line-height: normal;
   text-align: left;
-  width: 789px;
-  height: 100px;
-  margin: auto 0px 0px 650px; 
   margin-top: 10px;
   }
   .nedenbiz-img{
@@ -348,4 +350,80 @@ textarea {
 input[type="date"] {
   color: black; /* İçeriğin siyah olması */
   /* Diğer stillendirme özellikleri */
+}
+@media screen and (max-width: 1170px) {
+
+  .nedenbiz-img{
+    display: none;
+  }
+  .txt-box{
+    justify-content: start;
+      width: 60%;
+      box-sizing: border-box;
+    margin-left:650px; 
+    margin-left: 0px !important;
+    margin-left: 20% !important;
+    }
+    .txt1{
+    color: #000;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: left;
+    margin-top: 0;
+    }
+    .txt2{
+      color: #000;
+      font-family: Jost;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      text-align: left;
+      margin-top: 10px;
+      }
+      .kariyer-img{
+        display: none;
+      }
+      .iletisim-txt {
+        margin-left: 150px !important;
+      }
+      .iletisim-txt2 {
+        margin-left: 20px !important;
+      }
+      .iletisim-txt-area {
+        margin-left: 150px !important;
+      }
+      .iletisim-date {
+        margin-left: 150px !important;
+      }
+      .education-area {
+        margin-left: 20px !important;
+
+      }
+      .education-area2 {
+        margin-left: 150px !important;
+      }
+      .experience-area {
+        margin-left: 150px !important;
+
+      }
+      .message-area {
+        margin-left: 150px !important;
+
+      }
+      .personality p {
+        margin-left: 150px !important;
+      }
+      .experience p{
+        margin-left: 150px !important;
+      }
+      .education p{
+        margin-left: 150px !important;
+      }
+      .message p{
+        margin-left: 150px !important;
+      }
 }

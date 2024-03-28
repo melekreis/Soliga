@@ -5,7 +5,7 @@
   margin-top: 44px;
 }
 .content-baslik {
-  margin-top: -120px;
+  margin-top: -110px;
   padding-top: 50px;
   text-align: center;
   color: #000;
@@ -16,7 +16,7 @@
   line-height: normal;
 }
 .content-baslik2 {
-  margin-top: -40px;
+  margin-top: -20px;
   padding: 0px;
   text-align: center;
   color: #ffa800;
@@ -27,7 +27,6 @@
   line-height: normal;
   position: flex;
 }
-
 .cizgilibaslik {
   display: flex;
   flex-direction: row;
@@ -182,7 +181,7 @@
   }
 }
 .preview p {
-  justify-content: center;
+  justify-content: start;
   max-width: 100%;
   box-sizing: border-box;
   color: #534d4d;

@@ -189,3 +189,47 @@
   .middle-slider{
     display: none;
   }
+
+  @media screen and (max-width: 1170px) {
+
+    .sidebar-btn{
+      margin: 0px !important;
+      margin-top: 8% !important;
+      margin-right: 2% !important;
+      float: right !important;   
+    }
+    .sidebar img{
+      margin-left:0 !important;
+      float: left !important;
+    }
+    /* Animasyon */
+    .sidebar-btn, .sidebar img {
+      transition: margin 0.5s ease, float 0.5s ease;
+    }
+  
+    .sidebar-btn {
+      animation: slideRight 0.5s forwards;
+    }
+  
+    .sidebar img {
+      animation: slideLeft 0.10s forwards;
+    }
+  
+    @keyframes slideRight {
+      from {
+        margin-right: 0;
+      }
+      to {
+        margin-right: 2%;
+      }
+    }
+  
+    @keyframes slideLeft {
+      from {
+        margin-left: 0;
+      }
+      to {
+        margin-left: 0;
+      }
+  }
+  }
