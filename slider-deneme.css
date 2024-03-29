@@ -1,20 +1,63 @@
-.slider-container {
-    width: 100%;
-    overflow: hidden;
-    height: 600px;
-  }
-  
-  .slider {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  
-  .slide {
-    min-width: 100%;
-    flex: 1;
-  }
-  .slide img {
-    height: 600px;
-    width: 100%;
-  }
-  
+.slider_container {
+  position: absolute !important;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 165px;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  flex: 0 0 250px !important; /* Kart genişliğini 250px olarak sabit tutar */
+  height: 360px !important;
+  margin-right: 100px ; /* Kartlar arasındaki boşluk */
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 15px !important;
+}
+.card img{
+  width: 180px;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 20px !important;
+}
+.hidden {
+  display: none;
+}
+
+button {
+  margin-top: 100px !important;
+}
+.text-center{
+  color: rgba(13, 31, 58, 0.65);
+  font-family: Jost;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 12px;
+}
+.card-p{
+  color: rgba(101, 96, 96, 0.75) !important;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+
+}
+.card hr{
+width: 80%;
+margin-top: -10px;
+}
+.full-screen-svg{
+width:2114px !important;
+height: 900px;
+margin-bottom: 200px;
+}

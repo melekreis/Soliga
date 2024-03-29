@@ -85,6 +85,39 @@
   padding: 5px;
   align-items: center;
 }
+.iletisim-txt-tabledısı {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 30px;
+  margin-left: 780px;
+  margin-top: -143.5px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 230px;
+  height: 40px;
+  padding: 5px;
+  align-items: center;
+}
+.iletisim-txt2-tabledısı {
+  color: #c0b4b4;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 30px;
+  margin-left: 780px;
+  border-radius: 10px;
+  border: 1px solid #ffb800;
+  background: #fff;
+  display: flex;
+  width: 230px;
+  height: 40px;
+  padding: 5px;
+  align-items: center;
+}
 .iletisim-txt2 {
   color: #c0b4b4;
   font-family: Jost;
@@ -262,8 +295,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: 15px;
-  margin-left: 100px;
+  margin-top: -55px;
+  margin-left: 1050px;
 }
 .content-h1 {
   margin-top: 1400px !important;
@@ -310,26 +343,25 @@ margin-top: -240px;
     margin-left: 145px;
     margin-bottom: -45;  
   }
-  .footer{
-    margin-top: 70px;
+  .footer {
     width: 100%;
     height: 250px;
-    background-color: #1A1A1A;
+    background-color: #1a1a1a;
   }
-  .footer img{
+  .footer img {
     height: 200px;
     width: 290px;
-    margin-left: 42%;
   }
-  .footer p{
+  .footer p {
     text-align: center;
-    color: #FFF;
+    color: #fff;
     font-family: Inter;
     font-size: 16px;
     font-style: italic;
     font-weight: 600;
-    line-height: normal;   
+    line-height: normal;
     flex-shrink: 0;
+    margin: auto;
   }
   input[type="text"] {
     color: black; /* İçeriğin siyah olması */
@@ -388,42 +420,104 @@ input[type="date"] {
         display: none;
       }
       .iletisim-txt {
-        margin-left: 150px !important;
+        margin-left: 50px !important;
       }
       .iletisim-txt2 {
         margin-left: 20px !important;
       }
       .iletisim-txt-area {
-        margin-left: 150px !important;
+        margin-left: 50px !important;
+        width: 400px !important;
       }
       .iletisim-date {
-        margin-left: 150px !important;
+        margin-left: 50px !important;
       }
       .education-area {
         margin-left: 20px !important;
 
       }
       .education-area2 {
-        margin-left: 150px !important;
+        margin-left: 50px !important;
       }
       .experience-area {
-        margin-left: 150px !important;
-
+        margin-left: 50px !important;
+        width: 950px !important;
       }
       .message-area {
-        margin-left: 150px !important;
+        margin-left: 50px !important;
 
       }
       .personality p {
-        margin-left: 150px !important;
+        margin-left: 50px !important;
       }
       .experience p{
-        margin-left: 150px !important;
+        margin-left: 50px !important;
       }
       .education p{
-        margin-left: 150px !important;
+        margin-left: 50px !important;
       }
       .message p{
-        margin-left: 150px !important;
+        margin-left: 50px !important;
       }
+}
+
+@media screen and (max-width: 1600px) {
+  .iletisim-txt-tabledısı{
+    margin-left: 50px !important;
+    margin-top: -5px !important;
+  }
+  .iletisim-txt2-tabledısı{
+    margin-left: 304px !important;
+    margin-top: -70px !important;
+  }
+.message-btn {
+  margin-left: 50 !important;
+  margin-top: 20px !important;
+}
+.kariyer-img{
+  display: none;
+}
+.iletisim-txt {
+  margin-left: 50px !important;
+}
+.iletisim-txt2 {
+  margin-left: 20px !important;
+}
+.iletisim-txt-area {
+  margin-left: 50px !important;
+}
+.iletisim-date {
+  margin-left: 50px !important;
+}
+.education-area {
+  margin-left: 20px !important;
+  width: 400px !important;
+
+}
+.education-area2 {
+  margin-left: 50px !important;
+}
+.experience-area {
+  margin-left: 50px !important;
+  width: 930px !important;
+
+}
+.message-area {
+  margin-left: 50px !important;
+
+}
+.personality p {
+  margin-left: 50px !important;
+}
+.experience p{
+  margin-left: 50px !important;
+  
+}
+.education p{
+  margin-left: 50px !important;
+  margin-top: 60px !important;
+}
+.message p{
+  margin-left: 50px !important;
+}
 }

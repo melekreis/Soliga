@@ -4,7 +4,7 @@ svg {
   margin-top: 0px;
     max-width: 100%; /* SVG'nin maksimum genişliği belirli bir değeri geçmeyecek */
     max-height: 100%; /* SVG'nin maksimum yüksekliği belirli bir değeri geçmeyecek */
-
+  margin-top: -690px;
 }
 .P-baslık{
   color: #000;
@@ -15,7 +15,7 @@ svg {
   line-height: 130.076%; 
   margin-left: 135px;
   position: absolute;
-  top:280px;
+  top:320px;
   width: 240px;
   height: 100px;
   box-sizing: border-box;
@@ -33,75 +33,45 @@ width: 813px;
 height: 110px;
 position: absolute;
 left: 135px;
-top: 400px;
+top: 450px;
 }
-.preface-slider{
+.slider_container {
+  position: absolute !important;
   width: 100%;
-  height: 390px;
-  position: absolute;
-  margin-top: 20%;
-  }
+  overflow: hidden;
+  padding-top: 490px !important;
+}
 
-      /*SLİDER  CSS */
-      .slider-container {
-        position: absolute;
-        width: 100%;
-        overflow: hidden;
-      } 
- 
-      .slider {
-        display:inline-flex;
-        transition: transform 0.5s ease;
-      }
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
 
-   
-    #next-button {
-      position: absolute;
-      top: 340px;
-      right: 10px;
-      transform: translateY(-50%);
-      z-index: 1; /* Divlerin üzerinde olmasını sağlar */
-  }    
-            /*SLİDER  CSS */
+.card {
+  flex: 0 0 250px !important; /* Kart genişliğini 250px olarak sabit tutar */
+  height: 360px !important;
+  margin-right: 100px ; /* Kartlar arasındaki boşluk */
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 15px !important;
+}
+.card img{
+  width: 180px;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 20px !important;
+}
+.hidden {
+  display: none;
+}
 
-  .slider-box1{
-    border-radius: 15px;
-    background-color: white;
-    width: 250px;
-    height: 360px;
-    position: relative;
-    margin-top: 15px;
-    margin-left: 100px;
-    float: left;
-  }
-  .slider-box2{
-    border-radius: 15px;
-    background-color: white;
-    width: 250px;
-    height: 360px;
-    position: relative;
-    margin-top: 15px;
-    margin-left: 100px;
-    float: left;
-  }
-  .slider-box2 img{
-    border-radius: 10px;
-      width: 180px;
-      height: 200px;
-      display: block;
-      margin: auto;
-      margin-top: 25px;
-    }
-    .slider-box1 img{
-      border-radius: 10px;
-        width: 180px;
-        height: 200px;
-        display: block;
-        margin: auto;
-        margin-top: 25px;
-
-      }
-  .slider-box2 p{
+button {
+  margin-top: 100px !important;
+}
+.text-center{
   color: rgba(13, 31, 58, 0.65);
   font-family: Jost;
   font-size: 28px;
@@ -109,41 +79,59 @@ top: 400px;
   font-weight: 500;
   text-align: center;
   margin-top: 12px;
-  }
-  .slider-box1 p{
-  color: rgba(13, 31, 58, 0.65);
-  font-family: Jost;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-  text-align: center;
-  margin-top: 12px;
-  }
-  .slider-box2 hr{
-  width: 180px;  
-  margin-top: -15px;
-  }
-  .slider-box1 hr{
-  width: 180px;  
-  margin-top: -15px;
-    }
- .box-p{
-  color: rgba(101, 96, 96, 0.75);
+}
+.card-p{
+  color: rgba(101, 96, 96, 0.75) !important;
   font-family: Jost;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   text-align: center;
-  margin-top: 4px;
-    }
+
+}
+.card hr{
+width: 80%;
+margin-top: -10px;
+}
+.full-screen-svg{
+width:2114px !important;
+height: 900px;
+margin-bottom: 200px;
+}
+button {
+  margin-top: 100px !important;
+}
+.text-center{
+  color: rgba(13, 31, 58, 0.65);
+  font-family: Jost;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 12px;
+}
+.card-p{
+  color: rgba(101, 96, 96, 0.75) !important;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+
+}
+.card hr{
+width: 80%;
+margin-top: -10px;
+}
 button#next-button{
   border: 0px;
   background-color:#FFA800;
   opacity:1;
-  margin-left: 1780px;
-  margin-right: 20px;
-  margin-top: -150px;
+  margin-left: 1990px !important;
+  margin-top: -450px !important;
   border-radius: 60px;
   padding:0px;
+  z-index: 1 !important;
+  position: absolute;
 }
 
