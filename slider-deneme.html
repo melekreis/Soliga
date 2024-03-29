@@ -1,25 +1,160 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Image Slider</title>
-<link rel="stylesheet" href="slider-deneme.css">
-</head>
-<body>
+<html>
+  <head>   
+    <title>Soliga Mühendislik ve Danışmanlık</title>
+    <link rel="icon" href="logo-google.png">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="slider-deneme.css">
     
-<div class="slider-container">
-  <div class="slider">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <div class="slide"><img src="sliderdenemegorsel - Kopya.jpeg" alt="Image 1"></div>
-    <div class="slide"><img src="sliderdenemegorsel - Kopya.jpeg" alt="Image 1"></div>
+<link rel="stylesheet" type="text/css" href="header-style.css">
+<link rel="stylesheet" type="text/css" href="index-content.css">
+<link rel="stylesheet" type="text/css" href="index-preface.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <div class="container-xs">
 
-    <div class="slide"><img src="sliderdenemegorsel - Kopya.jpeg" alt="Image 1"></div>
 
-    <div class="slide"><img src="sliderdenemegorsel - Kopya.jpeg" alt="Image 1"></div>
-  </div>
+    
+      <div class="sidebar">
+          <button class="sidebar-btn"> <a href="#iletisim">Biz Size Ulaşalım</a> </button> 
+          <div class="left-center">
+             <a href="index.html"> <img src="transparan logo.svg" height="380px"  class="rounded" alt="Soliga" id="rotatingImage"></a> 
+            </div>
   
-</div>
-<script src="content-slider.js"></script>
-</body>
+          <p class="p1">mühendislik<br> </p> <p class="p3">ve</p> <p class=" p2">danışmanlık </p>
+          
+         
+      </div>
+      <div class="navbar-arka">
+          <div class="menu"> 
+            <ul id="main">
+              <nav>
+                <ul>
+                  <a href="index.html" class="flex">  <li >Anasayfa</li></a>
+                 <a href="ekibimiz.html" class="flex"><li>Kurumsal-Ekibimiz</li> </a>
+                 <a href="hizmetlerimiz.html" class="flex"> <li>Hizmetlerimiz</li></a>
+                <a href="kariyer.html" class="flex"> <li>Kariyer-İşe alım</li></a> 
+                  </li>
+                </ul>
+              </nav>
+          </div>        
+        </div>
+
+
+
+
+  
+
+
+    <div class="slider_container">
+      <div class="slider">
+
+        <div class="card">
+          <img src="kimya.jpg" alt="Image 1">
+          <p class="text-center">Kimya</p>
+          <hr>
+          <p class="text-center card-p">process</p>
+        </div>
+
+        <div class="card"> <img src="kimya.jpg" alt="Image 1"> <p class="text-center">Kimya</p> <hr><p class="text-center card-p">process</p></div>
+        <div class="card"> <img src="tekstil.jpg" alt="Image 1"><p class="text-center">Tekstil</p><hr><p class="text-center card-p">process</p></div>
+        <div class="card"> <img src="maden.jpg" alt="Image 1"><p class="text-center">Maden</p> <hr><p class="text-center card-p">process</p></div>
+        <div class="card"> <img src="inşaat.jpg" alt="Image 1"><p class="text-center">İnşaat</p> <hr><p class="text-center card-p">process</p></div>
+        <div class="card"> <img src="kimya.jpg" alt="Image 1"> <p class="text-center">Kimya</p><hr><p class="text-center card-p">process</p></div>
+        <div class="card"> <img src="bilişim.jpg" alt="Image 1"> <p class="text-center">Bilişim</p><hr><p class="text-center card-p">process</p></div>
+        <div class="card"> <img src="tekstil.jpg" alt="Image 1"> <p class="text-center">Tekstil</p><hr><p class="text-center card-p">process</p></div>
+        <div class="card"> <img src="maden.jpg" alt="Image 1"><p class="text-center">Maden</p><hr><p class="text-center card-p">process</p> </div>
+
+      </div>
+    </div>
+
+    <!-- SVG Kodları -->
+
+<img src="SVG.png" class="full-screen-svg">
+    
+    
+<button id="next-button">Next</button>
+
+
+
+    </div>
+<script>
+
+
+
+
+const slider = document.querySelector('.slider');
+const cards = document.querySelectorAll('.card');
+const cardWidth = cards[0].offsetWidth + parseInt(getComputedStyle(cards[0]).marginRight);
+let counter = 0;
+
+// Slider'ı kaydıran fonksiyon
+function slide() {
+  counter++;
+  const offset = -counter * cardWidth;
+  slider.style.transform = `translateX(${offset}px)`;
+
+  // Slider'ın sonuna ulaşıldığında başa dön
+  if (counter === slider.childElementCount - 1) {
+    setTimeout(() => {
+      slider.style.transition = 'none';
+      slider.style.transform = 'translateX(0)';
+      counter = 0;
+      setTimeout(() => {
+        slider.style.transition = '';
+      });
+    }, 500); // Slider sonuna ulaştıktan sonra bir süre bekleyip başa dön
+  }
+}
+
+// Otomatik olarak slider'ı kaydır
+setInterval(slide, 4000); // Her 3 saniyede bir kaydır
+
+// İleri butonuna tıklandığında slider'ı bir sonraki pozisyona kaydıran fonksiyon
+document.querySelector('.next').addEventListener('click', function() {
+  slide();
+});
+
+// Ekran boyutu değiştikçe slider güncellemesi
+window.addEventListener('resize', function() {
+  const visibleCards = Math.floor(document.querySelector('.slider-container').offsetWidth / cardWidth);
+  for (let i = 0; i < cards.length; i++) {
+    if (i < counter || i >= counter + visibleCards) {
+      cards[i].classList.add('hidden');
+    } else {
+      cards[i].classList.remove('hidden');
+    }
+  }
+});
+
+// Slider'ın sonunda başa dön
+slider.addEventListener('transitionend', function() {
+  if (counter === slider.childElementCount - 1) {
+    slider.style.transition = 'none';
+    slider.style.transform = 'translateX(0)';
+    counter = 0;
+    setTimeout(() => {
+      slider.style.transition = '';
+    });
+  }
+});
+
+
+
+
+
+  </script>
+  </body>
 </html>

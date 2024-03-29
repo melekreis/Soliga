@@ -16,6 +16,7 @@
     height: 71px;
     width: 100%;
     border-bottom: 1px solid black;
+   
     }
   .menu {
     width: 100%;
@@ -35,10 +36,10 @@
   }
   nav {
     margin: auto;
-    width: 90%;
+    width: 100%;
     min-width: 600px;
     overflow: hidden;
-    border-radius: 12px;
+
   }   
   ul {
     display: flex;
@@ -62,6 +63,7 @@
       background: #1f1f11;
       cursor: pointer;
       color:white;
+
     }   
   .fixed {
     display: inline-flex;
