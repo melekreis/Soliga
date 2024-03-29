@@ -10,7 +10,7 @@
     width: 100%;
     opacity: 0.5;
 }
-.preface-text{
+.text-center{
     position: absolute;
     padding: 0px;
     margin: 0px;
@@ -23,7 +23,10 @@
     text-align: center;
     margin-top: -470px;
     margin-left: 800px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 .content{
     display: flex;
     margin: 0px auto;
@@ -33,6 +36,13 @@
     background: linear-gradient(129deg, rgba(152, 167, 153, 0.87) 1.01%, rgba(47, 46, 65, 0.87) 112.29%);
     margin-bottom: 40px;
     justify-content: space-evenly;
+}
+.row1, .row2{
+  overflow: hidden;
+  white-space:  nowrap;
+}
+.hidden{
+  display: none;
 }
 .row1{
         width: 100%;
@@ -112,3 +122,4 @@
     line-height: normal;   
     flex-shrink: 0;
   }
+  
