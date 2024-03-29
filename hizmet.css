@@ -102,29 +102,7 @@
     text-align: center;
     margin-top: 8px;
 }
-<<<<<<< HEAD
-.footer{
-    width: 100%;
-    height: 250px;
-    background-color: #1A1A1A;
-  }
-  .footer img{
-    height: 200px;
-    width: 290px;
-    margin-left: 42%;
-  }
-  .footer p{
-    text-align: center;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 600;
-    line-height: normal;   
-    flex-shrink: 0;
-  }
-  
-=======
+
 .footer {
   width: 100%;
   height: 250px;
@@ -145,4 +123,3 @@
   flex-shrink: 0;
   margin: auto;
 }
->>>>>>> 2b67708bc74e7da9a29294d2c3de274fd9debec4
