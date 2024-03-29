@@ -1,5 +1,7 @@
 
-
+body {
+  overflow-x: hidden;
+}
 svg {
   margin-top: 0px;
     max-width: 100%; /* SVG'nin maksimum genişliği belirli bir değeri geçmeyecek */
@@ -127,7 +129,7 @@ button#next-button{
   border: 0px;
   background-color:#FFA800;
   opacity:1;
-  margin-left: 1990px !important;
+  margin-left: 1780px !important;
   margin-top: -450px !important;
   border-radius: 60px;
   padding:0px;
