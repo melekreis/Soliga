@@ -1,115 +1,194 @@
-
 .container-1 {
-	margin: 0px auto;
-	width: 100%;
-	height: 1600px;
+  margin: 0px auto;
+  width: 100%;
+  height: 1600px;
 }
-.container-xs{
-	background-color: #000;
-	width: 100%;
-	height: 1310px;
+.container-xs {
+  background-color: #000;
+  width: 100%;
+  height: 1310px;
 }
-.navbar-arka{
-	border: 1px;
-	background: linear-gradient(90deg, #D52529 -40.33%, rgba(47, 46, 65, 0.79) 193.01%);
-	height: 120px;
-	width: 100%;
+.navbar-arka {
+  border: 1px;
+  background: linear-gradient(
+    90deg,
+    #d52529 -40.33%,
+    rgba(47, 46, 65, 0.79) 193.01%
+  );
+  height: 120px;
+  width: 100%;
 }
 .menu {
-	margin-top:25px ;
-	width: 100%;
-	height: 80px;
-	position: absolute;	
+  margin-top: 25px;
+  width: 100%;
+  height: 80px;
+  position: absolute;
 }
-ul{
-	padding: 0px !important;
-
+ul {
+  padding: 0px !important;
 }
 
 [class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
+  font-family: "FontAwesome", sans-serif;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
 body {
-	margin: 0 auto;
-	font-size: 30px;
-	color: #F3F3F3;
-	color: #000;
-
+  margin: 0 auto;
+  font-size: 30px;
+  color: #f3f3f3;
+  color: #000;
 }
 
 nav {
-	margin: auto;
-	width: 90%;
-	min-width: 600px;
-	overflow: hidden;
-	border-radius: 12px;
+  margin: auto;
+  width: 90%;
+  min-width: 600px;
+  overflow: hidden;
+  border-radius: 12px;
 }
- 
+
 ul {
-	display: flex;
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
- 
+
 .flex {
-	flex: 1;
-	background: #fff;
-	padding: 1em;
-	text-align: center;
-	transition: all .2s;
-	font-weight: 500px;
-	font-size: 20px;
-	color:#000;
-	font-family: Jost;
-	letter-spacing: normal !important;
-} 
-	.flex:hover {
-		background: #1f1f11;
-		cursor: pointer;
-		color:white;
-  }
- 
+  flex: 1;
+  background: #fff;
+  padding: 1em;
+  text-align: center;
+  transition: all 0.2s;
+  font-weight: 500px;
+  font-size: 20px;
+  color: #000;
+  font-family: Jost;
+  letter-spacing: normal !important;
+}
+.flex:hover {
+  background: #1f1f11;
+  cursor: pointer;
+  color: white;
+}
+
 .fixed {
-	display: inline-flex;
-	background: #1E6B47;
-	transition: all .3s;
+  display: inline-flex;
+  background: #1e6b47;
+  transition: all 0.3s;
 }
- 
-.fixed:hover { 
-    width: 30%;
+
+.fixed:hover {
+  width: 30%;
+}
+.content-xs {
+  margin-top: 100px !important;
+  border-radius: 15px;
+  background: linear-gradient(
+    268deg,
+    rgba(213, 37, 41, 0.74) -22.84%,
+    #2f2e41 178.68%
+  );
+  margin: auto;
+  width: 80%;
+  height: 1000px;
+  margin-bottom: 90px;
+}
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: #1a1a1a;
+}
+.footer img {
+  height: 200px;
+  width: 290px;
+}
+.footer p {
+  text-align: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  flex-shrink: 0;
+  margin: auto;
+}
+.yazilar-mobil, .basvuru, .mail, .personel {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+	.container-xs{
+		height: 600px !important;
+	}
+  body {
+    background-color: black !important;
   }
- .content-xs{
-margin-top: 100px !important;
-border-radius: 15px;
-background: linear-gradient(268deg, rgba(213, 37, 41, 0.74) -22.84%, #2F2E41 178.68%);
-margin: auto;
-width: 80%;
-height: 1000px;
-margin-bottom: 90px;
- }
- .footer{
-	width: 100%;
-	height: 250px;
-	background-color: #1A1A1A;
+  .rounded {
+    float: left !important;
+    height: 230px;
+    margin-left: -70px;
+    margin-top: -70px;
   }
-  .footer img{
-	height: 200px;
-	width: 290px;
+  .yazilar-2,
+  .yazilar,
+  .home,
+  .person {
+    display: none;
   }
-  .footer p{
-	text-align: center;
+  .navbar-arka {
+    display: none;
+  }
+  .content-xs {
+    margin-top: -230px !important;
+    height: 500px;
+	border-radius: 15px !important;
+	border:2px solid #FFF;
+  }
+  .sarı {
+    color: #f9a326 !important;
+    font-family: Jost;
+    font-size: 25px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .beyaz {
+    color: #fff;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+	margin-left: -3.5px;
+  }
+  .yazilar-mobil{
+	display: block;
+	margin-top: 50px;
+	margin-left: 90px;
+  }
+  .mail, .basvuru, .personel{
 	color: #FFF;
-	font-family: Inter;
-	font-size: 16px;
-	font-style: italic;
-	font-weight: 600;
-	line-height: normal;   
-	flex-shrink: 0;
+	font-family: Jost;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
 	margin: auto;
+	margin-top: 30px;
+	padding: 10px 15px;
+	display: block;
+	width: 365px;
+	height: 60px;
+	justify-content: center;
+	border-radius: 15px;
+	border:1px solid #FFF;
+	background: linear-gradient(90deg, #D52529 -25.14%, rgba(63, 61, 88, 0.85) 115.08%);  }
 }
+

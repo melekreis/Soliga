@@ -121,9 +121,10 @@
 }
 
 .image {
+  position: relative;
   width: 396px;
   height: 293px;
-  margin-top: 820px;
+  margin-top: 850px;
   float: right;
   margin-right: 330px;
 }
@@ -173,6 +174,9 @@
 }
 @media screen and (max-width: 1650px) {
 
+.preview img {
+  margin-left: 1000px !important;
+}
 .iletisim-txt{
   margin-left: 200px !important;
 }
@@ -187,10 +191,8 @@
   margin-right: 40px !important;
 }
 }
-
-
-
 @media screen and (max-width: 1300px) {
+
   .div-ortala {
     width: 90%; /* Ekran 600px veya daha küçük olduğunda div genişliği %100 olsun */
     padding: 10px; /* İstediğiniz padding değeri */
