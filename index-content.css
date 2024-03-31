@@ -3,7 +3,9 @@
   height: 580px;
   margin: 0px auto;
   margin-top: 10px !important;
-
+}
+.mobile-content {
+  display: none;
 }
 .content-baslik {
   margin-top: -110px;
@@ -93,6 +95,9 @@
   padding: 5px;
   align-items: center;
 }
+.mobile-iletisim {
+  display: none;
+}
 .iletisim-btn {
   display: flex;
   width: 145px;
@@ -140,6 +145,9 @@
   height: 0.5px;
   background-color: #000;
 }
+.mobile-slogan-2 {
+  display: none;
+}
 /*SLİDER 2 */
 .slider-container2 {
   margin: auto;
@@ -173,26 +181,24 @@
   margin-bottom: -200px;
 }
 @media screen and (max-width: 1650px) {
-
-.preview img {
-  margin-left: 1000px !important;
-}
-.iletisim-txt{
-  margin-left: 200px !important;
-}
-.iletisim-text{
-  margin-left: 200px !important;
-}
-.iletisim-btn{
-  margin-left: 200px !important;
-  margin-top: 10px !important;
-}
-.image{
-  margin-right: 40px !important;
-}
+  .preview img {
+    margin-left: 1000px !important;
+  }
+  .iletisim-txt {
+    margin-left: 200px !important;
+  }
+  .iletisim-text {
+    margin-left: 200px !important;
+  }
+  .iletisim-btn {
+    margin-left: 200px !important;
+    margin-top: 10px !important;
+  }
+  .image {
+    margin-right: 40px !important;
+  }
 }
 @media screen and (max-width: 1300px) {
-
   .div-ortala {
     width: 90%; /* Ekran 600px veya daha küçük olduğunda div genişliği %100 olsun */
     padding: 10px; /* İstediğiniz padding değeri */
@@ -333,17 +339,205 @@ textarea:focus {
   transform: scale(1.1); /* Büyüme animasyonu */
 }
 @media screen and (max-width: 1210px) {
-
-.iletisim-txt{
-  margin-left: 100px !important;
-}
-.iletisim-text{
-  margin-left: 100px !important;
-
-}
+  .iletisim-txt {
+    margin-left: 100px !important;
+  }
+  .iletisim-text {
+    margin-left: 100px !important;
+  }
 }
 @media screen and (max-width: 1050px) {
-  .image{
+  .image {
     display: none !important;
   }
+}
+@media screen and (max-width: 600px) {
+  .sidebar img {
+    width: 260px;
+    height: 240px;
+    margin-top: -50px !important;
+    margin-left: -15px !important;
+  }
+  .sidebar {
+    height: 130px;
+    border-bottom: 1px solid black;
+  }
+  .mobil-baslik {
+    display: block;
+    font-family: K2D;
+    font-size: 21px;
+    position: absolute;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 200px;
+    margin-top: 35px;
+  }
+  .baslik-1 {
+    color: #d52529;
+  }
+  .baslik-2 {
+    margin-left: 20px;
+  }
+  .baslik-3 {
+    color: #ffa800;
+  }
+  .p-slogan,
+  .slider_container,
+  .p-baslık,
+  .sidebar-btn,
+  .navbar-arka,
+  .slider-container2,
+  .full-screen-svg {
+    display: none;
+  }
+  .mobile-svg {
+    display: block !important;
+    width: 600px;
+    margin-top: -420px !important;
+    z-index: -1 !important;
+    position: relative;
+  }
+  .mobile-slogan {
+    display: block !important;
+    color: #000;
+    font-family: Jost;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2% !important;
+    margin-top: -400px;
+    width: 345px;
+  }
+  .mobile-img {
+    display: block !important;
+    margin-top: 100px;
+    margin-left: 310px;
+    height: 350px;
+  }
+  .iletisim-table {
+    margin-top: 0px;
+  }
+  .mobile-slogan-2 {
+    display: block;
+    color: #000;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 17px;
+    width: 370px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1px;
+    position: relative;
+    margin-top: 170px;
+    margin-left: 50px;
+  }
+  .mobile-iletisim {
+    margin: auto;
+    display: block;
+    margin-top: 15px !important;
+    border-radius: 10px;
+    background: #2f2e41;
+    display: flex;
+    width: 280px;
+    height: 47px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .mobile-iletisim a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-family: Jost;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.15px;
+  }
+  .mobile-content {
+    display: block;
+    border-radius: 10px;
+    border: 2px dashed rgb(187, 13, 187);
+    margin: auto;
+    width: 95%;
+    height: 750px;
+    margin-top: -940px;
+  }
+  .mobile-content img {
+    margin-left: 15px;
+    width: 40px;
+  }
+  .line-1 {
+    margin: auto;
+    border-radius: 5px;
+    background: #fff;
+    margin-top: 25px;
+    width: 480px;
+    height: 65px;
+  }
+  .line-1 p {
+    color: rgba(0, 0, 0, 0.88);
+    font-family: Jost;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 144.585%; /* 20.242px */
+    letter-spacing: 0.14px;
+    text-align: center;
+    margin-left: -180px !important;
+    margin-top: -32px;
+  }
+  .more {
+    color: rgba(34, 34, 34, 0.88);
+    font-family: Jost;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 144.585%; /* 20.242px */
+    letter-spacing: 0.14px;
+    text-align: center;
+    margin-top: -40px !important;
+    float: right;
+    margin-right: 20px;
+  }
+  .content-baslik {
+    margin-top: 200px;
+  }
+  .iletisim-txt {
+    margin-left: 80px !important;
+    width: 180px;
+    border: 2px solid #ffb800;
+  }
+  .iletisim-txt2 {
+    width: 180px;
+    border: 2px solid #ffb800;
+  }
+  .iletisim-text {
+    margin-left: 80px !important;
+    width: 385px;
+    border: 2px solid #ffb800;
+  }
+  .content hr {
+    margin: auto;
+  }
+  .iletisim-btn{
+    font-weight: bold !important;
+    font-size: 18px;
+    margin-top: 30px !important;
+  }
+  .footer img{
+    width: 170px;
+    height: 120px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .preview p{
+    font-size: 25px !important;
+    margin-left: 30px !important;
+    margin-top: -120px;
+  }
+
 }
