@@ -83,12 +83,11 @@ input[type="checkbox"]:checked + .checkbox-label::before {
 .card-container {
   margin: 0px auto;
   margin-left: 25%;
-  margin-top: -22%;
+  margin-top: -27%;
   width: 60%;
-  height: 700px;
+  height: auto;
   border-color: bisque;
-  position: absolute;
-  
+  position: static;
 }
 .card-img-top {
   border-radius: var(--h, 131px);
@@ -251,9 +250,12 @@ h2 {
   width: 90%;
 }
 .footer {
-  width: 100%;
-  height: 250px;
   background-color: #1a1a1a;
+  width: 100%;
+  height: 30%;
+  bottom: 0%; 
+  justify-content: center;
+  margin-top: 10%;
 }
 .footer img {
   height: 200px;
