@@ -37,18 +37,25 @@ position: absolute;
 left: 135px;
 top: 450px;
 }
+.mobile-img{
+  display: none;
+}
 .slider_container {
   position: absolute !important;
   width: 100%;
   overflow: hidden;
   padding-top: 490px !important;
 }
-
+.mobile-slogan{
+  display: none;
+}
 .slider {
   display: flex;
   transition: transform 0.5s ease;
 }
-
+.mobile-svg{
+  display: none;
+}
 .card {
   flex: 0 0 250px !important; /* Kart genişliğini 250px olarak sabit tutar */
   height: 360px !important;

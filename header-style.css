@@ -73,7 +73,9 @@
   .fixed:hover { 
     width: 30%;
   }
-
+  .mobil-baslik{
+    display: none;
+  }
 
 
 
@@ -191,7 +193,7 @@
   .middle-slider{
     display: none;
   }
-
+  
   @media screen and (max-width: 1170px) {
 
     .sidebar-btn{
