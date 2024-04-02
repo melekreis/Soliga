@@ -248,7 +248,12 @@ h2 {
   margin-top: -17px;
 }
 .content-hr {
-  width: 90%;
+  width: 90% !important;
+  margin: auto;
+}
+.ekibimiz-hr{
+  width: 90% !important;
+  margin: auto;
 }
 .footer {
   width: 100%;
