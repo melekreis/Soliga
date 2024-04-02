@@ -22,10 +22,11 @@
     line-height: normal;
     text-align: center;
     margin-top: -470px;
-    margin-left: 800px;
+    margin-left: 42%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 .content{
     display: flex;
@@ -43,7 +44,7 @@
   flex-wrap: wrap; /* Satırı ikiye bölmek için */
   align-items: flex-start; /* Yüksekliği aynı hizada tutmak için */
   justify-content: center;
-  gap: 30%;
+  gap: 8%;
   margin-top: 1%;
   margin-left: 1%;
   
@@ -51,11 +52,10 @@
 .card{
   margin-bottom: 10%;
   flex: 0 0 calc(50% - 20px); /* Kutuların yarısını kaplayacak şekilde */
-  max-width: 270px;
-  height: 340px;
+  max-width: 16.3%;
+  height: 34%;
   background: #FFF;
   border-radius: 0px 0px 15px 15px;
-  gap: 2%;
 }
 
 .card-img-top {
