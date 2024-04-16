@@ -194,7 +194,8 @@ h2 {
   font-weight: 700;
   display: inline-block;
   letter-spacing: 0;
-  margin-left: 27px;
+  margin-left: 429px;
+  margin-bottom: -23px;
   font-size: 20px;
 }
 .cv-img {
@@ -209,6 +210,7 @@ h2 {
   height: 100%;
 }
 .satirbasi {
+  margin-top: 22px;
   font-size: 18px;
   font-family: Jost;
   color: black;
@@ -216,7 +218,8 @@ h2 {
 .txt {
   font-size: 18px;
   color: #8d8585;
-  margin-top: -17px;
+  margin-top: -14px;
+  margin-left: 10px;
 }
 .title-2 {
   color: #292727;
