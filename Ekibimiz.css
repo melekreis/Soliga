@@ -84,7 +84,7 @@ input[type="checkbox"]:checked + .checkbox-label::before {
   margin: 0px auto;
   margin-left: 25%;
   margin-top: -27%;
-  width: 60%;
+  width: 80%;
   height: auto;
   border-color: bisque;
   position: static;
@@ -101,10 +101,10 @@ input[type="checkbox"]:checked + .checkbox-label::before {
   text-align: center;
   border-radius: 8px;
   background: rgba(14, 13, 13, 0.84);
-  width: 200px !important;
-  height: 270px !important;
+  width: 25% !important;
+  height: 33% !important;
   flex-shrink: 0;
-  margin-left: 22px;
+  margin-left: 20px;
   margin-bottom: 22px;
   display: inline-block;
   transition: transform 0.3s ease-in-out;
