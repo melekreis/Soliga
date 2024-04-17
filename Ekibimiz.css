@@ -1,6 +1,7 @@
 body{
   margin: 0 auto;
   padding: 0;
+  overflow-x: hidden;
 }
 form {
   width: 300px;
@@ -83,7 +84,7 @@ input[type="checkbox"]:checked + .checkbox-label::before {
 .card-container {
   margin: 0px auto;
   margin-left: 25%;
-  margin-top: -27%;
+  margin-top: -24.2%;
   width: 80%;
   height: auto;
   border-color: bisque;
@@ -141,7 +142,7 @@ a {
   text-decoration: none;
 }
 .content {
-  background-color: red;
+  background-color: blue;
   margin: auto;
   height: 70%;
   width: 60%;
