@@ -338,4 +338,11 @@ margin-right: 0px;
 margin-top: 30px;
 margin-left: 30px;
 }
+.footer img {
+  height: 130px;
+  width: 200px;
+}
+.footer p {
+  font-size: 14px;
+}
 }
