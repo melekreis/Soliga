@@ -581,5 +581,11 @@ textarea:focus {
 body {
   overflow-x: hidden;
 }
-
+.footer img {
+  height: 100px;
+  width: 200px;
+}
+.footer p {
+  font-size: 14px;
+}
 }
