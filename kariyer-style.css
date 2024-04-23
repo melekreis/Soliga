@@ -597,29 +597,28 @@ input[type="date"] {
     margin-left: 50px;
   }
   .iletisim-txt{
-    width: 200px;
-    margin-left: 20px !important;
+    width: 180px;
+    margin-left: 25px !important;
   }
   .iletisim-txt2{
-    width: 200px;
-    margin-left: 20px !important;
+    width: 180px;
+    margin-left: 25px !important;
   }
   .personality p{
     margin-left: 25px !important;
   }
   .iletisim-date{
-    width: 200px !important;
-    margin-left: 20px !important;
+    width: 180px !important;
+    margin-left: 25px !important;
   }
   .iletisim-txt-tabledısı{
-    width: 200px !important;
-    margin-left: 20px !important;
+    width: 180px !important;
+    margin-left: 25px !important;
   }
   .iletisim-txt2-tabledısı{
-    width: 200px !important;
-   margin-left: 242px !important;
+  width: 180px !important;
+   margin-left: 235px !important;
   }
-  
   .education p{
     margin-left: 25px !important;
   }
@@ -627,25 +626,27 @@ input[type="date"] {
     display: none;
   }
   .education-area2{
-    width: 430px;
-    margin-left: 20px !important;
+    width: 410px;
+    margin-left: 25px !important;
   }
   .experience p{
     margin-left: 25px !important;
   }
   .experience-area{
-    width: 430px !important;
+    width: 410px !important;
     margin-left: 20px !important;
     height: 100px !important;
   }
-  
   .message p{
     margin-left: 25px !important;
   }
   .message-area{
-    width: 430px !important;
+    width: 410px !important;
     margin-left: 20px !important;
     height: 100px !important;
+  }
+  .message{
+    margin-top: 750px;
   }
   
   .h1-class{
