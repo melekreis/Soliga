@@ -556,7 +556,7 @@ textarea:focus {
   .preview p{
     font-size: 25px !important;
     margin-left: 30px !important;
-    margin-top: -120px;
+    margin-top: -240px;
   }
 
 }
