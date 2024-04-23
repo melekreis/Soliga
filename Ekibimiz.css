@@ -315,16 +315,13 @@ h2 {
     /* Diğer stillendirme özellikleri */
 }
 
-
 .mobile-check{
   display: none;
 }
 .card-container{
   margin-top: 200px;
 }
-.mobile-ekibimiz{
 
-}
 #ekibimiz{
   display: block;
 }
