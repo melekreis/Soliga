@@ -573,7 +573,7 @@ textarea:focus {
 
 .mobile-svg {
   display: block !important;
-  width: 600px;
+  width: 300px;
   margin-top: -500px !important;
   z-index: -1 !important;
   position: relative;
