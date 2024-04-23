@@ -467,7 +467,7 @@ textarea:focus {
     margin: auto;
     width: 95%;
     height: 750px;
-    margin-top: -700px;
+    margin-top: -900px;
   }
   .mobile-content img {
     margin-left: 15px;
@@ -568,4 +568,15 @@ textarea:focus {
     height: 350px;
     opacity: 0.9;
   }
+}
+@media screen and (max-width:660px){
+
+.mobile-svg {
+  display: block !important;
+  width: 600px;
+  margin-top: -500px !important;
+  z-index: -1 !important;
+  position: relative;
+}
+
 }
