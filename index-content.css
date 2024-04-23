@@ -505,7 +505,7 @@ textarea:focus {
     line-height: 144.585%; /* 20.242px */
     letter-spacing: 0.14px;
     text-align: center;
-    margin-left: -140px !important;
+    margin-left: -90px !important;
     margin-top: -32px;
   }
   .more {
