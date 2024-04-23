@@ -578,5 +578,8 @@ textarea:focus {
   z-index: -1 !important;
   position: relative;
 }
+body {
+  overflow-x: hidden;
+}
 
 }
