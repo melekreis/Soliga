@@ -149,3 +149,26 @@
   .title-iletisim{
     margin-left: 37.5%;
   }
+  @media screen and (max-width: 600px) {
+
+    .previous-button{
+      margin-left: -220px;
+      width: 100px;
+      height: 35px;
+      }
+      .cv-img-2{
+        height: 180px;
+        width: 180px;
+        margin-top: -30px;
+      }
+      .title{
+        margin-left: 40%;
+      }
+      .title-3{
+        margin-left: 40%;
+      }
+      .footer{
+        margin-top: 200px;
+      }
+
+  }
