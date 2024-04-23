@@ -304,8 +304,18 @@ h2 {
   }
 }
 @media screen and (max-width: 600px) {
-body{
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.card {
+    flex: 1 0 45%; /* Kartların genişliği */
+    margin: 5px; /* Aralıklar */
+    /* Diğer stillendirme özellikleri */
+}
+
+
 .mobile-check{
   display: none;
 }
@@ -324,7 +334,8 @@ body{
 }
 .card{
 width: 170px !important;
+height: 210px !important;
 margin-right: 0px;
-margin-top: -30px;
+margin-top: 30px;
 }
 }
