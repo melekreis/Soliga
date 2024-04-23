@@ -525,7 +525,7 @@ textarea:focus {
     margin-top: 200px;
   }
   .iletisim-txt {
-    margin-left: 65px !important;
+    margin-left: 40px !important;
     width: 180px;
     border: 2px solid #ffb800;
   }
@@ -534,7 +534,7 @@ textarea:focus {
     border: 2px solid #ffb800;
   }
   .iletisim-text {
-    margin-left: 65px !important;
+    margin-left: 40px !important;
     width: 385px;
     border: 2px solid #ffb800;
   }
@@ -545,7 +545,7 @@ textarea:focus {
     font-weight: bold !important;
     font-size: 18px;
     margin-top: 30px !important;
-    margin-left: 180px !important;
+    margin-left: 150px !important;
   }
   .footer img{
     width: 170px;
