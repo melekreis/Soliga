@@ -11,6 +11,9 @@
   width: 271px;
   height: 61px;
 }
+.mobile-is-baslik{
+  display: none;
+}
 .content {
   overflow-x: auto;
   white-space: nowrap;
@@ -46,7 +49,10 @@
   line-height: normal;
   text-align: left;
   margin-top: 0px;
-  margin-left: 50px;
+  margin-left: 50px ;
+}
+.kariyer-mobile-p{
+  display: none;
 }
 .kariyer-img {
   float: right;
@@ -344,7 +350,6 @@ margin-top: -240px;
     margin-bottom: -45;  
   }
   .footer {
-    margin-top: 100px;
     width: 100%;
     height: 250px;
     background-color: #1a1a1a;
@@ -521,4 +526,161 @@ input[type="date"] {
 .message p{
   margin-left: 50px !important;
 }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .sidebar img {
+    width: 260px;
+    height: 240px;
+    margin-top: -50px !important;
+    margin-left: -15px !important;
+  }
+  .sidebar {
+    height: 130px;
+    border-bottom: 1px solid black;
+  }
+  .mobil-baslik {
+    display: block;
+    font-family: K2D;
+    font-size: 21px;
+    position: absolute;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 200px;
+    margin-top: 35px;
+  }
+  .baslik-1 {
+    color: #d52529;
+  }
+  .baslik-2 {
+    margin-left: 20px;
+  }
+  .baslik-3 {
+    color: #ffa800;
+  }
+  .p-slogan,
+  .slider_container,
+  .p-baslık,
+  .sidebar-btn,
+  .navbar-arka,
+  .slider-container2,
+  .full-screen-svg {
+    display: none;
+  }
+  .content{
+    width: 95%;
+    margin-left:10px !important;
+  
+  }
+  .h2-class{
+    margin-left: 20px !important;
+  }
+  .kariyer-p{
+    display: none;
+  }
+  .kariyer-mobile-p{
+    display: block;
+    margin-left: 20px !important;
+    box-sizing: border-box;
+    justify-content: start;
+    max-width: 100%;
+    color: #fff;
+    font-family: Jost;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 50px;
+  }
+  .iletisim-txt{
+    width: 180px;
+    margin-left: 15px !important;
+  }
+  .iletisim-txt2{
+    width: 180px;
+    margin-left: 15px !important;
+  }
+  .personality p{
+    margin-left: 15px !important;
+  }
+  .iletisim-date{
+    width: 180px !important;
+    margin-left: 15px !important;
+  }
+  .iletisim-txt-tabledısı{
+    width: 180px !important;
+    margin-left: 15px !important;
+  }
+  .iletisim-txt2-tabledısı{
+  width: 180px !important;
+   margin-left: 215px !important;
+  }
+  .education p{
+    margin-left: 15px !important;
+  }
+  .education-area{
+    display: none;
+  }
+  .education-area2{
+    width: 400px;
+    margin-left: 15px !important;
+  }
+  .experience p{
+    margin-left: 15px !important;
+  }
+  .experience-area{
+    width: 400px !important;
+    margin-left: 20px !important;
+    height: 100px !important;
+  }
+  .message p{
+    margin-left: 15px !important;
+  }
+  .message-area{
+    width: 410px !important;
+    margin-left: 20px !important;
+    height: 100px !important;
+  }
+  .message{
+    margin-top: 750px;
+  }
+  
+  .h1-class{
+    display: none;
+  }
+  .mobile-is-baslik{
+    display: block;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    color: #000;
+    font-family: Jost;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .message-btn{
+    width: 150px;
+    height: 35px;
+    margin-left: 25px !important;
+  }
+  .txt1{
+    font-size: 20px;
+  }
+  .txt2{
+    font-size: 20px;
+  }
+  .footer img {
+    height: 130px;
+    width: 200px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
 }
