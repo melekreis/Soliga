@@ -244,7 +244,10 @@
         margin-left: 0;
       }
   }
-
+  body{
+    overflow-x:hidden !important;
+  }
+  
   .nav-bar{
     width: 100% !important;
     display: flex !important;
@@ -318,10 +321,8 @@
     #check:checked ~ .menu-mobile {right: 0;}
 }
 body{
-  overflow-x: hidden !important;
-
+  overflow-x:hidden !important;
 }
-
 
   }
   
