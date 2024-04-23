@@ -11,6 +11,9 @@
     a{
       text-decoration: none !important;
     }
+    .mobile{
+      display: none !important;
+    }
   .navbar-arka{
     border: 1px;
     height: 71px;
@@ -236,4 +239,24 @@
         margin-left: 0;
       }
   }
+  @media(min-width:610px){
+    .menu-mobile{
+        flex-direction: column !important;
+        align-items: center  !important;
+        justify-content: center  !important;
+        width: 80%  !important;
+        height: 100vh  !important;
+        position: fixed  !important;
+        top: 0  !important;
+        right: -100%  !important;
+        z-index: 100  !important;
+        background-color: var(--color2)  !important;
+        transition: all 0.2s ease-in-out  !important;
+    }
+    .menu-mobile li{margin-top: 40px  !important; }
+    .menu-mobile li a{padding: 10px  !important;}
+    .open-menu , .close-menu {display: block !important;}
+    #check:checked ~ .menu-mobile {right: 0  !important;}
+}
   }
+  
