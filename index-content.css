@@ -436,6 +436,7 @@ textarea:focus {
     position: relative;
     margin-top: 170px;
     margin-left: 50px;
+    font-weight: 600px !important;
   }
   .mobile-iletisim {
     margin: auto;
@@ -564,9 +565,9 @@ textarea:focus {
   .mobile-img {
     display: block !important;
     margin-top: 115px;
-    margin-left: 256px;
+    margin-left: 200px;
     height: 350px;
-    opacity: 0.9;
+    opacity: 0.8;
   }
 }
 @media screen and (max-width:660px){
