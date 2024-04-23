@@ -7,7 +7,7 @@
 .mobile-content {
   display: none;
 }
-.mobile-hizmet{
+.mobile-hizmet, .mobile-hizmet-hr{
   display: none;
 }
 .content-baslik {

@@ -13,7 +13,12 @@
     a{
       text-decoration: none !important;
     }
-
+.close-menu, .open-menu, .menu-mobile{
+  display: none;
+}
+#check{
+  display: none;
+}
   .navbar-arka{
     border: 1px;
     height: 71px;
@@ -312,7 +317,10 @@
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu-mobile {right: 0;}
 }
+body{
+  overflow: hidden;
 
+}
 
 
   }
