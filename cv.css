@@ -88,6 +88,12 @@
     margin-top: -14px;
     margin-left: 10px;
   }
+  .txt-3{
+    font-size: 18px;
+    color: #8d8585;
+    margin-top: -14px;
+    margin-left: 10px;
+  }
   .title-2 {
     color: #292727;
     font-family: Jost;
@@ -162,13 +168,33 @@
         margin-top: -30px;
       }
       .title{
-        margin-left: 40%;
+        margin-left: 43%;
       }
       .title-3{
-        margin-left: 40%;
+        margin-left: 43%;
+      }
+      .title-2{
+        margin-left: 43%;
+        margin-top: -170px;
+      }
+      .txt-3{
+        margin-left: 43%;
+        margin-top: -130px;
+      }
+      .txt-2{
+        margin-left: 43%;
       }
       .footer{
         margin-top: 200px;
+      }
+      .ul{
+        margin-left: 43%;
+      }
+      .satirbasi{
+        margin-left: 43%;
+      }
+      .txt{
+        margin-left: 43%;
       }
 
   }
