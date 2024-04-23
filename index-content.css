@@ -7,6 +7,9 @@
 .mobile-content {
   display: none;
 }
+.mobile-hizmet{
+  display: none;
+}
 .content-baslik {
   margin-top: -110px;
   padding-top: 20px;
@@ -394,7 +397,7 @@ textarea:focus {
   .mobile-svg {
     display: block !important;
     width: 600px;
-    margin-top: -420px !important;
+    margin-top: -500px !important;
     z-index: -1 !important;
     position: relative;
   }
@@ -413,7 +416,7 @@ textarea:focus {
   .mobile-img {
     display: block !important;
     margin-top: 100px;
-    margin-left: 310px;
+    margin-left: 300px;
     height: 350px;
   }
   .iletisim-table {
@@ -464,18 +467,33 @@ textarea:focus {
     margin: auto;
     width: 95%;
     height: 750px;
-    margin-top: -940px;
+    margin-top: -920px;
   }
   .mobile-content img {
     margin-left: 15px;
     width: 40px;
+  }
+  .mobile-hizmet{
+    display: block;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-family: Jost;
+  }
+  .mobile-hizmet-hr{
+    height: 2px !important;
+    background-color: rgb(187, 13, 187);
+    width: 30%;
+    margin: auto;
+    margin-top: -20px;
   }
   .line-1 {
     margin: auto;
     border-radius: 5px;
     background: #fff;
     margin-top: 25px;
-    width: 480px;
+    width: 430px;
     height: 65px;
   }
   .line-1 p {
@@ -487,7 +505,7 @@ textarea:focus {
     line-height: 144.585%; /* 20.242px */
     letter-spacing: 0.14px;
     text-align: center;
-    margin-left: -180px !important;
+    margin-left: -140px !important;
     margin-top: -32px;
   }
   .more {
@@ -507,7 +525,7 @@ textarea:focus {
     margin-top: 200px;
   }
   .iletisim-txt {
-    margin-left: 80px !important;
+    margin-left: 65px !important;
     width: 180px;
     border: 2px solid #ffb800;
   }
@@ -516,7 +534,7 @@ textarea:focus {
     border: 2px solid #ffb800;
   }
   .iletisim-text {
-    margin-left: 80px !important;
+    margin-left: 65px !important;
     width: 385px;
     border: 2px solid #ffb800;
   }
@@ -527,6 +545,7 @@ textarea:focus {
     font-weight: bold !important;
     font-size: 18px;
     margin-top: 30px !important;
+    margin-left: 180px !important;
   }
   .footer img{
     width: 170px;
@@ -540,4 +559,13 @@ textarea:focus {
     margin-top: -120px;
   }
 
+}
+@media screen and (max-width:550px){
+  .mobile-img {
+    display: block !important;
+    margin-top: 115px;
+    margin-left: 256px;
+    height: 350px;
+    opacity: 0.9;
+  }
 }
