@@ -287,7 +287,8 @@ body{
   display: none;
 }
 .card-container{
-  margin-top: 200px;
+  gap: 10px;
+  margin-top: 10px;
 }
 .mobile-ekibimiz{
 
@@ -302,5 +303,9 @@ body{
 .card{
 width: 170px !important;
 margin-right: 0px;
+margin-left: -10px;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 }
