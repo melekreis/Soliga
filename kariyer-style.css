@@ -11,6 +11,9 @@
   width: 271px;
   height: 61px;
 }
+.mobile-is-baslik{
+  display: none;
+}
 .content {
   overflow-x: auto;
   white-space: nowrap;
@@ -653,6 +656,7 @@ input[type="date"] {
     display: none;
   }
   .mobile-is-baslik{
+    display: block;
     margin-top: 30px ;
     margin-bottom: 30px;
     color: #000;
@@ -666,5 +670,18 @@ input[type="date"] {
     width: 150px;
     height: 35px;
     margin-left: 25px !important;
+  }
+  .txt1{
+    font-size: 20px;
+  }
+  .txt2{
+    font-size: 20px;
+  }
+  .footer img {
+    height: 170px;
+    width: 240px;
+  }
+  .footer p {
+    font-size: 14px;
   }
 }
