@@ -279,9 +279,32 @@ h2 {
   flex-shrink: 0;
   margin: auto;
 }
+@media screen and (max-width: 1600px) {
+
+  .mobile-check{
+    display: none;
+  }
+  .card-container {
+    margin-top: 100px;
+    margin-left: 300px !important;
+  }
+}
+@media screen and (max-width: 1400px) {
+
+  .card-container {
+    margin-top: 100px;
+    margin-left: 200px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+
+  .card-container {
+    margin-top: 100px;
+    margin-left: 110px !important;
+  }
+}
 @media screen and (max-width: 600px) {
 body{
-  background-color: blue;
 }
 .mobile-check{
   display: none;
@@ -302,5 +325,6 @@ body{
 .card{
 width: 170px !important;
 margin-right: 0px;
+margin-top: -30px;
 }
 }

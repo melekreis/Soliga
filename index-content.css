@@ -565,7 +565,7 @@ textarea:focus {
   .mobile-img {
     display: block !important;
     margin-top: 100px;
-    margin-left: 153px;
+    margin-left: 155px;
     height: 350px;
     opacity: 0.8;
   }
@@ -584,7 +584,7 @@ body {
   overflow-x: hidden;
 }
 .footer img {
-  height: 150px;
+  height: 130px;
   width: 200px;
 }
 .footer p {
