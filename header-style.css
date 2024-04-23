@@ -318,7 +318,7 @@
     #check:checked ~ .menu-mobile {right: 0;}
 }
 body{
-  overflow: hidden;
+  overflow-x: hidden !important;
 
 }
 
