@@ -209,9 +209,8 @@
       }
 
   }
-
   @media screen and (max-width: 350px) {
     body{
-      background-color: rgb(40, 151, 151);
+      background-color: rgb(40, 151, 151) !important;
     }
   }
