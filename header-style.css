@@ -293,7 +293,7 @@
 }
 #check {display: none;}
 
-@media(max-width:610px){
+@media(max-width:7680px){
     .menu-mobile{
         flex-direction: column;
         align-items: center;

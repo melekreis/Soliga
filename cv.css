@@ -159,7 +159,7 @@
   .title-iletisim{
     margin-left: 41%;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
 
     .previous-button{
       margin-left: -220px;

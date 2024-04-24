@@ -531,7 +531,7 @@ input[type="date"] {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .sidebar img {
     width: 260px;
     height: 240px;

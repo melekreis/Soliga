@@ -570,7 +570,7 @@ textarea:focus {
     opacity: 0.8;
   }
 }
-@media screen and (max-width:660px){
+@media screen and (max-width:768px){
 
 .mobile-svg {
   display: block !important;
