@@ -355,6 +355,26 @@ textarea:focus {
   }
 }
 @media screen and (max-width: 768px) {
+
+  .mobile-svg {
+    display: block !important;
+    width: 100% !important;
+    height: 1300px;
+    margin-top: -500px !important;
+    z-index: -1 !important;
+    position: relative;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .footer img {
+    height: 130px;
+    width: 200px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+
   .sidebar img {
     width: 260px;
     height: 240px;
@@ -526,7 +546,7 @@ textarea:focus {
     margin-top: 200px;
   }
   .iletisim-txt {
-    margin-left: 30px !important;
+    margin-left: 15px !important;
     width: 180px;
     border: 2px solid #ffb800;
   }
@@ -535,7 +555,7 @@ textarea:focus {
     border: 2px solid #ffb800;
   }
   .iletisim-text {
-    margin-left: 30px !important;
+    margin-left: 15px !important;
     width: 385px;
     border: 2px solid #ffb800;
   }
@@ -568,14 +588,5 @@ textarea:focus {
     margin-left: 175px;
     height: 350px;
     opacity: 0.8;
-  }
-}
-
-@media screen and (max-width:768px){
-  .mobile-svg {
-
-    height: 1300px;
-    margin-top: -500px !important;
-
   }
 }
