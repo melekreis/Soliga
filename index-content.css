@@ -396,7 +396,7 @@ textarea:focus {
   }
   .mobile-svg {
     display: block !important;
-    width: auto;
+    width: 100%;
     margin-top: -500px !important;
     z-index: -1 !important;
     position: relative;
@@ -574,7 +574,7 @@ textarea:focus {
 
 .mobile-svg {
   display: block !important;
-  width: auto;
+  width: 90%;
   height: 1300px;
   margin-top: -500px !important;
   z-index: -1 !important;
