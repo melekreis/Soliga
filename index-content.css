@@ -396,7 +396,7 @@ textarea:focus {
   }
   .mobile-svg {
     display: block !important;
-    width: 300px;
+    width: 100%;
     margin-top: -500px !important;
     z-index: -1 !important;
     position: relative;
@@ -416,7 +416,7 @@ textarea:focus {
   .mobile-img {
     display: block !important;
     margin-top: 100px;
-    margin-left: 30% !important;
+    margin-left: 40% !important;
     height: 350px;
   }
   .iletisim-table {
