@@ -360,7 +360,7 @@ textarea:focus {
     display: block !important;
     width: 100% !important;
     height: 1300px;
-    margin-top: -500px !important;
+    margin-top: -600px !important;
     z-index: -1 !important;
     position: relative;
   }
@@ -462,7 +462,7 @@ textarea:focus {
   .mobile-iletisim {
     margin: auto;
     display: block;
-    margin-top: 15px !important;
+    margin-top: 320px !important;
     border-radius: 10px;
     background: #2f2e41;
     display: flex;
@@ -489,7 +489,7 @@ textarea:focus {
     margin: auto;
     width: 95%;
     height: 750px;
-    margin-top: -800px;
+    margin-top: -780px;
   }
   .mobile-content img {
     margin-left: 15px;
