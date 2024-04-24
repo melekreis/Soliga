@@ -89,6 +89,10 @@
     width: 100%;
     align-items: center;
   }
+  .container-fluid{
+    margin: 0;
+    padding:0 ;
+    }
   .sidebar img{
     margin-top: -70px !important;
     margin-left: 150px;
