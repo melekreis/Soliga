@@ -312,10 +312,9 @@ h2 {
   z-index: 1 !important;
   position: relative;
 }
-
 .card {
     flex: 1 0 45%; /* Kartların genişliği */
-    margin: 20px !important; /* Aralıklar */
+    margin: 15px !important; /* Aralıklar */
     /* Diğer stillendirme özellikleri */
 }
 
