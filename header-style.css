@@ -297,7 +297,7 @@
 }
 #check {display: none;}
 
-@media(max-width:7680px){
+@media(max-width:768px){
     .menu-mobile{
         flex-direction: column;
         align-items: center;
@@ -318,6 +318,9 @@
 }
 body{
   overflow-x:hidden !important;
+}
+.mobil-baslik{
+  margin-left: 180px !important;
 }
 
   }

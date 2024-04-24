@@ -361,7 +361,6 @@ textarea:focus {
     width: 100% !important;
     height: 1300px;
     margin-top: -500px !important;
-    margin: auto !important;
     z-index: -1 !important;
     position: relative;
   }
