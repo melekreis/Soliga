@@ -354,7 +354,7 @@ textarea:focus {
     display: none !important;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .sidebar img {
     width: 260px;
     height: 240px;
@@ -570,24 +570,12 @@ textarea:focus {
     opacity: 0.8;
   }
 }
-@media screen and (max-width:768px){
 
-.mobile-svg {
-  display: block !important;
-  width: 100% !important;
-  height: 1300px;
-  margin-top: -500px !important;
-  z-index: -1 !important;
-  position: relative;
-}
-body {
-  overflow-x: hidden;
-}
-.footer img {
-  height: 130px;
-  width: 200px;
-}
-.footer p {
-  font-size: 14px;
-}
+@media screen and (max-width:768px){
+  .mobile-svg {
+
+    height: 1300px;
+    margin-top: -500px !important;
+
+  }
 }
