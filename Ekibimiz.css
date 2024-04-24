@@ -311,7 +311,7 @@ h2 {
 
 .card {
     flex: 1 0 45%; /* Kartların genişliği */
-    margin: 5px; /* Aralıklar */
+    margin: 10px !important; /* Aralıklar */
     /* Diğer stillendirme özellikleri */
 }
 
