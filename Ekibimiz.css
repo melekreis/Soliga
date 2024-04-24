@@ -308,10 +308,14 @@ h2 {
     display: flex;
     flex-wrap: wrap;
 }
+#ekibimiz{
+  z-index: 1 !important;
+  position: relative;
+}
 
 .card {
     flex: 1 0 45%; /* Kartların genişliği */
-    margin: 5px; /* Aralıklar */
+    margin: 10px !important; /* Aralıklar */
     /* Diğer stillendirme özellikleri */
 }
 
@@ -319,13 +323,9 @@ h2 {
   display: none;
 }
 .card-container{
-  margin-top: 50px;
-  margin-left: 5px !important;
+  margin-top: 20px;
+  margin-left: 10px !important;
   width: 100%;
-}
-
-#ekibimiz{
-  display: block;
 }
 .card-img-top{
   width: 90px;
