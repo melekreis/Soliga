@@ -582,7 +582,7 @@ textarea:focus {
   }
 
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:400px){
   .mobile-img {
     display: block !important;
     margin-top: 100px;
