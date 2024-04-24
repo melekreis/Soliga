@@ -312,7 +312,7 @@
         transition: all 0.2s ease-in-out;
     }
     .menu-mobile li{margin-top: 30px;}
-    .menu-mobile li a{padding: 10px;}
+    .menu-mobile li a{padding: 0px;}
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu-mobile {right: 0;}
 }
