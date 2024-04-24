@@ -10,6 +10,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="header-style.css">
+    <link rel="stylesheet" type="text/css" href="index-content.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +21,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <style>
+      .footer{
+        margin-top: 130px;
+      }
+        @media screen and (max-width: 768px) {
+          .title-2{
+      margin-left:4% !important;
+      margin-top: 70px;
+      }
+        }
+
+    </style>
+  </head>
     <body>
         <div class="container-xs">
 
@@ -27,13 +43,32 @@
           <div class="sidebar">
             <button class="sidebar-btn"> <a href="#iletisim">Biz Size Ulaşalım</a> </button> 
             <div class="left-center">
-                <img src="transparan logo.svg" height="380px"  class="rounded" alt="Soliga" id="rotatingImage">
+               <a href="index.html"> <img src="transparan logo.svg" height="380px"  class="rounded" alt="Soliga" ></a> 
               </div>
-            <p class="p1">mühendislik<br> </p> <p class="p3">ve</p> <p class=" p2">danışmanlık </p>
-            
-           
+    
+              <p class="p1">mühendislik<br> </p> <p class="p3">ve</p> <p class=" p2">danışmanlık </p>
+           <div  class="mobil-baslik"><p><span class="baslik-1">Mühendislik </span><br> <span class="baslik-2">ve</span> <span class="baslik-3"> Danışmanlık</p></span> </div> 
+
+
+
+           <header>
+            <nav>
+              <ul class="nav-bar">
+                <input type="checkbox" id="check">
+                <span class="menu-mobile">
+                  <li><a href="index.html">Anasayfa</a></li>
+                  <li><a href="ekibimiz.html">Ekibimiz</a></li>
+                  <li><a href="kariyer.html">İşe Alım</a></li>
+                  <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+              </ul>
+            </nav>
+          </header>
+
         </div>
-        <div class="navbar-arka">
+
+            <div class="navbar-arka">
             <div class="menu"> 
               <ul id="main">
                 <nav>
@@ -48,6 +83,26 @@
             </div>        
           </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div class="previous-button-2"> 
            <a href="ekibimiz.html"> <input class="previous-button" type="button" value="GERİ"/> </a>
         </div>
@@ -56,33 +111,46 @@
         <p id="ekibimiz">Ekibimiz</p>
         <hr class="content-hr">
         <div class="content">
-            <h2>Kimya Mühendisi Yüksel BAŞTÜRK</h2>
+            <h2>Yüksek Kimya Müh.Yüksel BAŞTÜRK</h2><br>
             <p class="title">Eğitim</p><br>
-            <div class="cv-img" style="border: 1px solid black;"> <img src="yuksel.jpg" class="cv-img-2"> </div>
+            <div class="cv-img"> <img src="yuksel.jpg" class="cv-img-2"> </div>
 
-            <p class="satirbasi">Lisans :</p> <p class="txt">1979, İstanbul üniversitesi</p>
+            <p class="satirbasi">Lisans :</p> <p class="txt">1968-76, İstanbul üniversitesi Kimya
+              <br>1976-79, Yüksek Kimya Müh.</p>
+
             <p class="title-2">İş Deneyimi</p>
-            <p class="txt">A&Y KİMYA-YÜKSEL BAŞTÜRK YÖNERİCİ (1988-1999)
-                <br>Vatan Kimya üretim müdürü (2005) (plastejiyan üretimi, D.o.p, D.i.n.p vb.)
-            <br>Ayka Kimya şirket yetkilisi (2005-2015) (boya ve plastik kimyasallar üretimi)
-        <br>Greenway A.Ş fabrika müdürü (2015-2018) (Lastik geri dönüşüm, protiz yağ üretim)
-    <br>Soliga Kimya şirket yetkilisi (2018)
+            
+            <p class="txt-3">
+              A&Y Kimya Yönetici (kimya hammadde satışı) (2010-24)
+              <br>Tepe Kimya Satış Müd. (PVC-Kauçuk katkı mad.) (2007-10)
+             <br> Arda Kimya Satış Müd. (Boya kimya hammadde) (2005-7)
+
+              </p>
+              <p class="txt-4">
+                  Yüksel Kimya Sahibi (Boya kimya hammadde) (1997-1)
+
+                  <br>  SATIŞ MÜDÜRÜ : KAYAOĞLU Kimya, TEZEL Boya Kimya, CAMAR Depoculuk
+                <br>   GENEL MÜDÜR : PROSAN Boya
+              </p>
+
+
+<p class="txt-3-mobile">
+A&Y Kimya Yönetici (kimya hammadde satışı) (2010-24)
+<br>Tepe Kimya Satış Müd. (PVC-Kauçuk katkı mad.) (2007-10)
+<br>Arda Kimya Satış Müd. (Boya kimya hammadde) (2005-7)
+Yüksel Kimya Sahibi (Boya kimya hammadde) (1997-1)
+SATIŞ MÜDÜRÜ : KAYAOĞLU Kimya, TEZEL Boya Kimya, CAMAR Depoculuk
+<br> GENEL MÜDÜR : PROSAN Boya
+
 </p>
+
 <p class="title-3">Çalışma Alanları</p>
-<p class="ul">●</p><p class="txt-2">Kimya sektöründe 40 yıllık üretim ve process deneyimi ile danışmanlık.</p>
+<p class="ul">●</p><p class="txt-2">44 yıllık kimyasal hammadde sektörü alım satım deneyimi Ar-Ge,
+   ürün geliştirme, kalite, tedarik ve alternatif çözüm.
+</p>
 <p class="title-3 title-iletisim">İletişim</p>
 <p class="ul">●</p><p class="txt-2">aykutkaradan@gmail.com</p>
-<p class="txt-2">0555-555-55-55</p>
-
-
-            
         </div>
-
- 
-
-
-        
-
           <div class="footer text-center">
             <img src="Vector4.png">
             <p>Telif Hakkı © 2018 Soliga Endüstriyel Boya - Tüm Hakları Saklıdır.</p>
