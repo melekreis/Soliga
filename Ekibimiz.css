@@ -317,6 +317,12 @@ h2 {
     margin: 17px !important; /* Aralıklar */
     /* Diğer stillendirme özellikleri */
 }
+.card-title{
+  margin-top: 20px;
+}
+.card-text{
+  margin-top: 5px;
+}
 
 .mobile-check{
   display: none;
