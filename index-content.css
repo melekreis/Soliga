@@ -547,16 +547,16 @@ textarea:focus {
   }
   .iletisim-txt {
     margin-left: 15px !important;
-    width: 180px;
+    width: 160px;
     border: 2px solid #ffb800;
   }
   .iletisim-txt2 {
-    width: 180px;
+    width: 160px;
     border: 2px solid #ffb800;
   }
   .iletisim-text {
     margin-left: 15px !important;
-    width: 385px;
+    width: 365px;
     border: 2px solid #ffb800;
   }
   .content hr {
