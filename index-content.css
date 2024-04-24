@@ -552,7 +552,7 @@ textarea:focus {
     margin-top: 200px;
   }
   .iletisim-txt {
-    margin-left: 15px !important;
+    margin-left: 30px !important;
     width: 160px;
     border: 2px solid #ffb800;
   }
@@ -561,7 +561,7 @@ textarea:focus {
     border: 2px solid #ffb800;
   }
   .iletisim-text {
-    margin-left: 15px !important;
+    margin-left: 30px !important;
     width: 340px;
     border: 2px solid #ffb800;
   }
