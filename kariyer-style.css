@@ -679,8 +679,12 @@ input[type="date"] {
   .footer img {
     height: 130px;
     width: 200px;
+    margin-top: 55px !important;
   }
   .footer p {
     font-size: 14px;
+  }
+  .footer{
+    height:230px !important ;
   }
 }
