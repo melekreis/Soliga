@@ -235,43 +235,53 @@
         height: 190px;
         width: 190px;
         margin-top: -50px;
-        margin-left: -75px;
+        margin-left: -80px;
+      }
+      .cv-img{
+        margin-top: 0px !important;
+        height: 100px;
       }
       h2{
-        margin-left: 10px !important;
-        font-size: 24px !important;
+        margin-left: 15px;
       }
       .title{
-        margin-left: 52%;
+        margin-left: 47%;
       }
       .title-3{
-        margin-left: 52%;
+        margin-left: 4%;
       }
       .title-2{
-        margin-left: 52%;
-        margin-top: -170px;
+        margin-left:-40%;
+        margin-top: 100px;
       }
       .txt-3{
-        margin-left: 52%;
-        margin-top: -130px;
-      }
+        display: none;
+        }
+        .txt-3-mobile{
+          display: block;
+          font-size: 18px;
+          color: #8d8585;
+          margin-top: -10px;
+          margin-left: 20px;
+        }
       .txt-2{
-        margin-left: 52%;
+        margin-left: 5%;
       }
       .footer{
-        margin-top: 370px;
+        margin-top: 290px;
       }
       .ul{
-        margin-left: 52%;
+        margin-left: 5%;
       }
       .satirbasi{
-        margin-left: 52%;
+        margin-left: 47%;
+        font-weight: 600px;
+        font-size: 20px;
       }
       .txt{
-        margin-left: 52%;
+        margin-left: 47%;
+        font-weight:bold;
       }
-      .txt-3{
-        margin-left: 52% !important;
-      }
+
 
   }
