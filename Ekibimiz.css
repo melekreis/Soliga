@@ -315,7 +315,7 @@ h2 {
 
 .card {
     flex: 1 0 45%; /* Kartların genişliği */
-    margin: 10px !important; /* Aralıklar */
+    margin: 5px !important; /* Aralıklar */
     /* Diğer stillendirme özellikleri */
 }
 
@@ -345,4 +345,10 @@ margin-left: 30px;
 .footer p {
   font-size: 14px;
 }
+}
+
+@media screen and (max-width: 400px) {
+
+
+
 }
