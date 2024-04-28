@@ -260,9 +260,12 @@ h2 {
   margin: auto;
 }
 .footer {
+  position: relative;
+  z-index: 9999 !important; 
   width: 100%;
   height: 250px;
   background-color: #1a1a1a;
+  margin-top: 100px !important;
 }
 .footer img {
   height: 200px;
