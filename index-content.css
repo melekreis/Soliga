@@ -606,8 +606,19 @@ textarea:focus {
   .mobile-img {
     display: block !important;
     margin-top: 100px;
-    margin-left: 175px;
+    margin-left: 173px;
     height: 350px;
-    opacity: 0.8;
   }
+.iletisim-txt{
+  width: 150px !important;
+  margin-left: 30px;
+}
+.iletisim-txt2{
+  width: 150px !important;
+}
+.iletisim-text{
+  width: 310px;
+  margin-left: 30px;
+}
+
 }
