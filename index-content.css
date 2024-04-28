@@ -373,7 +373,7 @@ textarea:focus {
   .mobile-svg {
     display: block !important;
     width: 100% !important;
-    height: 1150px;
+    height: 1200px;
     z-index: -1 !important;
     position: relative;
     margin-top: 300px;

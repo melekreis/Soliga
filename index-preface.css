@@ -143,6 +143,9 @@ button#next-button{
   z-index: 1 !important;
   position: absolute;
 }
+.mobile-hizmetlerimiz{
+  display: none;
+}
 @media screen and (max-width: 1890px) {
   button#next-button{
     margin-left: 1740px !important;
@@ -195,4 +198,10 @@ button#next-button{
   button#next-button{
     display: none !important;
   }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  
 }
