@@ -195,4 +195,8 @@
   .title, .more{
     font-size: 15px !important;
   }
+  .title{
+    margin-left: -45px !important;
+    padding-top: 20px ;
+  }
 }
