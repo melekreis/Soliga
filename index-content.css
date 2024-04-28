@@ -151,7 +151,9 @@
 .mobile-slogan-2 {
   display: none;
 }
-
+.mobile-banner{
+  display: none;
+}
 /*SLİDER 2 */
 .slider-container2 {
   margin: auto;
@@ -356,7 +358,9 @@ textarea:focus {
   }
 }
 @media screen and (max-width: 768px) {
-
+.preview{
+  max-width: 100% !important;
+}
 .preview .mobile-banner{
   display: block !important;
   margin: 0px !important;
@@ -365,9 +369,6 @@ textarea:focus {
   height: 300px !important;
   margin: auto !important;
   margin-top: -50px !important;
-}
-.preview{
-  width: 100% !important;
 }
   .mobile-svg {
     display: block !important;
