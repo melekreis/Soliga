@@ -203,5 +203,9 @@ button#next-button{
 
 @media screen and (max-width: 768px) {
 
+  .footer{
+    height:230px !important ;
+    margin-top: -500px !important;
+  }
   
 }

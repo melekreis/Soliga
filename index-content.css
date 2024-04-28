@@ -389,11 +389,7 @@ textarea:focus {
   .footer p {
     font-size: 14px;
   }
-  .footer{
-    height:230px !important ;
-    margin-top: -500px !important;
 
-  }
   .sidebar img {
     width: 260px;
     height: 240px;
