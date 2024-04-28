@@ -97,6 +97,13 @@
     margin-top: -14px;
     margin-left: 10px;
   }
+  .txt-4{
+    margin-left: 41% !important;
+    font-size: 18px;
+    color: #8d8585;
+    margin-top: -14px;
+    margin-left: 10px;
+  }
   .txt-3-mobile{
     display: none;
   }
@@ -143,6 +150,7 @@
     width: 100%;
     height: 250px;
     background-color: #1a1a1a;
+    margin-top: 110px;
   }
   .footer img {
     height: 200px;
@@ -189,7 +197,7 @@
         margin-left: 4%;
       }
       .title-2{
-        margin-left:-40%;
+        margin-left:-40% !important;
         margin-top: 100px;
       }
       .txt-3{
@@ -241,7 +249,7 @@
       }
       h2{
         margin-left: 10px;
-        font-size: 20px !important;
+        font-size: 23px !important;
       }
       .title{
         margin-left: 53%;

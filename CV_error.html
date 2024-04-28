@@ -16,6 +16,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 <style>
 p{
     font-family: Jost;
@@ -31,7 +35,7 @@ p{
     letter-spacing: 1;
 }
 .btn-primary:hover{
-    background-color: rgb(196, 59, 59);
+    background-color: rgb(196, 59, 59) !important;
     font-weight: 500;
 }
 a{
@@ -52,15 +56,35 @@ a{
     <div class="container-xs">
 
 
+
       <div class="sidebar">
-        <button class="sidebar-btn"> <a href="#iletisim">Biz Size Ulaşalım</a> </button> 
+        <button class="sidebar-btn"> <a href="index.html#iletisim">Biz Size Ulaşalım</a> </button> 
         <div class="left-center">
-            <img src="transparan logo.svg" height="380px"  class="rounded" alt="Soliga" id="rotatingImage">
+           <a href="index.html"> <img src="transparan logo.svg" height="380px"  class="rounded" alt="Soliga" ></a> 
           </div>
 
-        <p class="p1">mühendislik<br> </p> <p class="p3">ve</p> <p class=" p2">danışmanlık </p>
-        
-       
+          <p class="p1">mühendislik<br> </p> <p class="p3">ve</p> <p class=" p2">danışmanlık </p>
+       <div  class="mobil-baslik"><p><span class="baslik-1">Mühendislik </span><br> <span class="baslik-2">ve</span> <span class="baslik-3"> Danışmanlık</p></span> </div> 
+
+
+
+       <header>
+        <nav>
+          <ul class="nav-bar">
+            <input type="checkbox" id="check">
+            <span class="menu-mobile">
+              <li><a href="index.html">Anasayfa</a></li>
+              <li><a href="ekibimiz.html">Ekibimiz</a></li>
+              <li><a href="kariyer.html">İşe Alım</a></li>
+              <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+          </ul>
+        </nav>
+      </header>
+
+
+
     </div>
     <div class="navbar-arka">
         <div class="menu"> 
@@ -76,6 +100,9 @@ a{
             </nav>
         </div>        
       </div>
+
+
+
  
       <div class="previous-button-2"> 
         <a href="ekibimiz.html"> <input class="previous-button" type="button" value="GERİ"/> </a>

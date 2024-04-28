@@ -360,7 +360,7 @@ textarea:focus {
     display: block !important;
     width: 100% !important;
     height: 1300px;
-    margin-top: -500px !important;
+    margin-top: -600px !important;
     z-index: -1 !important;
     position: relative;
   }
@@ -370,11 +370,16 @@ textarea:focus {
   .footer img {
     height: 130px;
     width: 200px;
+    margin-top: 55px !important;
   }
   .footer p {
     font-size: 14px;
   }
+  .footer{
+    height:230px !important ;
+    margin-top: 0px !important;
 
+  }
   .sidebar img {
     width: 260px;
     height: 240px;
@@ -462,7 +467,7 @@ textarea:focus {
   .mobile-iletisim {
     margin: auto;
     display: block;
-    margin-top: 15px !important;
+    margin-top: 320px !important;
     border-radius: 10px;
     background: #2f2e41;
     display: flex;
@@ -489,7 +494,7 @@ textarea:focus {
     margin: auto;
     width: 95%;
     height: 750px;
-    margin-top: -800px;
+    margin-top: -780px;
   }
   .mobile-content img {
     margin-left: 15px;
@@ -547,7 +552,7 @@ textarea:focus {
     margin-top: 200px;
   }
   .iletisim-txt {
-    margin-left: 15px !important;
+    margin-left: 45px !important;
     width: 160px;
     border: 2px solid #ffb800;
   }
@@ -556,7 +561,7 @@ textarea:focus {
     border: 2px solid #ffb800;
   }
   .iletisim-text {
-    margin-left: 15px !important;
+    margin-left: 45px !important;
     width: 340px;
     border: 2px solid #ffb800;
   }
@@ -576,13 +581,14 @@ textarea:focus {
     margin-bottom: 10px;
   }
   .preview p{
-    font-size: 25px !important;
+    font-size: 19px !important;
     margin-left: 30px !important;
     margin-top: -240px;
+    width: 320px;
   }
 
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:400px){
   .mobile-img {
     display: block !important;
     margin-top: 100px;
