@@ -368,12 +368,12 @@ textarea:focus {
   width: 100% !important;
   height: 300px !important;
   margin: auto !important;
-  margin-top: -50px !important;
+  margin-top: -10px !important;
 }
   .mobile-svg {
     display: block !important;
     width: 100% !important;
-    height: 1200px;
+    height: 1150px;
     z-index: -1 !important;
     position: relative;
     margin-top: 300px;
@@ -564,7 +564,7 @@ textarea:focus {
     margin-right: 20px;
   }
   .content-baslik {
-    margin-top: -850px;
+    margin-top: -900px;
   }
   .iletisim-txt {
     margin-left: 45px !important;
