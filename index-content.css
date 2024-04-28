@@ -151,6 +151,7 @@
 .mobile-slogan-2 {
   display: none;
 }
+
 /*SLİDER 2 */
 .slider-container2 {
   margin: auto;
@@ -356,10 +357,23 @@ textarea:focus {
 }
 @media screen and (max-width: 768px) {
 
+.preview .mobile-banner{
+  display: block !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100% !important;
+  height: 300px !important;
+  margin: auto !important;
+  margin-top: 450px !important;
+
+}
+.preview{
+  width: 100% !important;
+}
   .mobile-svg {
     display: block !important;
     width: 100% !important;
-    height: 900px;
+    height: 1200px;
     z-index: -1 !important;
     position: relative;
     margin-top: 300px;
@@ -550,7 +564,7 @@ textarea:focus {
     margin-right: 20px;
   }
   .content-baslik {
-    margin-top: -550px;
+    margin-top: -850px;
   }
   .iletisim-txt {
     margin-left: 45px !important;
@@ -584,11 +598,14 @@ textarea:focus {
   .preview p{
     font-size: 19px !important;
     margin-left: 30px !important;
-    margin-top: -240px;
+    margin-top: 240px;
     width: 320px;
   }
 
 }
+
+
+
 @media screen and (max-width:400px){
   .mobile-img {
     display: block !important;
