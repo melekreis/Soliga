@@ -606,7 +606,7 @@ textarea:focus {
   .mobile-img {
     display: block !important;
     margin-top: 100px;
-    margin-left: 150px;
+    margin-left: 130px !important;
     height: 350px;
   }
 .iletisim-txt{
