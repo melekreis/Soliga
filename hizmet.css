@@ -27,6 +27,9 @@
     justify-content: center;
     align-items: center;    
   }
+  .mobile-content1{
+    display: none;
+  }
 .content{
   border-radius: 15px;
     display: flex;
@@ -80,7 +83,7 @@
   background-color: #1a1a1a;
   bottom: 0; 
   justify-content: center;
-  margin-top: 5000px;
+  margin-top: 100px;
 }
 
 .footer img {
@@ -111,13 +114,13 @@
   }
 
   .mobile-content1{
+      display: grid;
       background: linear-gradient(87deg, #444363,  #98A799);
-      margin: auto !important;
+      margin: auto;
       width: 90%;
-      height: 1200px;
+      height: 950px;
       border-radius: 15px;
-      position: absolute !important;
-      margin-top: 20px !important;
+      margin-top: 20px;
   }
   .mobile-content1 p{
     color:white;
@@ -127,16 +130,14 @@
     margin-top: 20px;
     font-family: jost;
   }
-
   .mobile-content {
     position: relative;
     border-radius: 10px;
-    margin: auto;
     width: 100%;
-    margin-top: 50px;
+    margin-top: -100px;
   }
   .mobile-content img {
-    margin-top: 0px;
+    margin-top: 10px ;
     margin-left: 15px;
     width: 40px;
   }
@@ -144,33 +145,46 @@
     margin: auto;
     border-radius: 5px;
     background: #fff;
-    margin-top: 60px !important;
+    margin-top: 10px;
     width: 90%;
     height: 65px;
   }
-  .line-1 p {
-    color: rgba(0, 0, 0, 0.88);
-    font-family: Jost;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 600;
+  .title {
+    color: rgba(0, 0, 0, 0.88) !important;
+    font-family: Jost !important;
+    font-size: 17px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
     line-height: 144.585%; /* 20.242px */
-    letter-spacing: 0.14px;
-    text-align: center;
+    letter-spacing: 0.14px !important;
+    text-align: center !important;
     margin-left: -50px !important;
-    margin-top: -32px;
+    padding-top: 18px ;
   }
   .more {
-    color: rgba(34, 34, 34, 0.88);
-    font-family: Jost;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 600;
+    color: rgba(34, 34, 34, 0.88) !important;
+    font-family: Jost !important;
+    font-size: 17px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
     line-height: 144.585%; /* 20.242px */
     letter-spacing: 0.14px;
-    text-align: center;
-    margin-top: -40px !important;
-    float: right;
-    margin-right: 20px;
+    text-align: center ;
+    margin-top: -38px !important;
+    float: right !important;
+    margin-right: 20px !important;
+  }
+  .mobile-button{
+    color:#FFF;
+    background-color: #2F2E41;
+    border: 1px solid #2F2E41;
+    border-radius: 15px;
+    font-family: Jost;
+    font-size: 22px;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    margin-top: -50px;
+    letter-spacing: 2px;
   }
 }
