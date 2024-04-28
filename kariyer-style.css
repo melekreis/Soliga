@@ -628,15 +628,15 @@ input[type="date"] {
     display: none;
   }
   .education-area2{
-    width: 400px;
+    width: 380px;
     margin-left: 15px !important;
   }
   .experience p{
     margin-left: 15px !important;
   }
   .experience-area{
-    width: 400px !important;
-    margin-left: 20px !important;
+    width: 380px !important;
+    margin-left: 15px !important;
     height: 100px !important;
   }
   .message p{
