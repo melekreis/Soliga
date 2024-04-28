@@ -116,8 +116,8 @@
     font-family: K2D;
     font-size: 23px;
     position: absolute;
-    margin-top: -250px;
-    margin-left: 500px;
+    margin-top: 70px;
+    margin-left: 480px;
     font-style: italic;
     font-weight: 700;
     line-height: normal;
@@ -130,8 +130,8 @@
     line-height: normal;
     line-height: 10px;
     position: absolute;
-    margin-top: -210px;
     margin-left: 520px;
+    margin-top: 105px;
   }
   .p2 {
     font-family: K2D;
@@ -141,8 +141,8 @@
     line-height: normal;
     line-height: 10px;
     position: absolute;
-    margin-top: -209.4px;
     margin-left: 555px;
+    margin-top: 105px;
     color: #ffa800;        
   }
   .sidebar-btn {
@@ -200,7 +200,6 @@
   }
   
   @media screen and (max-width: 1170px) {
-
     .sidebar-btn{
       margin: 0px !important;
       margin-top: 8% !important;
@@ -240,9 +239,6 @@
       to {
         margin-left: 0;
       }
-  }
-  body{
-    overflow-x:hidden !important;
   }
   
   .nav-bar{
@@ -299,7 +295,11 @@
 }
 #check {display: none;}
 
-@media(max-width:768px){
+  }
+
+
+
+  @media(max-width:768px){
     .menu-mobile{
         flex-direction: column;
         align-items: center;
@@ -317,16 +317,13 @@
     .menu-mobile li a{padding: 0px;}
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu-mobile {right: 0;}
-}
+
 body{
   overflow-x:hidden !important;
 }
 .mobil-baslik{
   margin-left: 180px !important;
 }
-
-
-
 .sidebar img {
   width: 260px;
   height: 240px;
@@ -366,6 +363,5 @@ body{
 .full-screen-svg {
   display: none;
 }
-
-  }
+}
   
