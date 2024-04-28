@@ -18,38 +18,72 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
     <div class="container-xs">
-        <div class="sidebar">
-            <button class="sidebar-btn"> <a href="index.html#iletisim">Biz Size Ulaşalım</a> </button> 
-            <div class="left-center">
-                <a href="index.html"> <img src="transparan logo.svg" height="380px"  class="rounded" alt="Soliga" id="rotatingImage"></a> 
-            </div>
-    
-            <p class="p1">mühendislik<br> </p> <p class="p3">ve</p> <p class=" p2">danışmanlık </p>
-            
-           
-        </div>
-        <div class="navbar-arka">
-            <div class="menu"> 
-              <ul id="main">
-                <nav>
-                  <ul>
-                    <a href="index.html" class="flex">  <li >Anasayfa</li></a>
-                   <a href="ekibimiz.html" class="flex"><li>Kurumsal-Ekibimiz</li> </a>
-                   <a href="hizmetlerimiz.html" class="flex"> <li>Hizmetlerimiz</li></a>
-                  <a href="kariyer.html" class="flex"> <li>Kariyer-İşe alım</li></a> 
-                    </li>
-                  </ul>
-                </nav>
-            </div>        
+      <div class="sidebar">
+        <button class="sidebar-btn"> <a href="index.html#iletisim">Biz Size Ulaşalım</a> </button> 
+        <div class="left-center">
+           <a href="index.html"> <img src="transparan logo.svg" height="380px"  class="rounded" alt="Soliga" ></a> 
           </div>
+
+          <p class="p1">mühendislik<br> </p> <p class="p3">ve</p> <p class=" p2">danışmanlık </p>
+
+
+
+       <header>
+        <nav>
+          <ul class="nav-bar">
+            <input type="checkbox" id="check">
+            <span class="menu-mobile">
+              <li><a href="index.html">Anasayfa</a></li>
+              <li><a href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+              <li><a href="ekibimiz.html">Ekibimiz</a></li>
+              <li><a href="kariyer.html">İşe Alım</a></li>
+              <li><a href="index.html#iletisim">Size Ulaşalım</a></li>
+              <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+          </ul>
+        </nav>
+      </header>
+
+    </div>
+
+    
+    <div class="navbar-arka">
+        <div class="menu"> 
+          <ul id="main">
+            <nav>
+              <ul>
+                <a href="index.html" class="flex">  <li >Anasayfa</li></a>
+               <a href="ekibimiz.html" class="flex"><li>Kurumsal-Ekibimiz</li> </a>
+               <a href="hizmetlerimiz.html" class="flex"> <li>Hizmetlerimiz</li></a>
+              <a href="kariyer.html" class="flex"> <li>Kariyer-İşe alım</li></a> 
+                </li>
+              </ul>
+            </nav>
+        </div>        
+      </div>
+
+
+
+
+
+
+
+
+
+
+
     <div class="preface">
         <img src="HizmetlerGIF.gif"  alt="Windows Firewall">
     </div>
-    <p class="text-center">Hizmetlerimiz</p>
+    <p class="text-center mobile">Hizmetlerimiz</p>
     <div class="content">
      <div class="row1">
         <div class="card" style="width: 18rem;">
@@ -104,6 +138,88 @@
       </div>
     </div>
     </div>
+
+
+    <div class="mobile-content1">
+      <p>Hizmetlerimiz</p>
+      <div class="mobile-content">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="line-1">
+              <img src="mobile-kimya.svg" class="text-center">
+              <p>Kimya Mühendisliği</p>
+              <p class="more">Detaylar..</p>
+            </div>
+          </div>
+      
+          <div class="col-md-6">
+            <div class="line-1">
+              <img src="mobile-inşaat.svg" class="text-center">
+              <p>İnşaat Mühendisliği</p>
+              <p class="more">Detaylar..</p>
+            </div>
+          </div>
+      
+          <div class="col-md-6">
+            <div class="line-1">
+              <img src="mobile-maden.svg" class="text-center">
+              <p>Maden Mühendisliği</p>
+              <p class="more">Detaylar..</p>
+            </div>
+          </div>
+      
+          <div class="col-md-6">
+            <div class="line-1">
+              <img src="mobile-makine.svg" class="text-center">
+              <p>Makine Endüstri Müh.</p>
+              <p class="more">Detaylar..</p>
+            </div>
+          </div>
+      
+          <div class="col-md-6">
+            <div class="line-1">
+              <img src="mobile-planlama.svg" class="text-center">
+              <p>Planlama Danışmanlığı</p>
+              <p class="more">Detaylar..</p>
+            </div>
+          </div>
+      
+          <div class="col-md-6">
+            <div class="line-1">
+              <img src="mobile-tekstil.svg" class="text-center">
+              <p>Tekstil Mühendisliği</p>
+              <p class="more">Detaylar..</p>
+            </div>
+          </div>
+      
+          <div class="col-md-6">
+            <div class="line-1">
+              <img src="mobile-yazılım.svg" class="text-center">
+              <p>Yazılım Mühendisliği</p>
+              <p class="more">Detaylar..</p>
+            </div>
+          </div>
+      
+          <div class="col-md-6">
+            <div class="line-1">
+              <img src="mobile-hukuk.png" class="text-center">
+              <p>Hukuk Danışmanlığı</p>
+              <p class="more">Detaylar..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+
+
+
+
+
+
+
+
     <div class="footer">
         <img src="Vector4.png" class="text-center">
         <p>Telif Hakkı © 2018 Soliga Endüstriyel Boya - Tüm Hakları Saklıdır.</p>
