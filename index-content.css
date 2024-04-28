@@ -611,14 +611,14 @@ textarea:focus {
   }
 .iletisim-txt{
   width: 150px !important;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 .iletisim-txt2{
   width: 150px !important;
 }
 .iletisim-text{
   width: 310px;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 }
