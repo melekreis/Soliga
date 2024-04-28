@@ -360,9 +360,9 @@ textarea:focus {
     display: block !important;
     width: 100% !important;
     height: 1300px;
-    margin-top: -600px !important;
     z-index: -1 !important;
     position: relative;
+    margin-top: 300px;
   }
   body {
     overflow-x: hidden;
@@ -422,25 +422,28 @@ textarea:focus {
   .mobile-svg {
     display: block !important;
     width: 100%;
-    margin-top: -500px !important;
+    margin-top: -450px !important;
     z-index: -1 !important;
     position: relative;
+  }
+  .sidebar{
+    height: 120px;
   }
   .mobile-slogan {
     display: block !important;
     color: #000;
     font-family: Jost;
-    font-size: 21px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin-left: 2% !important;
-    margin-top: -400px;
+    margin-top: -380px;
     width: 345px;
   }
   .mobile-img {
     display: block !important;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 37% !important;
     width: 230px;
     height: 350px;
@@ -466,18 +469,17 @@ textarea:focus {
   }
   .mobile-iletisim {
     margin: auto;
-    display: block;
     margin-top: 320px !important;
     border-radius: 10px;
     background: #2f2e41;
     display: flex;
-    width: 280px;
-    height: 47px;
+    width: 1px;
+    height: 1px;
     padding: 10px;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
-  }
+    opacity: 0; 
+ }
   .mobile-iletisim a {
     text-decoration: none;
     color: #fff;
@@ -488,7 +490,6 @@ textarea:focus {
     letter-spacing: 0.15px;
   }
   .mobile-content {
-    display: block;
     border-radius: 10px;
     border: 2px dashed rgb(187, 13, 187);
     margin: auto;
@@ -549,7 +550,7 @@ textarea:focus {
     margin-right: 20px;
   }
   .content-baslik {
-    margin-top: 200px;
+    margin-top: -800px;
   }
   .iletisim-txt {
     margin-left: 45px !important;
