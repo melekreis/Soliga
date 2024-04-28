@@ -364,8 +364,7 @@ textarea:focus {
   width: 100% !important;
   height: 300px !important;
   margin: auto !important;
-  margin-top: 450px !important;
-
+  margin-top: -50px !important;
 }
 .preview{
   width: 100% !important;
@@ -391,7 +390,7 @@ textarea:focus {
   }
   .footer{
     height:230px !important ;
-    margin-top: 0px !important;
+    margin-top: -500px !important;
 
   }
   .sidebar img {
@@ -598,7 +597,7 @@ textarea:focus {
   .preview p{
     font-size: 19px !important;
     margin-left: 30px !important;
-    margin-top: 240px;
+    margin-top: 0px;
     width: 320px;
   }
 
