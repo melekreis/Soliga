@@ -16,6 +16,14 @@ display: none;
 .footer{
   margin-top: 450px;
 }
+.footer img{
+  height: 100px;
+  width: 170px;
+  margin-top: 35px;
+}
+.footer p {
+  margin-top: 60px;
+}
   }
   @media screen and (max-width: 400px) {
 
