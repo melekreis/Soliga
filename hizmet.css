@@ -81,7 +81,7 @@
   background-color: #1a1a1a;
   justify-content: center;
   margin-top: 100px;
-  margin-bottom: 0px;
+  margin-bottom: -10px;
 }
 
 .footer img {
@@ -102,7 +102,7 @@
   line-height: normal;
   flex-shrink: 0;
   position: absolute;
-  margin-top: 44%;
+  margin-top: 42%;
   margin-bottom: 10px;
 }
 
