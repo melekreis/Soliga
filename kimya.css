@@ -160,7 +160,7 @@ p{
         width: 100% !important;
         height: 750px;
         margin-top: 160px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     .baslik-logo{
         height: 60px !important;
@@ -178,12 +178,12 @@ p{
     .content-top-img{
         width: 350px ;
         height: 200px;
-        margin-left: 15%;
+        margin-left: 5%;
         margin-top: 10%;
     }
     .content-bottom{
         border:1px solid black;
-        height: 450px;
+        height: 500px;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
     }
