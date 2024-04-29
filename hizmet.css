@@ -211,6 +211,7 @@
     background-color: #1a1a1a;
     justify-content: center;
     margin-top: 100px;
+    margin-bottom: -22px;
   }
   
   .footer img {
@@ -231,7 +232,7 @@
     line-height: normal;
     flex-shrink: 0;
     position: absolute;
-    margin-top: 40%;
+    margin-top: 38%;
     margin-left: 0%;
   }
   
