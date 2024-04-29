@@ -483,9 +483,10 @@ h2 {
     width: 100%;
     margin-bottom: 700px;
     height: 100px;
+    margin-left: 50px;
   }
   .mailbox{
-    width: 160px;
+    width: 170px;
     height: 200px;
     margin-top: 15px;
     margin-right: 10px;
