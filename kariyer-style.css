@@ -677,12 +677,13 @@ input[type="date"] {
     font-size: 19px;
   }
   .footer img {
-    height: 130px;
-    width: 200px;
-    margin-top: 55px !important;
+    height: 110px;
+    width: 190px;
+    margin-top: 50px !important;
   }
   .footer p {
     font-size: 14px;
+    margin-top: 10px;
   }
   .footer{
     height:230px !important ;
