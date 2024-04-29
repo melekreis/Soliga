@@ -84,7 +84,7 @@ input[type="checkbox"]:checked + .checkbox-label::before {
   margin: 0px auto;
   margin-left: 30%;
   margin-top: -24.2%;
-  width: 55%;
+  width: 1050px;
   height: auto;
 }
 .card-img-top {
@@ -334,7 +334,6 @@ h2 {
 .faksbox img, .adressbox img{
   margin-left: 82px;
 }
-
 .mailbox-hover {
   width: 190px;
   height: 254px;
@@ -373,28 +372,38 @@ h2 {
 .footer{
   margin-top: 450px !important;
 }
-@media screen and (max-width: 1600px) {
 
+
+
+@media screen and (max-width: 1780px) {
+  form {
+    margin-left: 100px !important;
+  }
+  .card-container{
+  margin-left: 450px;
+  margin-top: -460px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
   .mobile-check{
     display: none;
   }
   .card-container {
-    margin-top: 100px;
-    margin-left: 300px !important;
+
+    margin: auto !important;
   }
 }
 @media screen and (max-width: 1400px) {
 
   .card-container {
-    margin-top: 100px;
-    margin-left: 200px !important;
+    margin: auto !important;
   }
 }
 @media screen and (max-width: 800px) {
 
   .card-container {
-    margin-top: 100px;
-    margin-left: 110px !important;
+    margin: auto !important;
   }
 }
 @media screen and (max-width: 768px) {
