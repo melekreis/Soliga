@@ -98,7 +98,7 @@ input[type="checkbox"]:checked + .checkbox-label::before {
 .card {
   text-align: center;
   border-radius: 8px;
-  background: rgba(14, 13, 13, 0.84);
+  background: rgba(8, 8, 8, 0.84);
   width: 21% !important;
   height: 33% !important;
   flex-shrink: 0;
@@ -285,6 +285,94 @@ h2 {
   flex-shrink: 0;
   margin: auto;
 }
+.iletisim-box{
+  margin: auto;
+  width: 1500px;
+  margin-top: 100px;
+  margin-left: 220px;
+}
+.mailbox, .phonebox{
+  background: #332f2f;
+  width: 240px;
+  height: 250px;
+  margin-left: 100px;
+  border-radius: 20px;
+  float: left;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.7s ease-in-out;
+  overflow: hidden;
+}
+.mailbox p{
+  margin-top: 70px !important;
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-left: -120px;
+}
+.phonebox p{
+  margin-left: -100px;
+}
+.faksbox p{
+  margin-left: -100px;
+}
+.adressbox p{
+  margin-left: -115px;
+  margin-top: 5px;
+}
+.adressbox img{
+  margin-top: -110px;
+}
+.box-img{
+  margin-top: -100px;
+  margin-left:80px;
+}
+.faksbox img, .adressbox img{
+  margin-left: 82px;
+}
+
+.mailbox-hover {
+  width: 190px;
+  height: 254px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: #FFF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 40px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.7s ease-in-out;
+  overflow: hidden;
+}
+.mailbox::before {
+  content: "";
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  background-color: #97a8a8;
+  bottom: 0;
+  right: 0;
+  transform: translatey(70px);
+  border-radius: 100%;
+  transition: all 0.7s ease-in-out;
+  opacity: 0.2;
+}
+.mailbox:hover::before {
+  transform: scale(7) translate(-20px);
+}
+.mailbox:hover {
+  color: #f3f3f3 !important;
+}
+
+.footer{
+  margin-top: 450px !important;
+}
 @media screen and (max-width: 1600px) {
 
   .mobile-check{
@@ -354,6 +442,7 @@ margin-left: 30px;
 .footer img {
   height: 110px;
   width: 190px;
+
 }
 .footer p {
   font-size: 14px;
