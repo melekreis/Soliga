@@ -210,7 +210,8 @@ p{
   }
   @media(max-width:400px){
     .content-top-img{
-        margin-top: 5%;
+        margin-top: 10%;
+        margin-left: 5%;
     }
     .content-bottom{
         border:1px solid black;
