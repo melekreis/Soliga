@@ -86,8 +86,7 @@ input[type="checkbox"]:checked + .checkbox-label::before {
   margin-top: -24.2%;
   width: 80%;
   height: auto;
-  border-color: bisque;
-  position: static;
+background-color: pink;  position: static;
 }
 .card-img-top {
   border-radius: var(--h, 131px);
