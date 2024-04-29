@@ -484,17 +484,24 @@ h2 {
 @media screen and (max-width: 768px) {
 
   .iletisim-box{
-    max-width: 99%;
+    max-width: 100%;
     margin-bottom: 700px;
-    height: 100px;
-    margin-left: 5px;
+    height: 500px;
     background-color: #000;
+    margin-left: 0;
   }
   .mailbox{
     width: 180px;
     height: 220px;
     margin-top: 15px;
-    margin-right: 10px;
+    margin-left: 40px !important;
+  }
+  .faksbox{
+    margin-left: 40px !important;
+  }
+  .phonebox, .adressbox{
+    margin-left: 10px !important;
+
   }
   .mailbox img{
     width: 50px;
