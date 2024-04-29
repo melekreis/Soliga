@@ -215,8 +215,11 @@ p{
     }
     .content-bottom{
         border:1px solid black;
-        height: 650px;
+        height: 700px;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
+    }
+    .footer{
+        margin-top: 300px;
     }
   }
