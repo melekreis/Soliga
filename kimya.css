@@ -208,3 +208,8 @@ p{
         color:#fff !important;
     }
   }
+  @media(max-width:400px){
+    .content-top-img{
+        margin-top: 5%;
+    }
+  }
