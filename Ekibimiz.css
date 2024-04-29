@@ -493,10 +493,10 @@ h2 {
     width: 180px;
     height: 220px;
     margin-top: 15px;
-    margin-left: 28px !important;
+    margin-left: 29px !important;
   }
   .faksbox{
-    margin-left: 28px !important;
+    margin-left: 29px !important;
   }
   .phonebox, .adressbox{
     margin-left: 10px !important;
@@ -585,7 +585,7 @@ margin-left: 30px;
   margin-left: 10px !important;
 }
 .faksbox{
-  margin-left: 28px !important;
+  margin-left: 10px !important;
 }
 .phonebox, .adressbox{
   margin-left: 10px !important;
