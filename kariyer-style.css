@@ -695,23 +695,31 @@ input[type="date"] {
     font-size: 16px;
   }
   .iletisim-txt{
-    width: 170px;
-    margin-left: 5px;
+    width: 165px;
+    margin-left: 1px;
   }
   .iletisim-txt2{
-    width: 170px;
-    margin-left: 5px;
+    width: 165px;
+    margin-left: 1px;
+  }
+  .iletisim-txt-tabledısı{
+    width: 165px;
+    margin-left: 1px;
+  }
+  .iletisim-txt2-tabledısı{
+    width: 165px;
+    margin-left: 200px;
   }
   .education-area2{
-    width: 360px;
-    margin-left: 5px;
+    width: 350px;
+    margin-left: 1px;
   }
   .experience-area{
-    width: 360px;
-    margin-left: 5px;
+    width: 350px;
+    margin-left: 1px;
   }
   .message-area{
-    width: 360px;
-    margin-left: 5px;
+    width: 350px;
+    margin-left: 1px;
   }
 }
