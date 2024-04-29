@@ -496,6 +496,15 @@ h2 {
     margin-top: 15px;
     margin-left: 29px !important;
   }
+  .mailbox p{
+    margin-left: -85px !important;
+  }
+  .faksbox p{
+    margin-left: -65px !important;
+  }
+  .mailbox img{
+    margin-left: 65px;
+  }
   .faksbox{
     margin-left: 29px !important;
   }
