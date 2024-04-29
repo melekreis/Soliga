@@ -159,15 +159,16 @@ p{
     .mobile-content-xs{
         width: 100% !important;
         height: 750px;
-        margin-top: 160px;
+        margin-top: 150px;
         margin-bottom: 150px;
     }
     .baslik-logo{
-        height: 60px !important;
-        width: 250px;
+        height: 50px !important;
+        width: 210px;
     }
     .baslik-yazi{
-        font-size: 25px;
+        font-size: 20px;
+        font-weight: 600;
     }
     .content-top{
         height: 300px;
