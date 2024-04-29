@@ -3,6 +3,10 @@ body{
   padding: 0;
   overflow-x: hidden;
 }
+.container-fluid{
+  margin: 0 !important;
+  padding:0 !important ;
+}
 form {
   width: 300px;
   margin-left: 10% !important;
@@ -483,7 +487,7 @@ h2 {
     width: 100%;
     margin-bottom: 700px;
     height: 100px;
-    margin-left: 45px;
+    margin-left: 40px;
   }
   .mailbox{
     width: 180px;
