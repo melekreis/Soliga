@@ -99,27 +99,29 @@ p{
     background-color: #1a1a1a;
     bottom: 0; 
     justify-content: center;
+    margin-bottom: -25px;
   }
   
   .footer img {
-    height: 200px;
-    width: 290px;
-    margin-top: 0%;
+    height: 120px;
+    width: 190px;
+    margin-top: 5%;
+    margin-bottom: -5%;
   
   }
   
   .footer p {
-    margin-left: 37%;
     text-align: center;
     color: #fff;
     font-family: Inter;
     font-size: 16px;
     font-style: italic;
-    font-weight: 600;
+    font-weight: 300;
     line-height: normal;
     flex-shrink: 0;
     position: absolute;
     margin-top: 0%;
+    margin-bottom: 25px;
   }
 
 
@@ -221,11 +223,21 @@ p{
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
     }
-    .footer{
-        margin-top: 300px;
-    }
+    
     .mobile-btn{
         height: 40px;
         font-size: 16px;
     }
+    .footer img {
+        height: 110px;
+        width: 190px;
+        margin-top: 50px !important;
+      }
+      .footer p {
+        font-size: 14px;
+        margin-top: 10px;
+      }
+      .footer{
+        height:230px !important ;
+      }
   }
