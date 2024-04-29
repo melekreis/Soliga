@@ -696,34 +696,34 @@ input[type="date"] {
   }
   .iletisim-txt{
     width: 165px !important;
-    margin-left: 3px !important;
+    margin-left: 5px !important;
   }
   .iletisim-txt2{
     width: 165px !important;
-    margin-left: 3px !important;
+    margin-left: 5px !important;
   }
   .iletisim-date{
     width: 165px !important;
-    margin-left: 3px !important;
+    margin-left: 5px !important;
   }
   .iletisim-txt-tabledısı{
     width: 165px !important;
-    margin-left: 3px !important;
+    margin-left: 5px !important;
   }
   .iletisim-txt2-tabledısı{
     width: 165px !important;
-    margin-left: 200px !important; 
+    margin-left: 180px !important; 
   }
   .education-area2{
     width: 345px !important;
-    margin-left: 3px !important;
+    margin-left: 5px !important;
   }
   .experience-area{
     width: 345px !important;
-    margin-left: 3px !important;
+    margin-left: 5px !important;
   }
   .message-area{
     width: 345px !important;
-    margin-left: 3px !important;
+    margin-left: 5px !important;
   }
 }
