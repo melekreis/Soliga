@@ -473,7 +473,6 @@ h2 {
 }
 
 @media screen and (max-width: 800px) {
-
   .card-container {
     margin: auto !important;
   }
@@ -486,6 +485,7 @@ h2 {
     height: 100px;
   }
   .mailbox{
+    width: 150px;
     margin-top: 15px;
     margin-right: 10px;
   }
