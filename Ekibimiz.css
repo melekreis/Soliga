@@ -319,7 +319,7 @@ h2 {
 }
 .card {
     flex: 1 0 45%; /* Kartların genişliği */
-    margin: 17px !important; /* Aralıklar */
+    margin: 20px !important; /* Aralıklar */
     /* Diğer stillendirme özellikleri */
 }
 .card-title{
