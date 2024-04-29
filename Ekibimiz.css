@@ -484,7 +484,7 @@ h2 {
 @media screen and (max-width: 768px) {
 
   .iletisim-box{
-    width: 99%;
+    max-width: 99%;
     margin-bottom: 700px;
     height: 100px;
     margin-left: 5px;
