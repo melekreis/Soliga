@@ -357,7 +357,11 @@ margin-left: 30px;
   font-size: 14px;
 }
 }
-
+@media screen and (max-width: 600px) {
+  body{
+    background-color: red;
+  }
+}
 @media screen and (max-width: 400px) {
 
   .card {
