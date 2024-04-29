@@ -224,4 +224,8 @@ p{
     .footer{
         margin-top: 300px;
     }
+    .mobile-btn{
+        height: 40px;
+        font-size: 16px;
+    }
   }
