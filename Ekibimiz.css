@@ -355,6 +355,13 @@ margin-left: 30px;
 }
 .footer p {
   font-size: 14px;
+  margin-top: -10px;
+}
+.footer{
+  height: 150px;
+}
+.footer img{
+  margin-top: 5px !important;
 }
 }
 
