@@ -358,12 +358,11 @@ margin-left: 30px;
 }
 }
 
-
 @media screen and (max-width: 400px) {
 
   .card {
     flex: 1 0 45%; /* Kartların genişliği */
-    margin: 10px !important; /* Aralıklar */
+    margin: 12px !important; /* Aralıklar */
     /* Diğer stillendirme özellikleri */
 }
 
