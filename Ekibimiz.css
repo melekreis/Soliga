@@ -334,8 +334,9 @@ h2 {
 }
 .card-container{
   margin-top: 20px;
-  margin-left: 2px !important;
+  margin-left: 0.2px !important;
   width: 100%;
+  align-items: center;
 }
 .card-img-top{
   width: 90px;
