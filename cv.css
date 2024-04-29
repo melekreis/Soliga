@@ -1,294 +1,361 @@
 #ekibimiz {
-    color: #000;
-    font-family: Jost;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 144.585%; /* 52.051px */
-    text-align: center;
-    margin-top: 20px !important;
+  color: #000;
+  font-family: Jost;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 144.585%;
+  /* 52.051px */
+  text-align: center;
+  margin-top: 20px !important;
 }
+
 .content {
-    margin: auto;
-    height: 70%;
-    width: 60%;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
-    position: static;
-    margin-bottom: 10%;
-  }
+  margin: auto;
+  height: 70%;
+  width: 60%;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  position: static;
+  margin-bottom: 10%;
+}
+
+.previous-button {
+  border: none;
+  border-radius: 15px;
+  background-color: #f90;
+  width: 130px;
+  height: 40px;
+  color: white;
+  font-size: 17px;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 26px;
+  border: 1px solid gray;
+
+}
+
+.previous-button-2 {
+  width: 130px;
+  height: 40px;
+  margin-left: 160px;
+}
+
+.previous-button:hover {
+  background-color: rgb(243, 166, 51);
+  /* Koyu Yeşil */
+  transform: scale(1.1);
+}
+
+.previous-button:active {
+  background-color: rgb(243, 166, 51);
+  /* Daha koyu yeşil */
+}
+
+h2 {
+  margin-left: 20%;
+  font-family: Jost;
+  color: rgba(255, 153, 0, 0.74) !important;
+  display: inline-block;
+}
+
+.title {
+  color: #292727;
+  font-family: Jost;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: auto;
+  font-size: 20px;
+  margin-left: 41%;
+  margin-top: 30px;
+}
+
+.cv-img {
+  width: 20%;
+  height: 40%;
+  margin-left: 20%;
+  float: left;
+  margin-right: 20px;
+  margin-top: -3%;
+}
+
+.cv-img-2 {
+  width: 100%;
+  height: 100%;
+}
+
+.satirbasi {
+  margin-left: 37.5%;
+  margin-top: -20px;
+  font-size: 18px;
+  font-family: Jost;
+  color: black;
+}
+
+.txt {
+  font-size: 18px;
+  color: #8d8585;
+  margin-top: -14px;
+  margin-left: 10px;
+}
+
+.txt-3 {
+  margin-left: 20% !important;
+  font-size: 18px;
+  color: #8d8585;
+  margin-top: -14px;
+  margin-left: 10px;
+}
+
+.txt-4 {
+  margin-left: 41% !important;
+  font-size: 18px;
+  color: #8d8585;
+  margin-top: -14px;
+  margin-left: 10px;
+}
+
+.txt-3-mobile {
+  display: none;
+}
+
+.title-2 {
+  margin-left: 41%;
+  color: #292727;
+  font-family: Jost;
+  font-weight: 700;
+  display: inline-block;
+  letter-spacing: 0;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.title-3 {
+  color: #292727;
+  font-family: Jost;
+  font-weight: 700;
+  display: inline-block;
+  letter-spacing: 0;
+  margin-left: 41%;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+.ul {
+  margin-left: 41%;
+  margin-top: -10px;
+}
+
+.txt-2 {
+  margin-left: 41%;
+  font-size: 18px;
+  color: #8d8585;
+  margin-top: -17px;
+}
+
+.content-hr {
+  width: 90% !important;
+  margin: auto;
+}
+
+.ekibimiz-hr {
+  width: 90% !important;
+  margin: auto;
+}
+
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: #1a1a1a;
+  margin-top: 110px;
+}
+
+.footer img {
+  height: 200px;
+  width: 280px;
+}
+
+.footer p {
+  text-align: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.title-iletisim {
+  margin-left: 41%;
+}
+
+@media screen and (max-width: 768px) {
+
   .previous-button {
-    border: none;
-    border-radius: 15px;
-    background-color: #f90;
-    width: 130px;
-    height: 40px;
-    color: white;
-    font-size: 17px;
-    font-family: Jost;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 26px;
-    border:1px solid gray;
-  
+    margin-left: -150px;
+    width: 100px;
+    height: 35px;
   }
-  .previous-button-2 {
-    width: 130px;
-    height: 40px;
-    margin-left: 160px;
-  }
-  .previous-button:hover {
-    background-color: rgb(243, 166, 51); /* Koyu Yeşil */
-    transform: scale(1.1);
-  }
-  .previous-button:active {
-    background-color: rgb(243, 166, 51); /* Daha koyu yeşil */
-  }
-  h2 {
-    margin-left: 20%;
-    font-family: Jost;
-    color: rgba(255, 153, 0, 0.74) !important;
-    display: inline-block;
-  }
-  .title {
-    color: #292727;
-    font-family: Jost;
-    font-weight: 700;
-    letter-spacing: 0;
-    margin: auto;
-    font-size: 20px;
-    margin-left: 41%;
-    margin-top: 30px;
-  }
-  .cv-img {
-    width: 20%;
-    height: 40%;
-    margin-left: 20%;
-    float: left;
-    margin-right: 20px;
-    margin-top: -3%;
-  }
+
   .cv-img-2 {
-    width: 100%;
-    height: 100%;
+    height: 190px;
+    width: 190px;
+    margin-top: -50px;
+    margin-left: -80px;
   }
-  .satirbasi {
-    margin-left: 37.5%;
-    margin-top: -20px;
-    font-size: 18px;
-    font-family: Jost;
-    color: black;
+
+  .cv-img {
+    margin-top: 0px !important;
+    height: 100px;
   }
-  .txt {
-    font-size: 18px;
-    color: #8d8585;
-    margin-top: -14px;
-    margin-left: 10px;
+
+  h2 {
+    margin-left: 15px;
   }
-  .txt-3{
-    margin-left: 20% !important;
-    font-size: 18px;
-    color: #8d8585;
-    margin-top: -14px;
-    margin-left: 10px;
+
+  .title {
+    margin-left: 47%;
   }
-  .txt-4{
-    margin-left: 41% !important;
-    font-size: 18px;
-    color: #8d8585;
-    margin-top: -14px;
-    margin-left: 10px;
+
+  .title-3 {
+    margin-left: 4%;
   }
-  .txt-3-mobile{
+
+  .title-2 {
+    margin-left: -40% !important;
+    margin-top: 100px;
+  }
+
+  .txt-3 {
     display: none;
   }
-  .title-2 {
-    margin-left: 41%;
-    color: #292727;
-    font-family: Jost;
-    font-weight: 700;
-    display: inline-block;
-    letter-spacing: 0;
-    margin-left: 0px;
-    margin-top: 0px;
-    font-size: 20px;
-  }
-  .title-3 {
-    color: #292727;
-    font-family: Jost;
-    font-weight: 700;
-    display: inline-block;
-    letter-spacing: 0;
-    margin-left: 41%;
-    margin-top: -5px;
-    font-size: 20px;
-  }
-  .ul {
-    margin-left: 41%;
-    margin-top: -10px;
-  }
-  .txt-2 {
-    margin-left: 41%;
+
+  .txt-3-mobile {
+    display: block;
     font-size: 18px;
     color: #8d8585;
-    margin-top: -17px;
+    margin-top: -10px;
+    margin-left: 20px;
   }
-  .content-hr {
-    width: 90% !important;
-    margin: auto;
+
+  .txt-2 {
+    margin-left: 5%;
   }
-  .ekibimiz-hr{
-    width: 90% !important;
-    margin: auto;
-  }
+
   .footer {
-    width: 100%;
-    height: 250px;
-    background-color: #1a1a1a;
-    margin-top: 110px;
+    margin-top: 290px;
   }
+
+  .ul {
+    margin-left: 5%;
+  }
+
+  .satirbasi {
+    margin-left: 47%;
+    font-weight: 600px;
+    font-size: 20px;
+  }
+
+  .txt {
+    margin-left: 47%;
+    font-weight: bold;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .previous-button {
+    margin-left: -150px;
+    width: 100px;
+    height: 35px;
+  }
+
+  .cv-img-2 {
+    height: 190px;
+    width: 190px;
+    margin-top: -50px;
+    margin-left: -70px;
+  }
+
+  .cv-img {
+    margin-top: 0px !important;
+    height: 100px;
+  }
+
+  h2 {
+    margin-left: 10px;
+    font-size: 23px !important;
+  }
+
+  .title {
+    margin-left: 53%;
+  }
+
+  .title-3 {
+    margin-left: 4%;
+  }
+
+  .title-2 {
+    margin-left: -40%;
+    margin-top: 80px;
+  }
+
+  .txt-3 {
+    display: none;
+  }
+
+  .txt-3-mobile {
+    display: block;
+    font-size: 18px;
+    color: #8d8585;
+    margin-top: -10px;
+    margin-left: 20px;
+  }
+
+  .txt-2 {
+    margin-left: 5%;
+  }
+
+  .ul {
+    margin-left: 5%;
+  }
+
+  .satirbasi {
+    margin-left: 53%;
+    font-weight: 600px;
+    font-size: 20px;
+  }
+
+  .txt {
+    margin-left: 53%;
+    font-weight: bold;
+  }
+
   .footer img {
-    height: 200px;
-    width: 280px;
+    height: 110px;
+    width: 190px;
   }
+
   .footer p {
-    text-align: center;
-    color: #fff;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 600;
-    line-height: normal;
-    flex-shrink: 0;
-    margin: auto;
+    font-size: 14px;
+    margin-top: -11px;
   }
-  .title-iletisim{
-    margin-left: 41%;
+
+  .footer {
+    height: 160px;
   }
-  @media screen and (max-width: 768px) {
 
-    .previous-button{
-      margin-left: -150px;
-      width: 100px;
-      height: 35px;
-      }
-      .cv-img-2{
-        height: 190px;
-        width: 190px;
-        margin-top: -50px;
-        margin-left: -80px;
-      }
-      .cv-img{
-        margin-top: 0px !important;
-        height: 100px;
-      }
-      h2{
-        margin-left: 15px;
-      }
-      .title{
-        margin-left: 47%;
-      }
-      .title-3{
-        margin-left: 4%;
-      }
-      .title-2{
-        margin-left:-40% !important;
-        margin-top: 100px;
-      }
-      .txt-3{
-        display: none;
-        }
-        .txt-3-mobile{
-          display: block;
-          font-size: 18px;
-          color: #8d8585;
-          margin-top: -10px;
-          margin-left: 20px;
-        }
-      .txt-2{
-        margin-left: 5%;
-      }
-      .footer{
-        margin-top: 290px;
-      }
-      .ul{
-        margin-left: 5%;
-      }
-      .satirbasi{
-        margin-left: 47%;
-        font-weight: 600px;
-        font-size: 20px;
-      }
-      .txt{
-        margin-left: 47%;
-        font-weight:bold;
-      }
-
+  .footer img {
+    margin-top: 15px !important;
   }
-  @media screen and (max-width: 400px) {
-
-    .previous-button{
-      margin-left: -150px;
-      width: 100px;
-      height: 35px;
-      }
-      .cv-img-2{
-        height: 190px;
-        width: 190px;
-        margin-top: -50px;
-        margin-left: -70px;
-      }
-      .cv-img{
-        margin-top: 0px !important;
-        height: 100px;
-      }
-      h2{
-        margin-left: 10px;
-        font-size: 23px !important;
-      }
-      .title{
-        margin-left: 53%;
-      }
-      .title-3{
-        margin-left: 4%;
-      }
-      .title-2{
-        margin-left:-40%;
-        margin-top: 80px;
-      }
-      .txt-3{
-        display: none;
-        }
-        .txt-3-mobile{
-          display: block;
-          font-size: 18px;
-          color: #8d8585;
-          margin-top: -10px;
-          margin-left: 20px;
-        }
-      .txt-2{
-        margin-left: 5%;
-      }
-      .footer{
-        margin-top: 290px;
-      }
-      .ul{
-        margin-left: 5%;
-      }
-      .satirbasi{
-        margin-left: 53%;
-        font-weight: 600px;
-        font-size: 20px;
-      }
-      .txt{
-        margin-left: 53%;
-        font-weight:bold;
-      }
-
-
-  }
+}
