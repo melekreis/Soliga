@@ -183,7 +183,9 @@ p{
         margin-top: 10%;
     }
     .content-bottom{
-        border:1px solid black;
+        border-left:1px solid black;
+        border-right:1px solid black;
+        border-bottom:1px solid black;
         height: 600px;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
