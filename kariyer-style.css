@@ -706,4 +706,12 @@ input[type="date"] {
     width: 360px;
     margin-left: 5px;
   }
+  .experience-area{
+    width: 360px;
+    margin-left: 5px;
+  }
+  .message-area{
+    width: 360px;
+    margin-left: 5px;
+  }
 }
