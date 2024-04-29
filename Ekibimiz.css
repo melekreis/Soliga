@@ -336,6 +336,7 @@ h2 {
   margin-top: 20px;
   margin-left: 0.2px !important;
   width: 100%;
+  align-items: center;
 }
 .card-img-top{
   width: 90px;
