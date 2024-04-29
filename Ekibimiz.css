@@ -485,9 +485,20 @@ h2 {
     height: 100px;
   }
   .mailbox{
-    width: 150px;
+    width: 160px;
+    height: 200px;
     margin-top: 15px;
     margin-right: 10px;
+  }
+  .mailbox img{
+    width: 50px;
+  }
+  .mailbox p{
+    font-size: 15px;
+    margin-left: -95px;
+  }
+  .faksbox p{
+    margin-left: -70px;
   }
   .card-container {
     display: flex;
