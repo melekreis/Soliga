@@ -355,9 +355,6 @@ textarea:focus {
 }
 
 @media screen and (max-width: 1400px) {
-  body{
-    background-color: #000;
-  }
   .image {
     position: relative;
     width: 396px;
