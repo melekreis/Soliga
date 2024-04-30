@@ -353,6 +353,11 @@ textarea:focus {
     margin-left: 100px !important;
   }
 }
+@media screen and (max-width: 1700px) {
+  body{
+    background-color: #000;
+  }
+}
 @media screen and (max-width: 1050px) {
   .image {
     display: none !important;
