@@ -353,6 +353,7 @@ textarea:focus {
     margin-left: 100px !important;
   }
 }
+
 @media screen and (max-width: 1400px) {
   body{
     background-color: #000;
@@ -361,12 +362,13 @@ textarea:focus {
     position: relative;
     width: 396px;
     height: 293px;
-    margin-top: 650px;
+    margin-top: 1050px;
     float: right;
     margin-right: 330px;
   }
 
 }
+
 
 @media screen and (max-width: 1050px) {
   .image {
