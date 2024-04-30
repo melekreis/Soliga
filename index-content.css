@@ -156,12 +156,13 @@
 }
 /*SLİDER 2 */
 .slider-container2 {
+border-radius: 20px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 80px;
-  width: 80%;
+  width: 70%;
   overflow: hidden;
-  height: 550px;
+  height: 560px;
 }
 .slider2 {
   display: flex;
@@ -173,7 +174,8 @@
 }
 .slide img {
   height: 550px;
-  width: 1400px;
+  width: 1500px;
+  margin-left: -120px;
 }
 .preview {
   position: relative;

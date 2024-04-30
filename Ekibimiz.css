@@ -272,7 +272,7 @@ h2 {
   width: 100%;
   height: 250px;
   background-color: #1a1a1a;
-  margin-top: 100px !important;
+  margin-top: 0px !important;
   margin-bottom: -20px ;
 }
 .footer img {
@@ -295,6 +295,7 @@ h2 {
   width: 1500px;
   margin-top: 100px;
   margin-left: 220px;
+  margin-bottom: 0px;
 }
 .mailbox, .phonebox{
   background: #332f2f;
@@ -485,25 +486,35 @@ h2 {
 
   .iletisim-box{
     max-width: 100%;
-    margin-bottom: 700px;
     height: 500px;
     margin-left: 0;
+    margin-top: 50px;
+    margin-bottom: -400px;
   }
   .mailbox{
     width: 180px;
     height: 220px;
     margin-top: 15px;
-    margin-left: 28px !important;
+    margin-left: 29px !important;
+  }
+  .mailbox p{
+    margin-left: -85px !important;
+  }
+  .faksbox p{
+    margin-left: -65px !important;
+  }
+  .mailbox img{
+    margin-left: 65px;
   }
   .faksbox{
-    margin-left: 28px !important;
+    margin-left: 29px !important;
   }
   .phonebox, .adressbox{
     margin-left: 10px !important;
 
   }
   .mailbox img{
-    width: 50px;
+    width: 55px;
   }
   .mailbox p{
     font-size: 15px;
@@ -585,7 +596,7 @@ margin-left: 30px;
   margin-left: 10px !important;
 }
 .faksbox{
-  margin-left: 28px !important;
+  margin-left: 10px !important;
 }
 .phonebox, .adressbox{
   margin-left: 10px !important;
