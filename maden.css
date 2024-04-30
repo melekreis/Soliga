@@ -52,6 +52,9 @@ body{
     border: solid 1px black;
     box-sizing: border-box;
 }
+.content-left p {
+    margin-right: 2%;
+}
 .content-right{ 
     float: right;
     width: 50%;
@@ -61,10 +64,11 @@ body{
     align-items: center;
     background: linear-gradient(224deg, rgba(213, 37, 41, 0.76) 0%, #3F3D56 133.44%);
 }
-h3{
-    text-align: center;
-    margin-top: 20px;
-    
+h5{
+    justify-content: center;
+    margin-left: 3%;
+    margin-top: 3%;
+    color:#e6e6e6;
 }
 .MADEN{
     width: 60%;
