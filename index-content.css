@@ -156,10 +156,9 @@
 }
 /*SLİDER 2 */
 .slider-container2 {
-border-radius: 20px;
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 80px;
+  border-radius: 20px;
+  margin: auto !important;
+  margin-top: 50px !important;
   width: 70%;
   overflow: hidden;
   height: 560px;
