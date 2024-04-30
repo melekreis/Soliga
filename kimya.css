@@ -131,15 +131,16 @@ p{
     justify-content: center;
     margin-left: 3%;
     margin-top: 3%;
+    color:#e6e6e6;
   }
 
   @media screen and (max-width: 1700px) {
-    h3{
+    h5{
         font-size: 24px;
     }
   }
   @media screen and (max-width: 1470px) {
-    h3{
+    h5{
         font-size: 22px;
     }
     p{
@@ -148,12 +149,12 @@ p{
     }
   }
   @media screen and (max-width: 1350px) {
-    h3{
+    h5{
         font-size: 18px;
     }
   }
   @media screen and (max-width: 1095px) {
-    h3{
+    h5{
         font-size: 16px;
     }
     p{
