@@ -353,6 +353,20 @@ textarea:focus {
     margin-left: 100px !important;
   }
 }
+
+@media screen and (max-width: 1400px) {
+  .image {
+    position: relative;
+    width: 396px;
+    height: 293px;
+    margin-top: 1100px;
+    float: right;
+    margin-right: 350px;
+  }
+
+}
+
+
 @media screen and (max-width: 1050px) {
   .image {
     display: none !important;
