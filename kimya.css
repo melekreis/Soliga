@@ -67,12 +67,12 @@ h3{
     
 }
 .MADEN{
-    width: 60%;
+    width: 70%;
     height: 400px;
-    margin-left: 20%;
+    margin-left:15%;
     margin-top: 100px;
-
 }
+
 h1{
     margin-top: 70px;
     margin-left: 40%;
@@ -92,6 +92,7 @@ p{
     background-color: aliceblue;
     font-size: 22px;
     font-weight:normal;
+    margin-top: 10px;
 }
 .content .sidebar-btn a{
     color: #1a1a1a;
@@ -126,7 +127,11 @@ p{
     margin-bottom: 25px;
     margin-left: 37%;
   }
-
+  h5{
+    justify-content: center;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
 
   @media screen and (max-width: 1700px) {
     h3{
