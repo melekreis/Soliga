@@ -97,9 +97,6 @@
     position: absolute;
     margin-top: -70px !important;
     margin-left: 150px;
-    animation: rotate 1s linear 2 alternate; /* 2 kez çalışacak şekilde ayarlandı */
-    transform-style: preserve-3d; /* 3D dönme efekti için gereklidir */
-    perspective: 1000px; /* 3D dönme efekti için perspektif ekliyoruz */
     z-index: -1 !important;
   }
   

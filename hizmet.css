@@ -58,6 +58,20 @@
   height: 350px;
   background: #FFF;
   border-radius: 0px 0px 15px 15px;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+}
+.card:hover {
+  border: 3px solid  rgba(20, 33, 51, 0.65);;
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
 }
 .img-fluid {
   width: 221px;
