@@ -107,9 +107,6 @@
   margin-left: 38%;
 }
 @media screen and (max-width: 1835px) {
-  body{
-    background-color: blue;
-  }
   .card{
     margin-bottom: 10%;
     flex: 0 0 calc(50% - 20px); /* Kutuların yarısını kaplayacak şekilde */
@@ -128,9 +125,6 @@
 
 }
 @media screen and (max-width: 1800px) {
-  body{
-    background-color: pink;
-  }
   .card{
     margin-bottom: 10%;
     flex: 0 0 calc(50% - 20px); /* Kutuların yarısını kaplayacak şekilde */
@@ -148,9 +142,6 @@
   }
 }
 @media screen and (max-width: 1750px) {
-  body{
-    background-color: orange;
-  }
   .img-fluid {
     width: 211px;
     height: 217px;
@@ -182,9 +173,6 @@
 }
 
 @media screen and (max-width: 1400px) {
-  body{
-    background-color: red;
-  }
   .img-fluid {
     width: 180px;
     height: 217px;
@@ -200,7 +188,12 @@
     background: #FFF;
     border-radius: 0px 0px 15px 15px;
   }
-
+  .footer{
+    margin-top: 100px;
+  }
+  .footer p{
+    margin-top: 10%;
+  }
 }
 @media screen and (max-width: 768px) {
 
