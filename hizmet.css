@@ -106,16 +106,91 @@
   margin-top: 8%;
   margin-left: 38%;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1835px) {
   body{
-    background-color: red;
+    background-color: blue;
   }
+  .card{
+    margin-bottom: 10%;
+    flex: 0 0 calc(50% - 20px); /* Kutuların yarısını kaplayacak şekilde */
+    max-width: 16.3%;
+    height: 350px;
+    background: #FFF;
+    border-radius: 0px 0px 15px 15px;
+  }
+  .img-fluid {
+    width: 221px;
+    height: 217px;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 24px;
+  }
+
+}
+@media screen and (max-width: 1800px) {
+  body{
+    background-color: pink;
+  }
+  .card{
+    margin-bottom: 10%;
+    flex: 0 0 calc(50% - 20px); /* Kutuların yarısını kaplayacak şekilde */
+    max-width: 16.3%;
+    height: 350px;
+    background: #FFF;
+    border-radius: 0px 0px 15px 15px;
+  }
+  .img-fluid {
+    width: 221px;
+    height: 217px;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 18px;
+  }
+}
+@media screen and (max-width: 1750px) {
+  body{
+    background-color: orange;
+  }
+  .img-fluid {
+    width: 211px;
+    height: 217px;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 20px;
+  }
+
+}
+@media screen and (max-width: 1700px) {
+  .img-fluid {
+    width: 211px;
+    height: 217px;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 15px;
+  }
+
+}
+@media screen and (max-width: 1650px) {
   .img-fluid {
     width: 200px;
     height: 217px;
     margin: auto;
     margin-top: 10%;
-    margin-left: 11px;
+    margin-left: 18px;
+  }
+
+}
+
+@media screen and (max-width: 1400px) {
+  body{
+    background-color: red;
+  }
+  .img-fluid {
+    width: 180px;
+    height: 217px;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 25px;
   }
   .card{
     margin-bottom: 10%;
